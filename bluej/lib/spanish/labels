@@ -1,0 +1,522 @@
+okay=Aceptar
+cancel=Cancelar
+close=Cerrar
+continue=Continuar
+
+main.invalidPackage=Paquete no encontrado
+
+compileException=Excepci\u00f3n durante compilaci\u00f3n
+compiler.thread.title=Hilo Compilador de BlueJ
+compiler.invalidcompiler=bluej.compiler.type no se configur\u00f3 para un tipo v\u00e1lido de compilador
+compiler.nocompiler=Compilador no pudo ser ejecutado
+
+debugger.objectviewer.title=BlueJ:  Inspector de Objetos para clase
+debugger.resultviewer.title=BlueJ:  Resultado de M\u00e9todo
+debugger.objectviewer.staticListTitle=Campos Est\u00e1ticos
+debugger.objectviewer.objListTitle=Campos de Objeto
+debugger.objectviewer.inspect=Inspeccionar
+debugger.objectviewer.get=Obtener
+debugger.objectviewer.objectClassName=Objeto de clase
+
+debugger.objectwrapper.methodException=Excepci\u00f3n accesando m\u00e9todos:
+debugger.objectwrapper.invocationException=Excepci\u00f3n durante invocaci\u00f3n:
+debugger.objectwrapper.inspect=Inspeccionar
+debugger.objectwrapper.remove=Remover
+debugger.objectwrapper.serializable=Serializar
+debugger.objectwrapper.redefined=redefinido en
+debugger.objectwrapper.inherited=heredado de
+
+debugger.threadstatus.finished=finalizado
+debugger.threadstatus.breakpoint=en breakpoint
+debugger.threadstatus.stopped=detenido
+debugger.threadstatus.monitor=en monitor
+debugger.threadstatus.notstarted=no iniciado
+debugger.threadstatus.running=ejecutando
+debugger.threadstatus.sleeping=durmiendo
+debugger.threadstatus.unknown=estado deconocido
+debugger.threadstatus.waiting=esperando
+debugger.threadstatus.zombie=zombi
+
+#Debugger messages
+debugger.jdiDebugger.noBreakpointMsg=Eliminar breakpoint: no se encontr\u00f3 breakpoint en esta l\u00ednea.
+debugger.jdiDebugger.noLineNumberMsg=Esta clase ha sido compilada sin informaci\u00f3n de \nn\u00famero de l\u00ednea. Usted no puede configurar breakpoints.
+debugger.jdiDebugger.noCodeMsg=No puede configurar breakpoint: no hay c\u00f3digo en esta l\u00ednea
+debugger.jdiDebugger.internalErrorMsg=Hubo un error interno mientras se intentaba\nconfigurar este breakpoint
+
+#library browser configuration
+browser.title=BlueJ:  Browser de Libreria
+browser.version=0.1
+browser.togglemessagebox.toggle.text=no mostrar este mensaje de nuevo
+
+browser.librarychooser.loading.status=Cargando librer\u00edas...
+browser.librarychooser.loaded.status=Librerias cargadas.
+browser.librarychooser.openingarchive.status=Abriendo librer\u00eda de archivo
+browser.librarychooser.config.user=userlibs.properties
+
+browser.classchooser.classmenu.open=Abrir
+browser.classchooser.classmenu.use=Usar...
+browser.classchooser.packagemenu.open=Abrir
+browser.classchooser.packagemenu.use=Usar...
+
+browser.usepackage.dialog.text=Selecione paquete de destino y haga click en Aceptar
+
+browser.missingclass.text=El browser no puede localizar la clase $
+
+#library browser menus
+browser.menu.library=Libreria
+browser.menu.library.properties=Propiedades...
+browser.menu.library.addlibrary=Agregar...
+browser.menu.library.addlibrary.title=Agregrar Librer\u00eda
+browser.menu.library.refresh=Refrescar
+browser.menu.library.close=Cerrar
+
+# Preferences Manager user interface elements and error messages
+prefmgr.title=Preferencias
+
+# Class Manager panel user interface elements and error messages
+classmgr.prefpaneltitle=Librer\u00edas
+classmgr.userlibraries=Librer\u00edas de Usuario
+classmgr.systemlibraries=Librer\u00edas del Sistema
+classmgr.bootlibraries=Librer\u00edas de Inicio
+classmgr.add=Agregar
+classmgr.delete=Eliminar
+*classmgr.statuscolumn=Status
+*classmgr.statusgood=Loaded
+*classmgr.statusbad=Error
+classmgr.locationcolumn=Localizaci\u00f3n
+classmgr.descriptioncolumn=Descripci\u00f3n
+classmgr.bootclass=Librer\u00eda de clase de inicio
+classmgr.bluejclass=Librer\u00eda de clase de BlueJ
+classmgr.unresolvable=Ruta no resuelta
+classmgr.error.unresolvable=Ruta no resuelta
+classmgr.error.missingclasspath=No existe classpath de Java. El comportamiento de la carga de Clases Java puede ser extra\u00f1o debido a que\nlas clases en el directorio actual ser\u00e1n resueltas primero.
+classmgr.error.missingbootclasspath=No existe classpath de inicio de Sun. BlueJ no deber\u00eda ejecutarse en un entorno previo a JDK 1.2.
+
+# Miscellaneous Preferences panel
+prefmgr.misc.prefpaneltitle=Miscel\u00e1nea
+prefmgr.misc.editorfontsize=Editor de tama\u00f1o de fuentes
+prefmgr.misc.usesyntaxhilighting=Use resaltar sintaxis
+*prefmgr.misc.usesyntaxhilighting=Use syntax hilighting
+*prefmgr.misc.autoindent=Auto-indent (Enter and Tab keys)
+*prefmgr.misc.displaylinenumbers=Display line numbers
+*prefmgr.misc.makeBackup=Make backup of source files
+*prefmgr.misc.matchBrackets=Match brackets
+*prefmgr.misc.compiler.title=Compiler settings
+*prefmgr.misc.usejdk14=Enable JDK 1.4 features (assertions)
+*prefmgr.misc.documentation.title=Documentation settings
+prefmgr.misc.jdkurlpath=URL de documentaci\u00f3n del JDK
+prefmgr.misc.linkToLib=Use esta URL cuando genere la documentaci\u00f3n del proyecto
+prefmgr.misc.linkToLibNoteLine1=Si esta URL es usada para generar la documentaci\u00f3n, ella debe ser correcta y accesible.
+prefmgr.misc.linkToLibNoteLine2=De otro modo la generaci\u00f3n de la documentaci\u00f3n fallar\u00e1. Para trabajar fuera de l\u00ednea, desmarque esta opci\u00f3n.
+
+# Features Panel
+*prefmgr.features.title=Features
+
+# Extensions Manager Help panel
+*extmgr.extensions=Extensions
+*extmgr.installed=Installed
+*extmgr.project=Project
+*extmgr.statuscolumn=Status
+*extmgr.namecolumn=Name
+*extmgr.typecolumn=Type
+*extmgr.versioncolumn=Version
+*extmgr.getdetails=Click on a line in the table to show details
+*extmgr.details.status=Status
+*extmgr.details.name=Name
+*extmgr.details.location=Location
+*extmgr.details.type=Type
+*extmgr.details.version=Version
+*extmgr.details.date=Date
+*extmgr.details.url=URL
+*extmgr.details.description=Description
+
+*extmgr.status.notused=Not used
+*extmgr.status.loaded=Loaded
+*extmgr.status.error=Error
+*extmgr.status.unloaded=Unloaded
+*extmgr.version.unknown=Unknown
+*extensions.nodescription=None given.
+
+# Extension errors
+*extmgr.error.nomanifest=No manifest file
+*extmgr.error.nomain=Manifest does not contain Main-Class attribute
+*extmgr.error.notsubclass=Main class is not a subclass of Extension
+*extmgr.error.cannotload=Extension could not be loaded
+
+#---------------
+#Editor labels
+#---------------
+editor.title=BlueJ: Editor
+
+#button labels for toolbar commands
+editor.compileLabel = Compilar
+editor.undoLabel = Deshacer
+editor.cutLabel = Cortar
+editor.copyLabel = Copiar
+editor.pasteLabel = Pegar
+editor.closeLabel = Cerrar
+editor.page-setupLabel = Configurar P\u00e1gina...
+
+# menu labels (MUST be defined)
+editor.classLabel = Clase
+editor.editLabel = Editar
+editor.toolsLabel = Herramientas
+editor.debugLabel = Traceo
+editor.optionLabel = Opciones
+editor.helpLabel = Ayuda
+
+# item labels (can be omitted if same as action name)
+editor.saveLabel = Guardar
+editor.reloadLabel = Recargar
+editor.printLabel = Imprimir...
+editor.closeLabel =Cerrar
+
+editor.redoLabel = Rehacer
+editor.cut-to-clipboardLabel = Cortar
+editor.copy-to-clipboardLabel = Copiar
+editor.paste-from-clipboardLabel = Pegar
+*editor.indent-blockLabel = Indent more
+*editor.deindent-blockLabel = Indent less
+*editor.comment-blockLabel = Comentario
+editor.uncomment-blockLabel = Sin Comentario
+editor.insert-methodLabel = Insertar m\u00e9todo
+
+editor.findLabel = Encontrar...
+editor.find-nextLabel = Encontrar Siguiente
+editor.find-backwardLabel = Encontrar hacia atr\u00e1s...
+editor.replaceLabel = Reemplazar...
+editor.compileLabel = Compilar
+editor.toggle-breakpointLabel = Configurar/Eliminar Breakpoint
+editor.toggle-interface-viewLabel = Cambiar a Vista de Interfaz
+
+editor.implementationLabel = Implementaci\u00f3n
+editor.interfaceLabel = Interfaz
+
+editor.state.readOnly = s\u00f3lo-lectura
+editor.state.saved = guardado
+editor.state.changed = cambiado
+
+editor.key-bindingsLabel = Enlaces Clave...
+editor.preferencesLabel = Preferencias...
+
+# Dialog titles and texts
+editor.functions.title = Editor de Funciones
+editor.functions.editFunctions = Editar Funciones
+editor.functions.moveScroll = Mover & Scroll
+editor.functions.classFunctions = Funciones de Clase
+editor.functions.customisation = Personalizaci\u00f3n
+editor.functions.help = Ayuda
+editor.functions.misc = Misc
+editor.functions.defaults=Por Defecto
+editor.functions.categories=Categor\u00edas:
+editor.functions.keys=Enlaces Clave
+editor.functions.addkey=Agregar Clave
+editor.functions.delkey=Eliminar Clave
+
+editor.find.title = Encontrar
+editor.find.find.label = Encontrar:
+*editor.find.replace.label = Replace:
+*editor.find.findNext=Find Next
+*editor.find.replace=Replace
+*editor.find.replaceAll=Replace All
+*editor.find.up=Search up
+*editor.find.down=Search down
+*editor.find.ignoreCase=Ignore case
+*editor.find.wholeWord=Whole word
+
+#Messages, warnings, etc that is displayed by Info.java
+editor.info.version = Moe version 0.4
+editor.info.readingProblem = Hubo un problema leyendo este archivo.
+editor.info.regularFile = (Es este un archivo regular? Tiene usted acceso de lectura?)
+editor.info.newFile = Nuevo archivo
+editor.info.errorSaving = Error guardando archivo!
+editor.info.compiled = Clase compilada - no hay errores de sintaxis
+editor.info.noChanges = Ning\u00fan cambio necesita ser guardado
+editor.info.cannotReload = No puede recargar - este texto nunca fue guardado!
+editor.info.reload = (\"Recargar\" recarga el \u00faltimo estado guardado en disco.)
+editor.info.emptySearchString = String de caracteres vac\u00edo.
+editor.info.notFound = No encontrado
+editor.info.compiling = Compilando...
+editor.info.cannotSetBreak = No se puede configurar breakpoint:\nNo hay c\u00f3digo asociado con este editor.
+editor.info.fileDisappeared = ERROR: El archivo parece haber desaparecido!
+editor.info.fileReadError = ERROR: Hubo un error mientras trataba de leer este archivo.
+editor.info.saved = Archivo guardado
+editor.info.printing = Imprimiendo...
+editor.info.printed = Imprimiendo... Listo.
+editor.info.cancelled = Cancelado.
+editor.info.generatingDoc = Generando interfaz de clase...
+editor.info.loadingDoc = Cargando interfaz de clase...
+editor.info.docLoaded = Cargando interfaz de clase... Listo.
+editor.info.docAborted = Hubo un serio problema generando la javadoc\ninterface. Abortado.
+editor.info.docDisappeared = No puede encontrar el archivo HTML:
+editor.info.docNoFrames = Mostrar Frames est\u00e1 deshabilitado en vista preliminary del editor.
+editor.info.tabsExpanded = Converted all TABs to spaces. (You are working\nwith soft TABs, the file contained hard TABs.)
+editor.printer.continued=continuado
+#End Editor labels
+
+pkgmgr.chooseUsesFrom=Seleccione la clase desde donde esta la dependencia
+pkgmgr.chooseUsesTo=Seleccione la clase de la cual depende
+pkgmgr.chooseInhFrom=Seleccione la subclase
+pkgmgr.chooseInhTo=Seleccione la superclase
+pkgmgr.chooseArrow=Seleccione una flecha para eliminar
+pkgmgr.packageSaved=Paquete guardado
+pkgmgr.info.printing = Imprimiendo...
+pkgmgr.info.printed = Imprimiendo... Listo.
+
+utility.packageChooser.previewPane1=Preview of possible
+utility.packageChooser.previewPane2=package structure
+
+# dialog titles and texts
+
+pkgmgr.newPkg.title=Nuevo Proyecto
+pkgmgr.newPkg.buttonLabel=Crear
+pkgmgr.openPkg.title=Abrir Proyecto
+pkgmgr.openPkg.buttonLabel=Abrir
+pkgmgr.openNonBlueJPkg.title=Abrir Proyecto No-BlueJ
+pkgmgr.openNonBlueJPkg.buttonLabel=Abrir en BlueJ
+pkgmgr.saveAs.title=Guardar Proyecto
+pkgmgr.saveAs.buttonLabel=Guardar
+pkgmgr.addClass.title=Seleccionar Clase Java para Agregar
+pkgmgr.addClass.buttonLabel=Agregar
+pkgmgr.importPkg.title=Seleccionar Directorio a Importar
+pkgmgr.importPkg.buttonLabel=Importar
+pkgmgr.importPkgNew.title=Nuevo Proyecto para Importar en
+pkgmgr.importPkgNew.buttonLabel=Crear
+
+pkgmgr.newClass.msg=Digite el nombre de la clase
+pkgmgr.newUses=Nueva Flecha Usa
+pkgmgr.newExtends=Nueva Flecha Extiende
+pkgmgr.unimplemented=Lo siento - esta caracter\u00edstica aun no ha sido implementada
+pkgmgr.pkgChooseError=Error seleccionando un nombre valido de paquete
+pkgmgr.chooseWebPage.title=Seleccione p\u00e1gina HTML de destino
+
+pkgmgr.parentpackagetarget.open=Abrir
+pkgmgr.parentpackagetarget.openunamed=Abrir paquete sin nombre
+
+pkgmgr.packagemenu.open=Abrir
+pkgmgr.packagemenu.remove=Remover
+
+pkgmgr.classmenu.runApplet=Ejecutar Applet
+pkgmgr.classmenu.edit=Abrir Editor
+pkgmgr.classmenu.compile=Compilar
+pkgmgr.classmenu.remove=Remover
+
+pkgmgr.view.label=Vista
+pkgmgr.view.usesLabel=Usa
+pkgmgr.view.inheritLabel=Herencia
+
+# "new class" dialog
+pkgmgr.newClass.title=BlueJ:  Crear Nueva Clase
+pkgmgr.newClass.label=Nombre de Clase:
+pkgmgr.newClass.classType=Tipo de Clase
+pkgmgr.newClass.stdclass=Class
+pkgmgr.newClass.abstract=Abstract Class
+pkgmgr.newClass.interface=Interface
+pkgmgr.newClass.applet=Applet
+pkgmgr.newClass.appletj=Applet
+pkgmgr.newClass.unittest=Unit Test
+
+# "new package" dialog
+pkgmgr.newPackage.title=BlueJ:  Crear Nuevo Paquete
+pkgmgr.newPackage.label=Nombre de Paquete:
+pkgmgr.newPackage.newPackage=Paquete
+
+# "Use Library Class" dialog
+callLibraryDialog.title=BlueJ:  Llamar Clase de Librer\u00eda
+callLibraryDialog.classLabel=Clase:
+callLibraryDialog.docButton=Documentaci\u00f3n
+callLibraryDialog.listHeading=Constructores y m\u00e9todos est\u00e1ticos
+callLibraryDialog.clickHere1=Digite nombre completo de clase, luego predione Enter
+callLibraryDialog.clickHere2=para mostrar constructores y m\u00e9todos.
+callLibraryDialog.classNotFound1=No se puede encontrar la clase.
+callLibraryDialog.classNotFound2=(Verifique el nombre de la clase y presione Enter de nuevo.)
+
+# "export" dialog
+pkgmgr.export.title=BlueJ:  Exportar Proyecto
+pkgmgr.export.helpLine1=Exportar almacena una copia del proyecto actual en
+pkgmgr.export.helpLine2=formato est\u00e1ndar de Java (no-BlueJ).
+pkgmgr.export.directoryLabel=Almacena como estructura de directorios
+pkgmgr.export.jarFileLabel=Almacena como archivo jar
+pkgmgr.export.classLabel=clase principal:
+pkgmgr.export.sourceLabel=incluir fuente
+pkgmgr.export.noClassText=ninguna (no puede ser ejecutada)
+
+# "open-non-bluej" mismatch dialog
+*pkgmgr.importmismatch.title=BlueJ:  Package Line Mismatches
+*pkgmgr.importmismatch.helpLine1=WARNING: This is not the expected top level directory of this Java
+*pkgmgr.importmismatch.helpLine2=project as declared in some of the project's class's package declarations.
+*pkgmgr.importmismatch.helpLine3=Opening this directory will change all package declarations in the
+*pkgmgr.importmismatch.helpLine4=following source files of the project.
+*pkgmgr.importmismatch.helpLine5=Most likely you should open the parent directory of the one you
+*pkgmgr.importmismatch.helpLine6=have selected. For example, to open a Java project that contains
+*pkgmgr.importmismatch.helpLine7=the package "org.bluej", you must select the directory that
+*pkgmgr.importmismatch.helpLine8=_contains_ "org",  not the "org" or "bluej" directory itself.
+*pkgmgr.importmismatch.helpLine9=Do you want to continue opening and changing the package declarations?
+
+# "import" failure dialog
+pkgmgr.importfailed.title=BlueJ:  Estado de Importar
+pkgmgr.importfailed.helpLine1=Importar ha fallado al copiar los siguientes archivos.
+pkgmgr.importfailed.helpLine2=Esto se puede deber a que estos archivos ya
+pkgmgr.importfailed.helpLine3=estaban presentes en el proyecto de destino.
+
+# "version check" dialog
+*pkgmgr.versionDlg.title=BlueJ:  Check for new version
+*pkgmgr.versionDlg.helpLine1=This function will check whether a newer BlueJ version
+*pkgmgr.versionDlg.helpLine2=is available. You must be online for this to work.
+*pkgmgr.versionDlg.check=Check Version
+*pkgmgr.versionDlg.upToDate=The current version is up to date.
+*pkgmgr.versionDlg.currentVersion=Your current BlueJ version is
+*pkgmgr.versionDlg.newVersion=The most recent BlueJ version is
+
+# run applet dialog
+pkgmgr.runApplet.title=BlueJ:  Ejecutar Applet
+pkgmgr.runApplet.webPageLabel=Crear P\u00e1gina Web
+pkgmgr.runApplet.webPage=Generar pagina web solamente
+pkgmgr.runApplet.appletviewer=Ejecutar Applet en appletviewer
+pkgmgr.runApplet.webBrowser=Ejecutar Applet en browser de web
+pkgmgr.runApplet.heightLbl=Altura =
+pkgmgr.runApplet.widthLbl=Ancho =
+pkgmgr.runApplet.newParameterLbl=Agregar Nuevo Par\u00e1metro
+pkgmgr.runApplet.appletParameterLbl= Par\u00e1metros del Applet
+pkgmgr.runApplet.nameLbl=Nombre =
+pkgmgr.runApplet.valueLbl=Valor =
+pkgmgr.runApplet.paramName=NOMBRE DE PARAMETRO
+pkgmgr.runApplet.value=VALOR
+pkgmgr.runApplet.htmlComment=<!-- Este archivo es generado autom\u00e1ticamente por BlueJ Java Development  -->\n<!-- Environment.  Se genera autom\u00e1ticamente cada vez que el  -->\n<!-- applet se ejecuta.  Cualquier cambio manual hecho al archivo se perder\u00e1 -->\n<!-- cuando el applet se ejecuta luego dentro de BlueJ.  Guardelo dentro de un       -->\n<!-- directorio fuera del directorio del paquete si usted desea    -->\n<!-- conservar este archivo. -->
+pkgmgr.runApplet.htmlExportedComment=<!-- Este archivo es generado autom\u00e1ticamente por  BlueJ Java Development  -->\n<!-- Environment.  La variable codebase es configurada en la ruta absoluta del   -->\n<!-- directorio del paquete de bluej del applet al momento en que esta p\u00e1gina est\u00e1 siendo generada. -->\n<!-- Si la localizaci\u00f3n de este paquete se altera, usted necesitar\u00e1 editar el valor codebase.       -->
+
+
+# method call dialog
+pkgmgr.methodCall.titleCreate=BlueJ:  Crear Objeto
+pkgmgr.methodCall.titleCall=BlueJ:  Llamado a M\u00e9todo
+pkgmgr.methodCall.namePrompt=Nombre de Instancia:
+pkgmgr.methodCall.=Interfaz
+error.methodCall.emptyField=Par\u00e1metro de campo vacio
+error.methodCall.illegalName=El nombre de instancia debe ser un identificador Java.
+error.methodCall.duplicateName=Un objeto con este nombre ya existe.\nPor favor escoja un nombre \u00fanico.
+
+# Debugger dialog (ExecControls.java)
+debugger.execControls.windowTitle = BlueJ:  Traceo
+debugger.execControls.stackTitle = Secuencia de Llamado
+*debugger.execControls.staticTitle = Static variables
+debugger.execControls.instanceTitle = Variables de Instancia
+debugger.execControls.localTitle = Variables Locales
+debugger.execControls.threadTitle = Hilos
+debugger.execControls.updateText = Actualizar
+debugger.execControls.systemThreads = Mostrar hilos del sistema
+*debugger.execControls.haltButtonText = Halt
+*debugger.execControls.stepButtonText = Step
+*debugger.execControls.stepIntoButtonText = Step Into
+*debugger.execControls.continueButtonText = Continue
+*debugger.execControls.terminateButtonText = Terminate
+
+# DialogManager labels
+dialogmgr.error = BlueJ:  Error
+dialogmgr.question = BlueJ:  Pregunta
+dialogmgr.message = BlueJ:  Mensaje
+
+#Terminal Window
+terminal.options = Options
+terminal.title = BlueJ:  Ventana de Terminal
+terminal.clear = Limpiar
+terminal.copy = Copiar
+terminal.save = Guardar en archivo...
+terminal.close = Cerrar
+*terminal.clearScreen = Clear screen at method call
+terminal.recordCalls = Registro de llamado a m\u00e9todos
+terminal.buffering = Buffering ilimitado
+terminal.save.title = Guardar texto de terminal
+terminal.save.buttonText = Guardar
+
+# status messages
+pkgmgr.compiling=Compilando...
+pkgmgr.compileDone=Compilando... Listo
+pkgmgr.creating=Creando objeto...
+pkgmgr.createDone=Creando objeto... Listo
+pkgmgr.creatingVM=Creando m\u00e1quina virtual...
+pkgmgr.creatingVMDone=Creando m\u00e1quina virtual... Listo
+pkgmgr.generatingDocu=Generando documentaci\u00f3n...
+pkgmgr.docuGenerated=Generando documentaci\u00f3n... Listo
+pkgmgr.docuAborted=Generando documentaci\u00f3n... Abortada
+pkgmgr.webBrowserMsg=Web browser ha sido iniciado.
+pkgmgr.webBrowserError=Error inciando web browser.
+pkgmgr.usesArrowMsg=Dependencia "Usa" declarada pero nunca utilizada:
+pkgmgr.breakpointMsg=Clase tiene que ser compilada para configurar breakpoints.
+pkgmgr.appletInViewer=Ejecutando Applet en appletviewer
+pkgmgr.appletInBrowser=Ejecutando Applet en web browser
+pkgmgr.exported=Exportar completado.
+pkgmgr.exported.jar=Exportar a archivo jar completado.
+*pkgmgr.error.open=The project does not exist (anymore)
+
+properties.heading.bluej=Propiedades de BlueJ. La configuraci\u00f3n en este archivo sobreescribe \"bluej.defs\"
+*properties.heading.moe=Moe Editor properties. Settings in this file override \"moe.defs\"
+
+# menus and menu items
+
+menu.package=Proyecto
+menu.package.new=Nuevo...
+menu.package.open=Abrir...
+*menu.package.openRecent=Open Recent
+menu.package.openNonBlueJ=Abrir No BlueJ...
+menu.package.close=Cerrar
+menu.package.save=Guardar
+menu.package.saveAs=Guardar como...
+menu.package.import=Importar...
+menu.package.export=Exportar...
+menu.package.pageSetup=Configurar P\u00e1gina...
+menu.package.print=Imprimir...
+menu.package.quit=Salir
+
+menu.edit=Edici\u00f3n
+menu.edit.newClass=Nueva Clase...
+menu.edit.newPackage=Nuevo Paquete...
+menu.edit.addClass=Agregar Clase desde Archivo...
+menu.edit.remove=Remover...
+menu.edit.newUses=Nueva Flecha Usa...
+menu.edit.newInherits=Nueva Flecha Hereda...
+menu.edit.removeArrow=Remover Flecha...
+
+menu.tools=Herramientas
+menu.tools.compile=Compilar
+menu.tools.compileSelected=Compilar Selecci\u00f3n
+menu.tools.callLibrary=Use Clase de Librer\u00eda...
+menu.tools.rebuild=Reconstruir paquete
+menu.tools.generateDoc=Generar Documentaci\u00f3n
+menu.tools.preferences=Preferencias...
+
+menu.view=Ver
+menu.view.showUses=Mostrar Usos
+menu.view.showInherits=Mostrar Herencia
+menu.view.showExecControls=Mostrar Traceo
+menu.view.showTerminal=Mostrar Terminal
+
+menu.group=Trabajo con Paquetes
+menu.group.make=Crear Paquete de Grupo
+menu.group.open=Abrir Paquete de Grupo
+menu.group.updateSelected=Actualizar Selecci\u00f3n
+menu.group.updateAll=Actualizar Todo
+menu.group.commitSelected=Deshacer Selecci\u00f3n
+menu.group.commitAll=Deshacer Todo
+menu.group.statusSelection=Estado de Selecci\u00f3n
+menu.group.statusAll=Estado de Todo
+menu.group.users=Usuarios
+menu.group.configuration=Configuraci\u00f3n
+
+menu.help=Ayuda
+menu.help.about=Acerca de BlueJ...
+menu.help.versionCheck=Check Version
+*menu.help.extensions=Installed Extensions
+menu.help.website=BlueJ Web Site
+menu.help.tutorial=Tutorial BlueJ ...
+menu.help.standardApi=Librer\u00edas de Clases Java...
+menu.help.copyright=Copyright...
+
+# tool tips
+
+tooltip.newClass=Crea una nueva clase en este paquete
+tooltip.newUses=Inserta una relaci\u00f3n 'usa'
+tooltip.newExtends=Inserta una relaci\u00f3n de herencia
+tooltip.compile=Compila todas las clases sin compilar en este paquete
+tooltip.showUses=Selecciona mostrar relaciones 'usa'
+tooltip.showExtends=Selecciona mostrar relaciones de herencia
+tooltip.progress=Indicador de Trabajo: indica cuando la m\u00e1quina virtual se est\u00e1 ejecutando

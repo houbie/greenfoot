@@ -1,0 +1,389 @@
+compile-while-executing
+Voc\u00ea n\u00e3o pode compilar enquanto a m\u00e1quina
+estiver executando. Isto pode causar
+problemas.
+
+exception-thrown
+Uma exce\u00e7\u00e3o foi lan\u00e7ada:
+
+break-no-source
+Breakpoint colocado num arquivo cujo
+c\u00f3digo fonte n\u00e3o p\u00f4de ser encontrado. Nome do arquivo:
+
+error-in-file
+Aconteceu um erro num arquivo cujo 
+c\u00f3digo fonte n\u00e3o p\u00f4de ser encontrado.
+classe: n\u00famero da linha fonte:
+
+system-exit
+O m\u00e9todo terminou atrav\u00e9s de uma chamada
+expl\u00edcita ao comando "exit". Nenhum resultado
+foi retornado. O c\u00f3digo de retorno \u00e9:
+
+no-help
+Nenhuma ajuda dispon\u00edvel para esta mensagem.
+Por favor, envie o texto da mensagem de erro para
+mik@bluej.org - n\u00f3s iremos adicionar um texto 
+de ajuda \u00e0 nossa base de dados. Obrigado.
+
+editor-crashed
+Parece que o BlueJ travou enquanto salvava esta classe
+para o disco na \u00faltima vez. O c\u00f3digo fonte pode estar perdido
+ou incompleto. Deve haver uma c\u00f3pia de backup desta classe
+na pasta do projeto. Se a classe parecer corrompida,
+   1 - saia do BlueJ
+   2 - fa\u00e7a backup da pasta do seu projeto (s\u00f3 para prevenir)
+   3 - procure na pasta do projeto por um 
+       backup deste arquivo. Renomei-o com 
+       o nome original (com uma extens\u00e3o '.java')
+
+cannot-run-compiler
+N\u00e3o foi possivel executar o compilador. O programa
+est\u00e1 no seu path?
+Nome do compilador:
+
+compiler-error
+Erro do compilador:
+
+stream-incomplete
+Erro do compilador. Stream incompleto.
+
+out-of-bounds
+Elemento especificado n\u00e3o se encontra 
+dentro dos limites do arranjo.
+
+cannot-access-element
+\u00c9 imposs\u00edvel acessar o elemento especificado
+no arranjo.
+
+appletviewer-error
+Erro ao executar o applet no appletviewer.
+
+error-no-name
+Voc\u00ea deve especificar um nome v\u00e1lido.
+
+error-save-file
+Ocorreu um erro durante a opera\u00e7\u00e3o de
+salvamento do arquivo. O arquivo n\u00e3o foi salvo.
+
+cannot-save-keys
+Erro durante tentativa de salvamento dos
+atalhos de teclas (key bindings). Os atalhos
+n\u00e3o foram salvos.
+
+error-no-templates
+O diret\u00f3rio de templates (diret\u00f3rio onde o BlueJ
+encontra os templates de classe) n\u00e3o existe. Ele est\u00e1
+definido na propriedade "bluej.templatePath" em
+<bluej-home>/lib/bluej.defs. Cheque e corrija esta propriedade.
+
+skeleton-error
+O esqueleto default para a classe n\u00e3o p\u00f4de ser gerado.
+Isto pode ter sido causado por um erro de configura\u00e7\u00e3o
+durante instala\u00e7\u00e3o do BlueJ, ou devido a problemas
+de acesso ao sistema de arquivos.
+
+error-open-source
+N\u00e3o foi poss\u00edvel abrir o
+c\u00f3digo fonte desta classe.
+
+error-writing-readme
+O arquivo README deste projeto n\u00e3o p\u00f4de ser atualizado
+com as informa\u00e7\u00f5es da classe principal.
+Ocorreu um erro ao alterar este arquivo.
+
+error-writing-jar
+O arquivo jar n\u00e3o foi gravado corretamente.
+(Cheque as permiss\u00f5es do sistema de arquivos
+e o espa\u00e7o livre em disco).
+
+error-file-exists
+O arquivo jar selecionado j\u00e1 existe.
+Deseja continuar?
+Sobrescreve
+Cancelar
+null
+
+invalid-class-name
+Nome de classe inv\u00e1lido.
+
+invalid-package-name
+Nome de pacote inv\u00e1lido.
+
+must-be-identifier
+Nome n\u00e3o v\u00e1lido. Tem 
+que ser um identificador Java.
+
+directory-exists
+Um arquivo ou diret\u00f3rio com 
+este nome j\u00e1 existe.
+
+cannot-copy-package
+Ocorreu um erro durante a c\u00f3pia dos
+arquivos do pacote. O pacote n\u00e3o foi
+gravado ou pode estar incompleto.
+
+file-does-not-exist
+O arquivo especificado
+n\u00e3o existe.
+
+cannot-import
+Imposs\u00edvel importar arquivo. O arquivo
+tem que ser um c\u00f3digo fonte Java (seu nome
+deve terminar com ".java").
+
+docdir-blocked-by-file
+O diret\u00f3rio da documenta\u00e7\u00e3o n\u00e3o p\u00f4de ser
+criado no diret\u00f3rio do projeto porque
+h\u00e1 um arquivo com o mesmo nome.
+
+docdir-not-created
+O diret\u00f3rio para a documenta\u00e7\u00e3o n\u00e3o p\u00f4de ser
+criado no diret\u00f3rio do projeto.
+
+no-permission-for-docdir
+O diret\u00f3rio para documenta\u00e7\u00e3o n\u00e3o p\u00f4de ser
+criado no diret\u00f3rio do projeto devido a
+insufici\u00eancia de direitos.
+
+show-or-generate
+Voc\u00ea deseja exibir a documenta\u00e7\u00e3o gerada
+previamente ou deseja gerar novamente toda
+a documenta\u00e7\u00e3o?
+Apenas exiba
+Gerar novamente
+Cancelar
+
+doctool-error
+O Javadoc reportou um erro. Pode ser devido a um erro
+de sintaxe em um dos arquivos sobre os quais voc\u00ea
+solicitou a gera\u00e7\u00e3o da documenta\u00e7\u00e3o. Pode ser que a URL
+da documenta\u00e7\u00e3o do JDK, especificada em prefer\u00eancias, possa
+estar incorreta. Certifique-se de que todos os seus arquivos
+Java est\u00e3o compilados e a URL da documenta\u00e7\u00e3o esteja acess\u00edvel
+ou desabilitada. Tente novamente. Se esta mensagem aparecer
+novamente voc\u00ea deve checar o arquivo de log com a 
+mensagem de erro do Javadoc:
+
+severe-doc-trouble
+Uma exce\u00e7\u00e3o foi gerada durante a chamada
+a uma ferramenta externa de documenta\u00e7\u00e3o.
+
+no-java-sources-found
+Nenhum arquivo Java foi encontrado
+neste diret\u00f3rio.
+
+duplicate-name
+Uma classe com este nome j\u00e1 existe neste
+pacote. Voc\u00ea n\u00e3o pode ter duas classes
+com o mesmo nome no mesmo pacote.
+
+error-in-import
+Erro durante tentativa de importa\u00e7\u00e3o
+do arquivo. Cheque os direitos de acesso
+e o espa\u00e7o em disco.
+
+no-class-selected-compile
+Nenhuma classe selecionada para compila\u00e7\u00e3o.
+Selecione uma classe, clicando 
+nela, antes de tentar compil\u00e1-la.
+
+no-class-selected
+Nenhuma classe ou pacote foi selecionada
+para remo\u00e7\u00e3o. Selecione uma classe ou pacote,
+clicando sobre ela, antes de tentar remov\u00ea-la.
+
+really-remove-class
+A remo\u00e7\u00e3o desta classe ir\u00e1 apagar
+permanentemente o arquivo fonte.
+Deseja continuar?
+Remover
+Cancelar
+null
+
+really-remove-package
+A remo\u00e7\u00e3o deste pacote ir\u00e1 apagar
+permanentemente o diret\u00f3rio do pacote
+(inclusive TODO o conte\u00fado dele).
+Deseja continuar?
+Remover
+Cancelar
+null
+
+remove-package-open
+O pacote que voc\u00ea selecionou para remo\u00e7\u00e3o
+possui sub-pacotes abertos no BlueJ.
+Voc\u00ea deve fechar estes pacotes antes
+que possa remov\u00ea-lo.
+
+package-does-not-exist
+Erro ao abrir pacote.
+Pacote n\u00e3o existe:
+
+no-bluej-package
+Erro ao abrir pacote.
+O arquivo/diret\u00f3rio n\u00e3o \u00e9
+um pacote BlueJ:
+
+applet-height-width
+A altura (height) e a largura (width) do 
+applet devem ser especificados.
+
+not-yet-implemented
+N\u00e3o implementado ainda - desculpe.
+
+quit-all
+Sair de todos os projetos abertos?
+Sair de todos
+Cancelar
+null
+
+really-reload
+A recarga descartar\u00e1 todas as mudan\u00e7as desde a \u00faltima edi\u00e7\u00e3o.
+Voc\u00ea tem certeza?
+Recarregar
+Cancelar
+null
+
+really-print
+O texto \u00e9 mais largo que o papel. Linhas longas
+ser\u00e3o cortadas. Voc\u00ea pode evitar isto redimensionando
+a janela do editor. Deseja imprimir mesmo assim?
+Imprimir
+Cancelar
+null
+
+open-non-bluej-already-bluej
+O diret\u00f3rio selecionado j\u00e1 \u00e9 um
+projeto BlueJ.
+
+open-non-bluej-no-java
+Nenhum arquivo fonte Java
+foi encontrado neste diret\u00f3rio.
+
+open-non-bluej-invalid
+Voc\u00ea indicou que deseja abrir este diret\u00f3rio
+como um projeto BlueJ; entretanto, foi encontrado 
+um arquivo com um comando package que \u00e9
+imcompat\u00edvel com a estrutura do diret\u00f3rio
+corrente. (Por exemplo, se a classe Java Shape
+define que pertence ao pacote com.aa, ent\u00e3o
+o arquivo Shape.java dever\u00e1 estar num diret\u00f3rio
+aa que por sua vez dever\u00e1 estar num diret\u00f3rio com. Este
+diret\u00f3rio com deve estar num outro diret\u00f3rio,
+que \u00e9 o que voc\u00ea deve abrir no BlueJ).
+
+import-into-current
+Voc\u00ea est\u00e1 com um pacote aberto nesta janela.
+Voc\u00ea gostaria de importar para este pacote ou
+voc\u00ea gostaria de criar um novo projeto e importar
+para ele?
+Corrente
+Novo Projeto
+Cancelar
+
+package-name-invalid
+Voc\u00ea mudou o comando package para um pacote
+que n\u00e3o existe neste projeto.
+Se voc\u00ea deseja mover esta classe para outro
+pacote dever\u00e1, primeiro, criar o pacote
+de destino. O comando package foi revertido
+para sua forma anterior.
+
+package-name-clash
+Voc\u00ea alterou o comando package para um 
+nome que j\u00e1 \u00e9 utilizado por outra classe
+ou pacote. Se esta classe for transferida
+para este novo pacote, a classe ou pacote 
+original poder\u00e1 ser destru\u00eddo. Assim, o
+comando package foi revertido para sua 
+forma anterior.
+
+package-name-changed
+Voc\u00ea mudou o comando package que define o
+pacote desta classe. Voc\u00ea
+gostaria de mover esta classe para o pacote 
+indicado ou gostaria de deixar a classe onde
+est\u00e1 (o comando package ser\u00e1 revertido para
+sua forma original)?
+Mover
+Reverter
+null
+
+ask-index
+Entre com o \u00edndice do elemento do arranjo [...]
+Inspe\u00e7\u00e3o de arranjo
+null
+
+classmgr-changes-no-effect
+As mudan\u00e7as que voc\u00ea efetuou na biblioteca de classes
+n\u00e3o ter\u00e3o efeito at\u00e9 a pr\u00f3mixa execu\u00e7\u00e3o do BlueJ.
+
+pref-optimise-no-effect
+Mudan\u00e7as na configura\u00e7\u00e3o da m\u00e1quina virtual apenas ter\u00e3o
+efeito para projetos abertos ap\u00f3s a mudan\u00e7a
+(ou se voc\u00ea reiniciar a m\u00e1quina virtual).
+
+unittest-new-test-method
+Forne\u00e7a um nome para este teste.
+A grava\u00e7\u00e3o ir\u00e1 come\u00e7ar.
+Novo M\u00e9todo de Teste
+null
+
+getobject-new-name
+Digite o nome para o novo objeto 
+do banco de objetos
+Novo Nome do Objeto
+null
+
+unittest-fixture-present
+Esta classe de teste j\u00e1 possui um "fixture" declarado.
+Se voc\u00ea continuar, a declara\u00e7\u00e3o deste "fixture" ser\u00e1 substitu\u00edda.
+Deseja continuar?
+Substituir
+Cancelar
+null
+
+unittest-method-present
+Esta classe de teste de unidade j\u00e1 possui um m\u00e9todo declarado
+com o mesmo nome. Se voc\u00ea prosseguir, a defini\u00e7\u00e3o do m\u00e9todo
+ser\u00e1 substitu\u00edda.
+Deseja continuar?
+Substituir
+Cancelar
+null
+
+no-search-string
+Nenhuma palavra de pesquisa foi definida.
+(Marque algum texto ou use 'Procurar' primeiro)
+
+default-keys
+Voc\u00ea deseja realmente descartar todas
+os seus atalhos de teclas e voltar a usar
+os atalhos de teclas padr\u00f5es?
+Usar default
+Cancelar
+null
+
+error-create-vm
+O BlueJ n\u00e3o p\u00f4de criar uma m\u00e1quina virtual (VM) para executar os projetos.
+Isto \u00e9 um problema grave - voc\u00ea n\u00e3o poder\u00e1 criar objetos ou
+executar m\u00e9todos sem antes ter resolvido isto.
+Geralmente, este problema \u00e9 causados por configura\u00e7\u00f5es de redes espec\u00edficas
+da usa m\u00e1quina. BlueJ usa TCP/IP e sockets para conseguir criar a VM.
+A causa mais comum para isso \u00e9 um firewall restingindo conex\u00f5es a
+partir da sua m\u00e1quina. Desligue o firewall (se voc\u00ea tiver um) para
+testar. Se isto resolver, tente encontrar uma configura\u00e7\u00e3o de firewall
+que permita conex\u00f5es do localhost.
+Outras causas poss\u00edveis s\u00e3o configura\u00e7\u00f5es de rede incorretas. Verifique
+se o TCP/IP est\u00e1 configurado corretamente e olhe outros par\u00e2metros da rede.
+Se o problema persistir, pe\u00e7a ajuda (veja http://www.bluej.org/help/ask-help.html).
+
+could-not-write-shell-file
+A execu\u00e7\u00e3o falhou porque o diret\u00f3rio do projeto n\u00e3o permite grava\u00e7\u00e3o.
+Para criar objetos ou executar m\u00e9todos, n\u00f3s devemos ter permiss\u00e3o para escrita
+no diret\u00f3rio do projeto. Certifique-se que o seu projeto esteja num
+sistema de arquivos que permita escrita (n\u00e3o um CD!) e que voc\u00ea tenha
+permiss\u00e3o de escrita no diret\u00f3rio do projeto e todos os seus arquivos.
+
+

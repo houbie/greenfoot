@@ -1,0 +1,826 @@
+okay=Ok
+cancel=Cancel
+close=Close
+continue=Continue
+
+main.invalidPackage=Package not found
+
+compileException=Exception during compilation
+compiler.thread.title=BlueJ compiler thread
+compiler.warningDialog.title=Compiler Warnings
+compiler.warningDialog.label=Warnings from last compilation 
+compiler.warningDialog.noWarnings=No warnings
+
+debugger.assert.assertThat=Assert that:
+debugger.assert.resultIs=result is
+debugger.assert.equalTo=equal to
+debugger.assert.equalToFloatingPoint= equal to (double or float)
+debugger.assert.sameAs=the same as
+debugger.assert.notSameAs=not the same as
+debugger.assert.notNull=not null
+debugger.assert.null=null
+debugger.assert.delta=delta
+
+debugger.inspector.title=$APPNAME:  Inspector
+debugger.inspector.object.title=$APPNAME:  Object Inspector
+debugger.inspector.class.title=$APPNAME:  Class Inspector
+debugger.inspector.enum.title=$APPNAME:  Enum Inspector
+debugger.inspector.interface.title=$APPNAME:  Interface Inspector
+debugger.inspector.result.title=$APPNAME:  Method Result
+debugger.inspector.result.returned=returned:
+debugger.inspector.object.noFields=No fields
+debugger.inspector.class.noFields=No fields
+debugger.inspector.showClass=Show static fields
+debugger.inspector.inspect=Inspect
+debugger.inspector.get=Get
+debugger.inspector.class.nameLabel=Class
+debugger.inspector.enum.nameLabel=Enum
+debugger.inspector.interface.nameLabel=Interface
+debugger.inspector.numFields=Number of fields
+
+debugger.objectwrapper.methodException=Exception accessing methods:
+debugger.objectwrapper.invocationException=Exception during invocation:
+debugger.objectwrapper.inspect=Inspect
+debugger.objectwrapper.remove=Remove
+debugger.objectwrapper.serializable=Serialize
+debugger.objectwrapper.redefined=redefined in
+debugger.objectwrapper.inherited=inherited from
+debugger.objectwrapper.noMethods=(No accessible methods)
+debugger.objectwrapper.moreMethods=more methods
+
+debugger.threadstatus.finished=finished
+debugger.threadstatus.breakpoint=at breakpoint
+debugger.threadstatus.stopped=stopped
+debugger.threadstatus.monitor=at monitor
+debugger.threadstatus.notstarted=not started
+debugger.threadstatus.running=running
+debugger.threadstatus.sleeping=sleeping
+debugger.threadstatus.unknown=unknown status
+debugger.threadstatus.waiting=waiting
+debugger.threadstatus.zombie=zombie
+
+#Debugger messages
+debugger.jdiDebugger.noBreakpointMsg=Clear breakpoint: no breakpoint found in this line.
+debugger.jdiDebugger.noLineNumberMsg=This class has been compiled without line number\ninformation. You cannot set breakpoints.
+debugger.jdiDebugger.noCodeMsg=Cannot set breakpoint: no code in this line
+debugger.jdiDebugger.internalErrorMsg=There was an internal error while attempting to\nset this breakpoint
+
+# Class Manager panel user interface elements and error messages
+classmgr.prefpaneltitle=Libraries
+classmgr.userlibraries=User Libraries
+classmgr.userliblibraries=User Libraries from
+classmgr.add=Add
+classmgr.delete=Delete
+classmgr.statuscolumn=Status
+classmgr.statusgood=Loaded
+classmgr.statusbad=Error
+classmgr.statusnew=Not loaded
+classmgr.locationcolumn=Location
+classmgr.error.unresolvable=Unresolvable Path
+classmgr.error.nodescription=No Description
+classmgr.error.missingclasspath=No Java classpath. Class loading behaviour may be strange because\nclasses in the current directory will be resolved first.
+classmgr.error.missingbootclasspath=No Sun boot classpath. BlueJ should not be run on a pre JDK 1.2 environment.
+
+# Preferences Manager user interface elements and error messages
+prefmgr.title=Preferences
+
+# Miscellaneous Preferences panel
+prefmgr.misc.prefpaneltitle=Miscellaneous
+prefmgr.misc.documentation.title=Documentation settings
+prefmgr.misc.jdkurlpath=JDK documentation URL
+prefmgr.misc.linkToLib=Use this URL when generating project documentation
+prefmgr.misc.linkToLibNoteLine1=If this URL is used for generating documentation, it must be correct and accessible.
+prefmgr.misc.linkToLibNoteLine2=Otherwise the documentation generation will fail. To work offline, uncheck this option.
+prefmgr.misc.tools.title=Optional tool settings
+prefmgr.misc.showTesting=Show unit testing tools
+prefmgr.misc.showTeam=Show teamwork controls
+prefmgr.misc.showJavaME=Show Java ME controls
+prefmgr.misc.vm.title=Compiler and runtime settings
+prefmgr.misc.optimiseVM=Use optimization (faster execution, but may cause problems with debugging)
+prefmgr.misc.addLibTitle=Select directory or jar/zip file
+prefmgr.misc.libFileFilter=Library files (*.jar;*.zip) or class directories
+prefmgr.misc.showUnchecked=Show compiler warnings when unsafe collections are used
+prefmgr.misc.wtk.dir.label=Wireless Toolkit directory
+prefmgr.misc.wtk.button=Browse
+prefmgr.misc.filechooser.title=Select Wireless Toolkit directory
+prefmgr.collection.title=Research Participation
+prefmgr.collection.change=Change
+prefmgr.collection.identifier.explanation=You only need to fill in the information below if asked to by a researcher
+prefmgr.collection.identifier.experiment=Experiment Identifier
+prefmgr.collection.identifier.participant=Participant Identifier
+
+# Editor Preferences panel
+prefmgr.edit.prefpaneltitle=Editor
+prefmgr.edit.editor.title=Editor settings
+prefmgr.edit.editorfontsize=Font size
+prefmgr.edit.colortransparency=Scope Highlighting
+prefmgr.edit.usesyntaxhilighting=Use syntax highlighting
+prefmgr.edit.autoindent=Auto-indent (Enter and Tab keys)
+prefmgr.edit.displaylinenumbers=Display line numbers
+prefmgr.edit.makeBackup=Make backup of source files
+prefmgr.edit.matchBrackets=Match brackets
+prefmgr.edit.keybindingstitle=Key Bindings
+prefmgr.edit.highlightLighter=Lighter
+prefmgr.edit.highlightDarker=Darker
+
+# Interface preferences panel
+prefmgr.interface.title=Interface
+prefmgr.interface.language.title=Language selection
+prefmgr.interface.language=Language
+prefmgr.interface.language.restart=You will need to restart $APPNAME for the language setting to take effect.
+prefmgr.accessibility.title=Accessibility
+prefmgr.accessibility.support=Accessibility Support
+
+# Extensions Manager Help panel
+extmgr.title=BlueJ:  Installed Extensions
+extmgr.extensions=Extensions
+extmgr.systemExtensionShort=System
+extmgr.systemExtensionLong=System extension (active for all projects)
+extmgr.projectExtensionShort=Project
+extmgr.projectExtensionLong=Project extension (for current project only)
+extmgr.statuscolumn=Status
+extmgr.namecolumn=Name
+extmgr.typecolumn=Type
+extmgr.details=Extension Details
+extmgr.details.location=Location:
+extmgr.details.version=version
+extmgr.details.url=More information at:
+
+extmgr.status.notused=not used
+extmgr.status.loaded=loaded
+extmgr.status.error=error
+extmgr.status.unloaded=unloaded
+extmgr.version.unknown=unknown
+extensions.nodescription=None given.
+
+# Extension errors
+extmgr.error.nomanifest=No manifest file
+extmgr.error.nomain=Manifest does not contain Main-Class attribute
+extmgr.error.notsubclass=Main class is not a subclass of Extension
+extmgr.error.cannotload=Extension could not be loaded
+
+#---------------
+#Editor labels
+#---------------
+editor.title=BlueJ: Editor
+
+#button lables for toolbar commands
+editor.compileLabel = Compile
+editor.undoLabel = Undo
+editor.cutLabel = Cut
+editor.copyLabel = Copy
+editor.pasteLabel = Paste
+editor.closeLabel = Close
+editor.page-setupLabel = Page Setup...
+
+# menu labels (MUST be defined)
+editor.classLabel = _Class
+editor.editLabel = _Edit
+editor.toolsLabel = _Tools
+editor.debugLabel = _Debug
+editor.optionLabel = _Options
+editor.helpLabel = _Help
+
+# item labels (can be omitted if same as action name)
+editor.saveLabel = Save
+editor.reloadLabel = Reload
+editor.printLabel = Print...
+editor.closeLabel =Close
+
+editor.redoLabel = Redo
+editor.cut-to-clipboardLabel = Cut
+editor.copy-to-clipboardLabel = Copy
+editor.paste-from-clipboardLabel = Paste
+editor.indent-blockLabel = Indent more
+editor.deindent-blockLabel = Indent less
+editor.autoindentLabel = Auto-layout
+editor.comment-blockLabel = Comment
+editor.uncomment-blockLabel = Uncomment
+editor.insert-methodLabel = Insert method
+editor.add-javadocLabel = Add method comment
+
+editor.new-findLabel = New Find
+editor.findLabel = Find...
+editor.find-nextLabel = Find Next
+editor.find-next-backwardLabel = Find Next Backward
+editor.go-to-lineLabel = Go to line...
+editor.replaceLabel = Replace...
+editor.compileLabel = Compile
+editor.toggle-breakpointLabel = Set/Clear Breakpoint
+editor.toggle-interface-viewLabel = Toggle Documentation View
+
+editor.go-to-lineLabel = Go to line...
+editor.gotoline.title = Go to line
+editor.gotoline.label = Enter line number
+editor.gotoline.notNumericMessage = Input must be numeric
+
+editor.implementationLabel = Source Code
+editor.interfaceLabel = Documentation
+
+editor.state.readOnly = read-only
+editor.state.saved = saved
+editor.state.changed = changed
+
+editor.key-bindingsLabel = Key Bindings...
+editor.preferencesLabel = Preferences...
+
+editor.printDialog.title=BlueJ:  Print Source Code
+editor.printDialog.printLineNumbers=Print Line Numbers
+editor.printDialog.printHighlighting=Print with Syntax Highlighting
+
+# Dialog titles and texts
+editor.functions.title = Editor Functions
+editor.functions.editFunctions = Edit Functions
+editor.functions.moveScroll = Move & Scroll
+editor.functions.classFunctions = Class Functions
+editor.functions.customisation = Customisation
+editor.functions.help = Help
+editor.functions.misc = Misc
+editor.functions.defaults=Defaults
+editor.functions.categories=Categories:
+editor.functions.keys=Key Bindings
+editor.functions.addkey=Add Key
+editor.functions.delkey=Delete Key
+
+editor.find.title = Find
+editor.find.find.label = Find:
+editor.find.replace.label = Replace:
+editor.find.findNext=Find Next
+editor.find.replace=Replace
+editor.find.replaceAll=Replace All
+editor.find.up=Search up
+editor.find.down=Search down
+editor.find.ignoreCase=Ignore case
+editor.find.wholeWord=Whole word
+editor.find.backward=backward
+editor.find.forward=forward
+editor.find.wrapAround=wrap around
+
+# FindPanel
+editor.findpanel.replacePanel=  Replace
+editor.findpanel.findLabel=Find:
+editor.findpanel.findNext=Next
+editor.findpanel.findPrevious=Prev
+editor.findpanel.matchCase=Match Case
+
+# ReplacePanel
+editor.replacePanel.replaceLabel=Replace:
+editor.replacePanel.replaceOnce=Once
+editor.replacePanel.replaceAll=All
+
+# "Add javadoc" function
+editor.addjavadoc.notAMethod=Not in a method.
+editor.addjavadoc.hasJavadoc=This method already has a Javadoc comment.
+editor.addjavadoc.constructor=Constructor
+editor.addjavadoc.method=Method
+editor.addjavadoc.parameter=A parameter
+editor.addjavadoc.returnValue=The return value
+
+# Messages shown as a result of a search with replace all
+editor.replaceAll.replaced=Replaced
+editor.replaceAll.intancesOf=instances of
+editor.replaceAll.string=String
+editor.replaceAll.notFoundNothingReplaced=not found. Nothing replaced.
+
+# Messages shown as a result of a search with highlight all
+editor.highlight.found=Found
+editor.highlight.notFound=not found.
+
+# Message shown in code completion pane when nothing is found
+editor.completion.noMatch=No matching completions
+
+#Message shown in code completion while processing
+editor.completion.working=Loading...
+
+# Messages shown when determining what function is bound to a given key
+editor.keypressed.keyIsNotBound=is not bound to a function.
+editor.keypressed.callsTheFunction=calls the function "
+
+#Messages, warnings, etc that is displayed by Info.java
+editor.info.version = Moe version
+editor.info.errorSaving = Error in saving file!
+editor.info.compiled = Class compiled - no syntax errors
+editor.info.noChanges = No changes need to be saved
+editor.info.cannotReload = Can not reload - this text was never saved!
+editor.info.reload = (\"Reload\" reloads the last saved state from disk.)
+editor.info.emptySearchString = Empty search string.
+editor.info.notFound = Not found (search again to wrap around).
+editor.info.compiling = Compiling...
+editor.info.cannotSetBreak = Cannot set breakpoint:\nNo code associated with this editor.
+editor.info.fileDisappeared = ERROR: The file seems to have disappeared!
+editor.info.fileReadError = ERROR: There was an error while trying to read this file.
+editor.info.saved = File saved
+editor.info.printing = Printing...
+editor.info.printed = Printing... Done.
+editor.info.cancelled = Cancelled.
+editor.info.generatingDoc = Generating class interface...
+editor.info.loadingDoc = Loading class interface...
+editor.info.docLoaded = Loading class interface... Done.
+editor.info.docAborted = There was a serious problem generating the javadoc\ninterface. Aborted.
+editor.info.docDisappeared = Cannot find HTML file:
+editor.info.docNoFrames = Frame display is disabled in editor preview.
+editor.info.tabsExpanded = Converted all TABs to spaces. (You are working\nwith soft TABs, the file contained hard TABs.)
+editor.info.perfectIndent = Indentation was already correct
+editor.printer.continued=continued
+#End Editor labels
+
+pkgmgr.chooseUsesFrom=Select the class where the dependency is from
+pkgmgr.chooseUsesTo=Select the class it depends on
+pkgmgr.chooseInhFrom=Select the subclass
+pkgmgr.chooseInhTo=Select the superclass
+pkgmgr.chooseArrow=Select an arrow to delete
+pkgmgr.packageSaved=Package saved.
+pkgmgr.info.printing = Printing...
+pkgmgr.info.printed = Printing... Done.
+
+utility.packageChooser.previewPane1=Preview of possible
+utility.packageChooser.previewPane2=package structure
+
+# dialog titles and texts
+pkgmgr.title=BlueJ:  
+
+pkgmgr.newPkg.title=New Project
+pkgmgr.newMEpkg.title=New ME Project
+pkgmgr.newPkg.buttonLabel=Create
+pkgmgr.openPkg.title=Open Project
+pkgmgr.openPkg.buttonLabel=Open
+pkgmgr.openNonBlueJPkg.title=Open Non-BlueJ Project
+pkgmgr.openNonBlueJPkg.buttonLabel=Open in BlueJ
+pkgmgr.saveAs.title=Save Project
+pkgmgr.saveAs.buttonLabel=Save
+pkgmgr.addClass.title=Select Java Class to Add
+pkgmgr.addClass.buttonLabel=Add
+pkgmgr.importPkg.title=Select Directory to Import
+pkgmgr.importPkg.buttonLabel=Import
+pkgmgr.importPkgNew.title=New Project to Import Into
+pkgmgr.importPkgNew.buttonLabel=Create
+
+pkgmgr.newClass.msg=Enter the name of the class
+pkgmgr.newUses=New Uses Arrow
+pkgmgr.newExtends=New Extends Arrow
+pkgmgr.unimplemented=Sorry - that feature is not yet implemented
+pkgmgr.pkgChooseError=Error selecting valid package name
+pkgmgr.chooseWebPage.title=Select HTML page destination
+pkgmgr.chooseWebPage.buttonLabel=Save HTML page
+
+pkgmgr.parentpackagetarget.open=Open
+pkgmgr.parentpackagetarget.openunamed=Open unnamed package
+
+pkgmgr.noProjectOpened.message=Use the Project menu to create or open a project
+
+pkgmgr.packagemenu.open=Open
+pkgmgr.packagemenu.remove=Remove
+
+pkgmgr.classmenu.runApplet=Run Applet
+pkgmgr.classmenu.edit=Open Editor
+pkgmgr.classmenu.compile=Compile
+pkgmgr.classmenu.inspect=Inspect
+pkgmgr.classmenu.remove=Remove
+pkgmgr.classmenu.createTest=Create Test Class
+
+pkgmgr.test.label=Testing
+pkgmgr.test.record=recording
+pkgmgr.test.run=Run Tests
+pkgmgr.test.end=End
+pkgmgr.test.succeeded=succeeded
+pkgmgr.test.noTestName=You must specify a name for the test
+pkgmgr.test.invalidTestName=The test name must be a valid Java identifier
+pkgmgr.test.recording=recording
+
+pkgmgr.test.popup.testAll=Test All
+pkgmgr.test.popup.noTests=No test methods
+pkgmgr.test.popup.abstract=Test class is abstract
+pkgmgr.test.popup.createTest=Create Test Method...
+pkgmgr.test.popup.benchToFixture=Object Bench to Test Fixture
+pkgmgr.test.popup.fixtureToBench=Test Fixture to Object Bench
+
+#Accessibility
+pkgmgr.objBench.title=Object Bench
+pkgmgr.objBench.suffix.singular=object
+pkgmgr.objBench.suffix.plural=objects
+pkgmgr.codepad.title=Codepad
+pkgmgr.graphEditor.title=Class Diagram
+
+# codepad messages
+pkgmgr.codepad.uninitialized=Note: Codepad variables are automatically initialized\n in the same way as instance fields.
+pkgmgr.codepad.vmTerminated=VM reset occurred
+# The "variable has already been defined" error message in the codepad. The '$' symbol will be
+# replaced by the name of the problematic variable.
+pkgmgr.codepad.redefinedVar=$ is already defined
+
+# "new class" dialog
+pkgmgr.newClass.title=BlueJ:  Create New Class
+pkgmgr.newClass.label=Class Name:
+pkgmgr.newClass.classType=Class Type
+pkgmgr.newClass.stdclass=Class
+pkgmgr.newClass.abstract=Abstract Class
+pkgmgr.newClass.interface=Interface
+pkgmgr.newClass.applet=Applet
+pkgmgr.newClass.appletj=Applet
+pkgmgr.newClass.unittest=Unit Test
+pkgmgr.newClass.enum=Enum
+pkgmgr.newClass.midlet=MIDlet
+
+# "new package" dialog
+pkgmgr.newPackage.title=BlueJ:  Create New Package
+pkgmgr.newPackage.label=Package Name:
+pkgmgr.newPackage.newPackage=Package
+
+# "Use Library Class" dialog
+callLibraryDialog.title=BlueJ:  Call Library Class
+callLibraryDialog.classLabel=Class:
+callLibraryDialog.docButton=Documentation
+callLibraryDialog.listHeading=Constructors and static methods
+callLibraryDialog.clickHere1=Enter full class name, then press Enter
+callLibraryDialog.clickHere2=to display constructors and methods.
+callLibraryDialog.classNotFound1=Could not find the class.
+callLibraryDialog.classNotFound2=(Check the class name and press Enter again.)
+
+# "export" dialog
+pkgmgr.export.title=BlueJ:  Create Jar File
+pkgmgr.export.helpLine1=Create a single Java archive (jar) file containing
+pkgmgr.export.helpLine2=the project. Executable if main class is specified.
+pkgmgr.export.classLabel=Main class:
+pkgmgr.export.includeLibs=Include user libraries
+pkgmgr.export.sourceLabel=Include source
+pkgmgr.export.pkgFilesLabel=Include Bluej project files
+pkgmgr.export.noClassText=none (cannot be executed)
+pkgmgr.export.specifyJar=Specify name for jar file
+pkgmgr.export.createJarText=Create
+
+# "open-non-bluej" mismatch dialog
+pkgmgr.importmismatch.title=BlueJ:  Package Line Mismatches
+pkgmgr.importmismatch.helpLine1=WARNING: This is not the expected top level directory of this Java
+pkgmgr.importmismatch.helpLine2=project as declared in some of the project's class's package declarations.
+pkgmgr.importmismatch.helpLine3=Opening this directory will change all package declarations in the
+pkgmgr.importmismatch.helpLine4=following source files of the project.
+pkgmgr.importmismatch.helpLine5=Most likely you should open the parent directory of the one you
+pkgmgr.importmismatch.helpLine6=have selected. For example, to open a Java project that contains
+pkgmgr.importmismatch.helpLine7=the package "org.bluej", you must select the directory that
+pkgmgr.importmismatch.helpLine8=_contains_ "org",  not the "org" or "bluej" directory itself.
+pkgmgr.importmismatch.helpLine9=Do you want to continue opening and changing the package declarations?
+
+# "import" failure dialog
+pkgmgr.importfailed.title=BlueJ:  Import Status
+pkgmgr.importfailed.helpLine1=The import has failed to copy the following files.
+pkgmgr.importfailed.helpLine2=This is most likely due to these files already
+pkgmgr.importfailed.helpLine3=being present in the destination project.
+
+# "version check" dialog
+pkgmgr.versionDlg.title=BlueJ:  Check for new version
+pkgmgr.versionDlg.helpLine1=This function will check whether a newer BlueJ version
+pkgmgr.versionDlg.helpLine2=is available. You must be online for this to work.
+pkgmgr.versionDlg.check=Check Version
+pkgmgr.versionDlg.upToDate=The current version is up to date.
+pkgmgr.versionDlg.currentVersion=Your current BlueJ version is
+pkgmgr.versionDlg.newVersion=The most recent BlueJ version is
+
+# run applet dialog
+pkgmgr.runApplet.title=BlueJ:  Run Applet
+pkgmgr.runApplet.webPageLabel=Create Web Page
+pkgmgr.runApplet.webPage=Generate web page only
+pkgmgr.runApplet.appletviewer=Run Applet in appletviewer
+pkgmgr.runApplet.webBrowser=Run Applet in web browser
+pkgmgr.runApplet.heightLbl=Height =
+pkgmgr.runApplet.widthLbl=Width =
+pkgmgr.runApplet.newParameterLbl=Add New Parameter
+pkgmgr.runApplet.appletParameterLbl= Applet Parameters
+pkgmgr.runApplet.nameLbl=Name =
+pkgmgr.runApplet.valueLbl=Value =
+pkgmgr.runApplet.paramName=PARAM NAME
+pkgmgr.runApplet.value=VALUE
+pkgmgr.runApplet.htmlComment=<!-- This file automatically generated by BlueJ Java Development  -->\n<!-- Environment.  It is regenerated automatically each time the  -->\n<!-- applet is run.  Any manual changes made to file will be lost -->\n<!-- when the applet is next run inside BlueJ.  Save into a       -->\n<!-- directory outside of the package directory if you want to    -->\n<!-- preserve this file. -->
+pkgmgr.runApplet.htmlExportedComment=<!-- This file automatically generated by BlueJ Java Development  -->\n<!-- Environment.  The codebase variable is set to the absolute path to   -->\n<!-- the bluej package directory of the applet at the time of this page being generated. -->\n<!-- If the location of that package alters you will need to edit the codebase value.       -->
+
+#print project dialog
+pkgmgr.printDialog.title=BlueJ:  Print Project
+pkgmgr.printDialog.printDiagram=Print class diagram
+pkgmgr.printDialog.printSource=Print source code
+pkgmgr.printDialog.printReadme=Print project readme 
+
+# method call dialog
+pkgmgr.methodCall.titleCreate=Create Object
+pkgmgr.methodCall.titleCall=Method Call
+pkgmgr.methodCall.namePrompt=Name of Instance:
+pkgmgr.methodCall.typeParametersPrompt=Type Parameters:
+pkgmgr.methodCall.typeParameterPrompt=Type Parameter:
+error.methodCall.emptyField=Error: Empty parameter field.
+error.methodCall.emptyTypeField=Error: Empty type parameter field.\nEither fill out all type parameters or none of them.
+error.methodCall.illegalName=The instance name must be a Java identifier.
+error.methodCall.duplicateName=An object with this name already exists.\nPlease choose a unique name.
+
+# Debugger dialog (ExecControls.java)
+debugger.execControls.windowTitle = Debugger
+debugger.execControls.stackTitle = Call Sequence
+debugger.execControls.staticTitle = Static variables
+debugger.execControls.instanceTitle = Instance variables
+debugger.execControls.localTitle = Local variables
+debugger.execControls.threadTitle = Threads
+debugger.execControls.haltButtonText = Halt
+debugger.execControls.stepButtonText = Step
+debugger.execControls.stepIntoButtonText = Step Into
+debugger.execControls.continueButtonText = Continue
+debugger.execControls.terminateButtonText = Terminate
+
+debugger.options = Options
+debugger.hideSystemThreads = Hide system threads
+debugger.threadRunning = <html><center>Thread is running.<br>Threads must be stopped to view details.</html>
+
+# DialogManager labels
+
+dialogmgr.error = Error
+dialogmgr.question = Question
+dialogmgr.message = Message
+
+#Terminal Window
+terminal.options = Options
+terminal.title = Terminal Window
+terminal.clear = Clear
+terminal.copy = Copy
+terminal.save = Save to file...
+terminal.print = Print
+terminal.close = Close
+terminal.clearScreen = Clear screen at method call
+terminal.recordCalls = Record method calls
+terminal.buffering = Unlimited buffering
+terminal.save.title = Save terminal text
+terminal.save.buttonText = Save
+
+#TestDisplay Window
+testdisplay.title = BlueJ:  Test Results
+testdisplay.counter.runs=Runs:
+testdisplay.counter.errors=Errors:
+testdisplay.counter.failures=Failures:
+testdisplay.counter.totalTime=Total Time:
+testdisplay.showsource=Show Source
+
+# status messages
+pkgmgr.compiling=Compiling...
+pkgmgr.compileDone=Compiling... Done.
+pkgmgr.creating=Creating object...
+pkgmgr.createDone=Creating object... Done.
+pkgmgr.creatingVM=Initialising virtual machine...
+pkgmgr.creatingVMDone=Initialising virtual machine... Done.
+pkgmgr.generatingDocu=Generating documentation...
+pkgmgr.docuGenerated=Generating documentation... Done.
+pkgmgr.docuAborted=Generating documentation... Aborted.
+pkgmgr.webBrowserMsg=Web browser has been started.
+pkgmgr.webBrowserError=Error starting web browser.
+pkgmgr.usesArrowMsg="Uses" dependency declared but never used:
+pkgmgr.breakpointMsg=Class has to be compiled to set breakpoints.
+pkgmgr.appletInViewer=Executing Applet in appletviewer
+pkgmgr.appletInBrowser=Executing Applet in web browser
+pkgmgr.exported.jar=Export to jar file complete.
+pkgmgr.error.open=The project does not exist (anymore)
+pkgmgr.checkingVersion=Making connection to version server...
+pkgmgr.midlet.deploying=Deploying MIDlet suite...
+pkgmgr.midlet.deployed=Deploying MIDlet suite... Done.
+
+# accessibility messages
+pkgmgr.accessibility.compileDone=Compilation successful.
+
+properties.heading.bluej=BlueJ properties. Settings in this file override \"bluej.defs\"
+properties.heading.moe=Moe Editor properties. Settings in this file override \"moe.defs\"
+
+# menus and menu items
+
+menu.package=_Project
+menu.package.new=_New Project...
+menu.mepackage.new=_New ME Project...
+menu.package.open=Open Project...@O
+menu.package.openRecent=Open Recent
+menu.package.openNonBlueJ=Open Non _BlueJ...
+menu.package.close=Close@W
+menu.package.save=Save@S
+menu.package.saveAs=S_ave As...
+menu.package.import=_Import...
+menu.package.export=_Create Jar File...
+menu.package.pageSetup=Page Setup...@^P
+menu.package.print=Print...@P
+menu.package.quit=_Quit@Q
+menu.package.deploy.MIDlet=Deploy...
+
+menu.edit=_Edit
+menu.edit.newClass=New Class...@N
+menu.edit.newPackage=New Package...@R
+menu.edit.addClass=_Add Class from File...
+menu.edit.remove=Remove@BACK_SPACE
+menu.edit.newUses=New _Uses Arrow...
+menu.edit.newInherits=New _Inheritance Arrow...
+menu.edit.removeArrow=Remove Arrow...
+
+menu.tools=_Tools
+menu.tools.compile=Compile@K
+menu.tools.compileSelected=Compile Selected@^K
+menu.tools.rebuild=_Rebuild Package
+menu.tools.callLibrary=Use Library Class...@L
+menu.tools.generateDoc=Project Documentation@J
+menu.tools.testing=_Testing
+menu.tools.run=Run Tests
+menu.tools.end=End Recording
+menu.tools.cancel=Cancel Recording
+menu.tools.teamwork=Team
+
+menu.tools.preferences=_Preferences...@,
+
+
+menu.view=_View
+menu.view.showUses=Show Uses
+menu.view.showInherits=Show Inheritance
+menu.view.showExecControls=Show Debugger@D
+menu.view.showTerminal=Show Terminal@T
+menu.view.showTextEval=Show Code Pad@E
+menu.view.showTestDisplay=Show Test _Results
+#menu.view.showTeamControls=Show Team Controls@G
+
+team.project.marker=Shared Project
+team.commit=Commit@I
+team.menu.commit=Commit to Repository...@I
+team.commit.title=Commit Files to Repository
+team.commit.files=Files to be committed
+team.commit.comment=Commit comment
+team.commit.layout=(Diagram Layout)
+team.commit.includelayout=Commit diagram layout
+team.commit.statusMessage=Committing project into repository...
+team.commit.statusDone=Committing project into repository... Done.
+team.commit.moreFiles=(and more - check status)
+team.update=Update@U
+team.menu.update=Update from Repository...@U
+team.update.statusMessage=Updating project...
+team.update.statusDone=Updating project... Done.
+team.update.title=Update Files from Repository
+team.update.includelayout=Update diagram layout
+team.update.files=Files to be updated
+team.checkout=Checkout Project...
+team.checkout.statusMessage=Checking out shared project
+team.history.allUsers=All users
+team.history.allFiles=All files
+team.history=Project History
+team.history.title=Project History
+team.history.filefilter=Show file:
+team.history.userfilter=Show user:
+team.import=Share this Project
+team.import.statusMessage=Sharing this project
+team.includeLayout=Include diagram layout when updating
+team.settings=Teamwork Settings...
+team.status=Status
+team.status.status=Teamwork status
+team.status.resource=Team resources
+team.status.version=Revision
+team.status.refresh=Refresh
+team.conflicts.title=Conflicts found
+team.conflicts.classes=The following classes had conflicts
+team.conflicts.show=Show conflicts
+team.error.username.at=Your username has an @ character in it, which is unsupported by BlueJ.
+team.error.username.colon=Your username has an : character in it, which is unsupported by BlueJ.
+team.error.password.at=Your password has an @ character in it, which is unsupported by BlueJ.
+
+# The following appear in brackets after a filename, in the
+# update/commit dialogs.
+team.status.delete=delete from repository
+team.status.add=add to repository
+team.status.new=new file
+team.status.removed=delete
+team.status.needsmerge=merge updates
+
+team.nocommitfiles=No files to commit
+team.noupdatefiles=No files to update
+
+team.statusinfo.upToDate=Up-to-date
+team.statusinfo.needsCheckout=Added to repository
+team.statusinfo.needsUpdate=Modified in repository
+team.statusinfo.removed=Removed from repository
+team.statusinfo.needsAdd=Added locally
+team.statusinfo.needsCommit=Modified locally
+team.statusinfo.deleted=Removed locally
+team.statusinfo.needsMerge=Modified locally and in repository
+team.statusinfo.unresolved=Unresolved conflict
+team.statusinfo.hasConflicts=Has conflicts
+team.statusinfo.weird=???
+team.statusinfo.conflictAdd=Added locally and in repository (conflict)
+team.statusinfo.conflictLMRD=Modified locally and removed from repository (conflict)
+team.statusinfo.conflictLDRM=Removed locally and modified in repository (conflict)
+
+team.settings.title = Team Settings
+team.settings.personal=Personal
+team.settings.location=Location
+team.settings.user=User
+team.settings.password=Password
+team.settings.group=Group
+team.settings.serverType=Server type
+team.settings.server=Server
+team.settings.prefix=Repository Path
+team.settings.ext=ext (using SSH)
+team.settings.pserver=pserver
+team.settings.protocol=Protocol
+team.settings.rememberSettings=Remember settings for future projects
+team.settings.checkConnection=Check connection
+
+team.moduleselect.title=Select Project to Checkout
+team.moduleselect.label=Select or type project name:
+team.moduleselect.available=Available projects:
+team.moduleselect.show=Show
+
+team.checkingout=Checking out project...
+team.checkedout=Checking out project... Done.
+team.checkout.filechooser.title=Choose a checkout location
+team.checkout.filechooser.button=Checkout
+
+team.import.initialMessage=Initial sharing of project
+
+team.sharing=Sharing project...
+team.shared=Sharing project... Done.
+
+team.checkconn.checking=Checking connection...
+team.checkconn.ok=Connection is ok.
+team.checkconn.bad=Could not connect to server.
+
+midlet.deployment.title=Java ME Deploy
+midlet.deployment.runWTK=Run midlet suite in Sun Java Wireless Toolkit
+midlet.deployment.generateFiles=Generate the JAR and JAD files only
+midlet.deployment.filechooser.title=Select icon
+midlet.deployment.filechooser.description=png, gif, or jpeg images
+midlet.deployment.suite.title=MIDlet Suite
+midlet.deployment.suite.name=Name
+midlet.deployment.suite.version=Version
+midlet.deployment.suite.vendor=Vendor
+midlet.deployment.suite.description=Description
+midlet.deployment.midlets.title=MIDlets
+midlet.deployment.midlets.name=Name
+midlet.deployment.midlets.icon=Icon
+midlet.deployment.midlets.classname=Class
+midlet.deployment.midlets.changeicon=Change icon
+midlet.deployment.midlets.exclude=Exclude
+midlet.deployment.midlets.include=Include
+midlet.deployment.midlets.moveup=Move Up
+midlet.deployment.midlets.movedown=Move Down
+
+menu.help=_Help
+menu.help.about=_About BlueJ
+menu.help.extensions=Installed E_xtensions
+menu.help.versionCheck=Check Version...@V
+menu.help.copyright=_Copyright
+menu.help.website=BlueJ _Web Site
+menu.help.tutorial=BlueJ _Tutorial
+menu.help.standardApi=Java _Class Libraries
+
+# tool tips
+
+tooltip.newClass=Create a new class in this package
+tooltip.newUses=Insert a 'uses' relation
+tooltip.newExtends=Insert an inheritance relation
+tooltip.compile=Compile all uncompiled classes in this package
+tooltip.test=Run all compiled test classes in this package
+tooltip.progress=Work indicator: indicates when virtual machine is executing
+tooltip.test.end=End a recording of a test method and save it.
+tooltip.test.cancel=Cancel and discard a recording of a test method.
+tooltip.commit=Commit local changes back to the repository
+tooltip.update=Update local files that have been modified in the repository
+tooltip.status=Show the status of all teamwork files in the project
+tooltip.deployMIDlet=Deploy MIDlet suite contained in the project
+
+graph.tooltip.classBroken=This class cannot currently be parsed
+
+
+#Copyright
+
+menu.help.copyright.title=BlueJ Copyright, Licensing and Redistribution
+menu.help.copyright.line0=BlueJ \u00a9 2000-2014 Michael K\u00F6lling, John Rosenberg.
+menu.help.copyright.line1=BlueJ is available under the GNU General Public License  
+menu.help.copyright.line2=version 2 with Classpath exception.
+menu.help.copyright.line3=For more information please see the files LICENSE.txt 
+menu.help.copyright.line4=and THIRDPARTYLICENSE.txt.
+
+#Collection
+# The content for these is HTML, so don't use <, > or & without escaping:
+
+collect.dialog.title=Research Participation
+
+collect.dialog.header1=BlueJ collects anonymous interaction information to improve the software and help researchers
+collect.dialog.header2=understand how students learn to program.
+collect.dialog.header3=Please help us by participating.
+
+collect.dialog.no=No thanks
+collect.dialog.yes=I agree to take part, and I certify that I am 16 or older
+
+collect.dialog.ethics1=If you agree to take part, you will permit us to collect anonymous data about your use of BlueJ, including the features you use and the code you write. This will be used by the BlueJ group and other academic researchers to help understand how students learn to program and to improve BlueJ itself. No personal information will be transmitted to, or stored by, us and any Java class comments you write will be removed before transmission.
+collect.dialog.ethics.seemore=See more information
+collect.dialog.ethics2=If you change your mind about helping us with this work, you can stop contributing at any time using the checkbox in the Tools/Preferences/Miscellaneous dialog.
+
+collect.status.optedin=You are currently allowing anonymous research data collection
+collect.status.nextsession=You will allow anonymous data collection research next time BlueJ is started
+collect.status.optedout=You are currently not participating in the anonymous research data collection
+
+# About
+
+about.bluej.version=BlueJ version
+about.java.version=Java version
+about.vm=Virtual machine:
+about.runningOn=Running on:
+about.javahome=Java Home:
+about.logfile=Debug log file:
+about.moreInformation=For more information, see
+about.theTeam=The BlueJ team:
+
+# Work Indicator
+workIndicator.resetMachine=Reset Java Virtual Machine@^R

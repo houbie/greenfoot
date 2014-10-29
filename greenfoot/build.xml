@@ -1,0 +1,869 @@
+<project name="greenfoot" default="dist" basedir=".">
+    <description>
+        greenfoot build file
+    </description>
+
+    <!-- ********************************************** -->
+    <!-- it should not be necessary to edit any properties to build -->
+
+    <!-- user specific properties that are edited to match local build environment-->
+    <property file="build.properties"/>
+
+    <!-- get java version to build with from the build.properties file used for BlueJ -->
+    <property file="${bluej.projectdir}/build.properties"/>
+
+    <!-- Greenfoot Version Number -->
+    <property name="greenfoot.version.major" value="2"/>
+    <property name="greenfoot.version.minor" value="4"/>
+    <property name="greenfoot.version.micro" value="0"/>
+    
+	<!-- Greenfoot version to API mapping:        -->
+	<!--    Greenfoot 2.3.0 = API version 2.5.0   -->
+	<!--    Greenfoot 2.4.0 = API version 2.6.0   -->
+	
+    <!-- Change when API has changed in a way that is likely to break some scenarios. 
+    A warning will be shown to the user - update the greenfoot-labels file to
+    specify the breaking changes introduced in this version. -->
+	<!-- YOU MUST UPDATE THE GREENFOOT LABELS if you change this -->
+    <property name="greenfoot.apiversion.breaking" value="2"/>
+    
+    <!-- Change when API has changed in a way that is visible to the user, but is very 
+    unlikely to break scenarios (documentation changes, addition of method).
+    Changing this number will stripe the user's classes and require a recompile.
+    Do not change this number if the changes cannot break older scenarios. -->
+	<!-- YOU SHOULD UPDATE THE GREENFOOT LABELS if you change this -->
+    <property name="greenfoot.apiversion.nonbreaking" value="6"/>
+    
+    <!-- Change when API has only changed internally and not in any way visible to the user. 
+    It should not be possible for this change to break existing scenarios. 
+    Changing this number will NOT stripe the user's classes nor require a recompile. -->
+    <property name="greenfoot.apiversion.internal" value="0"/>
+        
+    <property name="greenfoot.apiversion" value="${greenfoot.apiversion.breaking}.${greenfoot.apiversion.nonbreaking}.${greenfoot.apiversion.internal}"/>
+
+    <property name="greenfoot.apiversion.public" value="${greenfoot.apiversion.breaking}.${greenfoot.apiversion.nonbreaking}"/>
+
+    <property name="greenfoot.version" value="${greenfoot.version.major}.${greenfoot.version.minor}.${greenfoot.version.micro}"/>
+    <property name="greenfoot.version.nodots" value="${greenfoot.version.major}${greenfoot.version.minor}${greenfoot.version.micro}"/>
+	
+	<!-- Suffix added after version number in output files -->
+	<property name="greenfoot.rcsuffix" value=""/>
+
+    <!-- Location of the bluej lib dir -->
+    <property name="bluej.lib.greenfoot"  location="${bluej.projectdir}/lib/greenfoot"/>
+    <!-- Location of the where the greenfoot.jar should be placed-->
+    <property name="bluej.extensions.lib"  location="${bluej.projectdir}/lib/extensions"/>
+    
+    <!-- Name and location of the jlayer jar -->  
+    <property name="jlayer.jar.name" value="jl1.0.1.jar"/>  
+    <property name="jlayer.jar.path" value="${bluej.projectdir}/lib/${jlayer.jar.name}"/>        
+        
+    <!-- The classpath to the bluej classes-->
+    <path id="bluej.class.path">
+        <pathelement location="${bluej.projectdir}/classes"/>
+        <pathelement location="${bluej.projectdir}/boot/classes"/>
+        <pathelement location="${bluej.projectdir}/lib/antlr.jar"/>
+        <pathelement location="${bluej.projectdir}/lib/junit-4.8.2.jar"/>
+        <pathelement location="${bluej.projectdir}/lib/AppleJavaExtensions.jar"/>
+        <pathelement location="${bluej.projectdir}/lib/commons-httpclient-3.1.jar"/>
+        <pathelement location="${bluej.projectdir}/lib/commons-logging-api-1.1.2.jar"/> 
+        <pathelement location="${jlayer.jar.path}"/>
+        <pathelement location="${bluej.projectdir}/lib/opencsv-2.3.jar"/>
+    </path>
+    <!-- The sourcepath to the bluej classes-->
+    <path id="bluej.src.path">
+        <pathelement location="${bluej.projectdir}/src"/>
+        <pathelement location="${bluej.projectdir}/boot/src"/>
+    </path>
+    <!-- Location of the files packed by BlueJ dist target -->
+    <property name="bluej.installer.jar"  location="${bluej.projectdir}/package/Greenfoot-generic.jar"/>
+    <property name="bluej.dist.jar"  location="${bluej.projectdir}/package/greenfoot-dist.jar"/>
+    <property name="greenfoot.dist.mac"  location="${bluej.projectdir}/package/Greenfoot-mac.zip"/>
+    <property name="greenfootlegacy.dist.mac"  location="${bluej.projectdir}/package/Greenfoot-mac-legacy.zip"/>
+    
+    <!-- Location of the zip with the sources for greenfoot -->
+    <property name="greenfoot.source.zip" location="package/Greenfoot-source-${greenfoot.version}.zip"/>
+    
+    <!-- Location of the source files for greenfoot -->
+    <property name="src" location="src"/>
+
+    <!-- Location of the build dir for standalone greenfoot -->
+    <property name="standalone.build" location="${bluej.lib.greenfoot}/standalone"/>
+
+    <!-- Location of the test source files for greenfoot -->
+    <property name="test.src" location="test/src"/>
+    <property name="test.report" value="test"/>
+    <!-- Location of the image files for greenfoot -->
+    <property name="images" location="images"/>
+
+    <!-- Location where javadoc for the API classes will be stored. -->
+    <property name="apidoc" location="doc/API"/>
+    <!-- Location of the build-dir where the class files will be stored -->
+    <property name="build" location="classes"/>
+    <!-- Location of the packed files for distribution -->
+    <property name="package" location="package"/>
+
+    <!-- Files that are used in tutorial -->
+    <fileset id="tutorial.files" dir="resources/tutorial/">
+        <include name="**"/>
+    </fileset>
+	
+	<!-- Source files that make up the Greenfoot API -->
+    <fileset id="api-source.files" dir="${src}" defaultexcludes="yes">
+          <include name="greenfoot/Actor.java" />
+          <include name="greenfoot/World.java" />
+          <include name="greenfoot/GreenfootImage.java" />
+          <include name="greenfoot/GreenfootSound.java" />
+          <include name="greenfoot/Greenfoot.java" />
+          <include name="greenfoot/MouseInfo.java" />
+          <include name="greenfoot/UserInfo.java" />    	
+	</fileset>
+
+    <!-- scenarios to be included in standard distribution -->
+    <patternset id="distribution.scenarios">
+        <exclude name="scenarios/**/*.pkh" />
+        <exclude name="scenarios/**/.#*" />
+        <exclude name="scenarios/**/.cvsignore" />
+        <exclude name="scenarios/**/doc/" />
+        <exclude name="scenarios/**/__*" />
+        <include name="scenarios/lunarlander/" />
+        <include name="scenarios/ants/" />
+        <include name="scenarios/LTA/" />
+    </patternset>
+
+    <!-- The classpath to the greenfoot classes (once they are built) -->
+    <path id="greenfoot.class.path">
+        <pathelement location="${build}"/>
+    </path>
+    
+	<!-- License files that will be included in the distribution -->
+    <fileset id="greenfoot.license.files" dir="doc/">
+        <include name="GREENFOOT_LICENSES.txt" />
+    	<include name="LICENSE.txt" />
+    	<include name="THIRDPARTYLICENSE.txt" />
+    </fileset>
+
+    <!-- If you change the first or last lines of this license you might want
+     to update the 'add-license-to-sources' target as well -->    
+    <property name="license" value="/*${line.separator}
+This file is part of the Greenfoot program. ${line.separator}
+Copyright (C) 2005-2009  Poul Henriksen and Michael Kolling ${line.separator}
+${line.separator}
+This program is free software; you can redistribute it and/or ${line.separator}
+modify it under the terms of the GNU General Public License ${line.separator}
+as published by the Free Software Foundation; either version 2 ${line.separator}
+of the License, or (at your option) any later version. ${line.separator}
+${line.separator}
+This program is distributed in the hope that it will be useful, ${line.separator}
+but WITHOUT ANY WARRANTY; without even the implied warranty of ${line.separator}
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the ${line.separator}
+GNU General Public License for more details. ${line.separator}
+${line.separator}
+You should have received a copy of the GNU General Public License ${line.separator}
+along with this program; if not, write to the Free Software ${line.separator}
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA. ${line.separator}
+${line.separator}
+This file is subject to the Classpath exception as provided in the  ${line.separator}
+LICENSE.txt file that accompanied this code.${line.separator}
+*/${line.separator}"/>
+    
+    <target name="init">
+        <!-- Create the time stamp -->
+        <tstamp/>
+        <!-- Create the build directory structure used by compile -->
+        <mkdir dir="${build}"/>
+        <mkdir dir="${bluej.extensions.lib}"/>
+        <copy  todir="${build}">
+            <fileset dir="${images}"/>
+            <fileset dir="lib"/>
+        </copy>
+        <copy todir="${bluej.projectdir}/lib">
+            <fileset dir="lib" />
+        </copy>
+        <mkdir dir="${bluej.projectdir}/doc" />
+        <copy todir="${bluej.projectdir}/doc">
+            <fileset dir="doc" >
+                <include name="APACHE-LICENSE.txt"/>
+                <include name="NOTICE.txt"/>
+                <include name="API/**"/>
+            </fileset>
+        </copy>
+        <mkdir dir="${package}"/>
+    </target>
+
+    <target name="compile" depends="init" description="Compile the source and run rmic" >
+        <!-- Compile the java code from ${src} into ${build} -->
+        <javac  
+                executable="${build_java_home}/${java_command_dir_name}/javac"
+                fork="yes"
+                srcdir="${src}" 
+                destdir="${build}" 
+                debug="true"
+        		includeantruntime="false">
+        	<classpath>
+        	    <path refid="bluej.class.path"/>
+        	    <pathelement location="${build_java_home}/lib/tools.jar"/>
+        	</classpath>
+            <compilerarg line="-target 1.6" />
+            <compilerarg line="-source 1.6" /> <!-- Otherwise Java 7 (and above) complains -->
+        </javac>
+        <!-- Compile the RMI-classes -->
+        <rmic base="${build}" includes="**/*Impl.class" excludes="bluej/**">
+            <classpath>
+                <path refid="bluej.class.path"/>
+            </classpath>
+        </rmic>
+    </target>
+
+    <target name="compile-test" depends="compile" description="Compile the test source" >
+        <!-- Compile the java code from ${test.src} into ${build} -->
+        <javac srcdir="${test.src}" destdir="${build}" classpathref="bluej.class.path" debug="true">
+            <compilerarg line="-target 1.5" />
+        </javac>
+    </target>
+
+    <target name="test" depends="compile-test">
+        <junit printsummary="yes" haltonfailure="no">
+            <classpath>
+                <pathelement location="${build}" />
+                <path refid="bluej.class.path" />
+            </classpath>
+
+            <formatter type="plain" />
+
+            <batchtest fork="yes" todir="${test.report}">
+                <fileset dir="${test.src}">
+                    <include name="**/*Test*.java" />
+                    <exclude name="**/TestObject.java" />
+                </fileset>
+            </batchtest>
+        </junit>
+    </target>
+
+    <target name="compile-scenarios" depends="compile" description="Compile the scenarios">
+        <!-- Should first delete all class files in scenario, and the greenfoot dir (depend on clean-scenarios) -->
+
+        <macrodef name="compile-scenario">
+            <attribute name="scenario" />
+            <sequential>
+                <javac srcdir="scenarios/@{scenario}" debug="true" target="1.6" source="1.6" includeantruntime="false">
+                    <classpath>
+                        <path refid="greenfoot.class.path"/>
+                        <path refid="bluej.class.path"/>
+                    </classpath>
+                </javac>
+            </sequential>
+        </macrodef>
+
+        <compile-scenario scenario="lunarlander" />
+    </target>
+
+	<target name="check-bluej-compiled">
+		<fail message="bluejcore.jar not found; is BlueJ ready-to-run-greenfoot and is build.properties set correctly? (see build documentation)">
+		    <condition><not>
+		        <available file="${bluej.projectdir}/lib/bluejcore.jar" />
+		    </not></condition>
+		</fail>		
+	</target>
+	
+    <target name="ready-to-run" depends="check-bluej-compiled, update-images, compile, copy-imagelib, copy-projects, copy-common-classes, build-standalone-jar, create-api-doc, copy-apidocs, copy-labels" description="Builds everything so it is ready to run" >
+        <!-- Put everything in ${build} into the the jar file-->
+        <jar jarfile="${bluej.extensions.lib}/greenfoot.jar" basedir="${build}">
+            <manifest>
+                <attribute name="Main-Class" value="rmiextension.RMIExtension" />
+                <attribute name="Class-Path" value="." />
+            </manifest>
+        </jar>
+    </target>   
+
+    
+    <target name="create-api-doc">
+        <mkdir dir="${apidoc}"/>
+        <javadoc destdir="${apidoc}"
+                 Windowtitle="Greenfoot API"
+                 Doctitle="Greenfoot API"
+                 bottom="&lt;a href=http://www.greenfoot.org/&gt;Greenfoot homepage&lt;/a&gt;"
+                 classpathref="greenfoot.class.path">
+            <fileset refid="api-source.files"/>
+        </javadoc>
+    	<mkdir dir="${bluej.projectdir}/lib/english/greenfoot/api"/>
+    	<copy todir="${bluej.projectdir}/lib/english/greenfoot/api">
+            <fileset refid="api-source.files"/>
+    	</copy>
+    </target>
+
+    <target name="copy-projects" description="Copies the startupProject to bluej" >
+        <copy todir="${bluej.lib.greenfoot}" preservelastmodified="true">
+            <fileset dir="projects"/>
+        </copy>
+    </target>
+
+    <target name="copy-scenarios" depends="compile-scenarios"  description="Copies the scenarios to bluej" >
+        <copy todir="${bluej.projectdir}/package" preservelastmodified="true">
+            <fileset dir=".">
+                <patternset refid="distribution.scenarios"/>
+            </fileset>
+        </copy>
+    </target>
+
+    <target name="copy-common-classes" depends="compile-scenarios"  description="Copies the common classes to bluej" >
+    	<antcall target="copy-common-class">
+    	  <param name="common.class" value="SmoothMover"/>
+    	</antcall>
+    	<antcall target="copy-common-class">
+    	  <param name="common.class" value="GifImage"/>
+    	</antcall>
+    	<antcall target="copy-common-class">
+    	  <param name="common.class" value="ScoreBoard"/>
+    	</antcall>
+    	<antcall target="copy-common-class">
+    	  <param name="common.class" value="SimpleTimer"/>
+    	</antcall>
+    	<antcall target="copy-common-class">
+    	  <param name="common.class" value="Counter"/>
+    	</antcall>
+        <antcall target="copy-common-class">
+          <param name="common.class" value="Animal"/>
+        </antcall>
+    	<antcall target="copy-common-class">
+    	  <param name="common.class" value="Label"/>
+    	</antcall>
+    	<antcall target="copy-common-class">
+    	    <param name="common.class" value="Map"/>
+    	</antcall>
+    	
+    	<antcall target="build-common-jar">
+    		<param name="common.class" value="Weather"/>
+        </antcall>
+    	<antcall target="copy-common-class">
+       	  <param name="common.class" value="Weather"/>
+       	</antcall>
+    </target>
+
+	<target name="build-common-jar" description="Create a jar with a common class dependencies." >
+	    <!-- Should first delete the class files in common (depend on clean-common) -->
+		<javac srcdir="common/${common.class}/src" destdir="common/${common.class}/classes"
+			debug="true" target="1.6" source="1.6" includeantruntime="false">
+			<classpath>
+				<fileset dir="common/${common.class}/lib/">
+				    <include name="*.jar"/>
+				</fileset>
+			</classpath>
+		</javac>
+		<jar jarfile="common/${common.class}/lib/${common.class}.jar" basedir="common/${common.class}/classes"/>
+	</target>
+	
+	<target name="copy-common-class" depends="compile-scenarios">
+		<javadoc destdir="common" sourcefiles="common/${common.class}.java"
+			Version="yes" notree="yes" noindex="yes" nohelp="yes" nonavbar="yes"
+			classpath="${build}:common/${common.class}/lib/${common.class}.jar" docletpath="${bluej.projectdir}/lib/bjdoclet.jar" doclet="bluej.doclet.doclets.formats.html.HtmlDoclet"/> 
+		
+		<copy todir="${bluej.lib.greenfoot}" preservelastmodified="true">
+		  <fileset dir=".">
+	        <patternset>
+	          <include name="common/${common.class}.java" />
+	          <!-- <include name="common/${common.class}.class" /> -->
+	          <include name="common/${common.class}.html" />
+	          <include name="common/${common.class}.png" />
+	          <include name="common/${common.class}.jpg" />
+	          <include name="common/${common.class}.jpeg" />
+              <include name="common/${common.class}/lib/**" />
+	          <include name="common/inherit.gif" />
+	        </patternset>
+	      </fileset>
+	   </copy>
+	</target>
+
+    <target name="copy-tutorial" description="Copies the projects tutorial and tutorial project to BlueJ" >
+        <copy todir="${bluej.projectdir}/package/tutorial">
+            <fileset refid="tutorial.files"/>
+        </copy>
+    </target>
+        
+    <target name="copy-license" description="Copies the license files to BlueJ" >
+        <copy todir="${bluej.projectdir}/package/">
+            <fileset refid="greenfoot.license.files"/>
+        </copy>
+    </target>
+
+    <target name="copy-apidocs" description="Copies the API documentation to bluej">
+        <copy todir="${bluej.projectdir}/doc">
+            <fileset dir="doc">
+            	<include name="API/**"/>
+        	</fileset>
+        </copy>
+    </target>
+	
+    <target name="copy-imagelib" description="Copies the images for the image library to bluej">
+        <copy todir="${bluej.lib.greenfoot}/imagelib">
+            <fileset dir="imagelib"/>
+        </copy>
+    </target>
+
+    <target name="copy-labels" description="Copies the language labels to bluej">
+        <copy todir="${bluej.projectdir}/lib">
+            <fileset dir="labels"/>
+        </copy>
+    </target>
+
+    <target name="update-images" description="Copies the images from the resource directory out into the various places where the images are required.">
+        <!-- Installer image windows: greenfoot-install.bmp -->
+        <copy file="resources/images/greenfoot-install.bmp" todir="${bluej.projectdir}/package"/>
+        <!-- Installer image jar: greenfoot-install.png -->
+        <copy file="resources/images/greenfoot-install.png" todir="${bluej.projectdir}/package"/>
+        <!-- Splash image: greenfoot-splash.jpg -->
+        <copy file="resources/images/greenfootsplash.jpg" todir="${bluej.projectdir}/boot/src/bluej"/>
+        <!-- Greenfoot icon for classes: greenfoot-16.png -->
+        <copy file="resources/images/greenfoot-icon-16.png" tofile="imagelib/other/greenfoot.png"/>
+        <!-- Greenfoot icon for application on the mac: greenfoot.icns -->
+        <copy file="resources/images/greenfoot.icns" todir="${bluej.projectdir}/package/macfiles/Greenfoot.app/Contents/Resources"/>
+        <copy file="resources/images/greenfoot.icns" todir="${bluej.projectdir}/package/macfiles/Greenfoot-legacy.app/Contents/Resources"/>
+
+        <!-- Greenfoot icon for application: greenfoot-16.png -->
+        <copy file="resources/images/greenfoot-icon-16.png" tofile="images/greenfoot.png"/>
+        <!-- About image: currently: use same as splash image -->
+        <copy file="resources/images/greenfootsplash.jpg" tofile="images/greenfoot-about.jpg"/>
+        <!-- Readme label icon -->
+        <copy file="resources/images/readme.png" todir="images"/>
+        <!-- Empty image - just to force same layout of compile and readme button -->
+        <copy file="resources/images/compile.png" todir="images"/>
+        <!-- Image used when dragging object over an area where it can not be dropped  -->
+        <copy file="resources/images/noParking.png" todir="images"/>
+        <!-- Image selection dialog icon -->
+        <copy file="resources/images/openRight.png" todir="images"/>
+        <!-- Control panel icons-->
+        <copy file="resources/images/run.png" todir="images"/>
+        <copy file="resources/images/step.png" todir="images"/>
+        <copy file="resources/images/pause.png" todir="images"/>
+        <copy file="resources/images/reset.png" todir="images"/>
+        <!-- Export icons -->
+        <copy file="resources/images/export-app.png" todir="images"/>
+        <copy file="resources/images/export-project.png" todir="images"/>
+        <copy file="resources/images/export-publish.png" todir="images"/>
+        <copy file="resources/images/export-publish-small.png" todir="images"/>
+        <copy file="resources/images/export-webpage.png" todir="images"/>
+    	<!-- Menu button used in image library dialog (gear with drop-arrow) -->
+    	<copy file="resources/images/menu-button.png" todir="images"/>
+    </target>
+
+    <target name="dist" depends="ready-to-run, clean-scenarios, copy-scenarios, copy-license, copy-tutorial, zip-source" description="Generate the distribution. Also runs the bluej.dist-greenfoot" >
+    	<copy file="doc/Greenfoot-README.txt" todir="${bluej.projectdir}/doc"/>
+    	
+        <!-- Run the BlueJ dist-->
+        <ant dir="${bluej.projectdir}" target="dist-greenfoot" />
+
+        <move file="${bluej.installer.jar}" tofile="${package}/Greenfoot-generic-${greenfoot.version.nodots}${greenfoot.rcsuffix}.jar"/>
+        <move file="${bluej.dist.jar}" tofile="${package}/greenfoot-dist-${greenfoot.version.nodots}${greenfoot.rcsuffix}.jar"/>
+
+        <echo message="The greenfoot dist-jar (used to build windows installer)s is in ${package}/greenfoot-dist-${greenfoot.version.nodots}${greenfoot.rcsuffix}.jar"/>
+        <echo message="The greenfoot jar-installer is in ${package}/Greenfoot-generic-${greenfoot.version.nodots}${greenfoot.rcsuffix}.jar"/>
+        <echo message="And don't forget to copy this to the gallery: ${package}/Greenfoot-core-${greenfoot.apiversion.public}.jar"/>
+    </target>
+	
+	<target name="debian-dist">
+        <ant dir="${bluej.projectdir}/package" antfile="greenfoot-build.xml" target="debian-dist" />
+		<move file="${bluej.projectdir}/package/greenfoot-${greenfoot.version}.deb" tofile="${package}/greenfoot-${greenfoot.version.nodots}.deb" />
+	</target>
+	
+	<target name="windows-msi-dist" depends="update-images, dist">
+	    <ant dir="${bluej.projectdir}/package" antfile="greenfoot-build.xml" target="windows-msi-dist" />
+		<ant dir="${bluej.projectdir}/package" antfile="greenfoot-build.xml" target="windows-msi-bundled-dist" />
+	</target>
+	
+	<target name="mac-dist">
+	    <ant dir="${bluej.projectdir}/package" antfile="greenfoot-build.xml" target="mac-dist" />
+        <move file="${greenfoot.dist.mac}" tofile="${package}/Greenfoot-mac-${greenfoot.version.nodots}${greenfoot.rcsuffix}.zip"/>
+        <move file="${greenfootlegacy.dist.mac}" tofile="${package}/Greenfoot-mac-legacy-${greenfoot.version.nodots}${greenfoot.rcsuffix}.zip"/>
+        <echo message="The greenfoot Mac-installer is in ${package}/Greenfoot-mac-${greenfoot.version.nodots}${greenfoot.rcsuffix}.zip"/>
+        <echo message="The greenfoot Mac-installer (legacy) is in ${package}/Greenfoot-mac-legacy-${greenfoot.version.nodots}${greenfoot.rcsuffix}.zip"/>
+	</target>
+
+    <target name="clean" description="clean up" >
+        <!-- Installer image windows: greenfoot-install.bmp -->
+        <delete file="${bluej.projectdir}/package/greenfoot-install.bmp"/>
+        <!-- Installer image jar: greenfoot-install.png -->
+        <delete file="${bluej.projectdir}/package/greenfoot-install.png"/>
+        <!-- About image: greenfoot-about.png -->
+        <delete file="images/greenfoot-about.png"/>
+        <!-- Splash image: greenfoot-splash.jpg -->
+        <delete file="${bluej.projectdir}/boot/src/bluej/greenfootsplash.jpg"/>
+        <!-- Greenfoot icon for classes: greenfoot-16.png -->
+        <delete file="imagelib/other/greenfoot.png"/>
+        <!-- Greenfoot icon for application: greenfoot-16.png -->
+        <delete file="images/greenfoot.png"/>
+        <!-- Commons libraries -->
+     	<delete >
+            <fileset dir="${bluej.projectdir}/lib">
+                <include name="commons*.jar"/>
+                <exclude name="commons-logging-api-*.jar"/>
+            </fileset>
+        </delete>
+    	<delete file="${jlayer.jar.path}"/>
+        
+    	 <!-- Distributables -->
+     	<delete >
+            <fileset dir="package">
+                <include name="Greenfoot-*.zip"/>
+                <include name="greenfoot-*.jar"/>
+                <include name="Greenfoot-*.jar"/>
+            </fileset>
+        </delete>
+    	<!-- API doc -->
+        <delete dir="${apidoc}"/>
+        <!-- Greenfoot jar -->
+        <delete file="${bluej.extensions.lib}/greenfoot.jar"/>
+    	                
+        <delete dir="${bluej.lib.greenfoot}"/>
+        <delete dir="${bluej.projectdir}/package/scenarios"/>
+        <delete dir="${build}"/>
+
+        <delete includeEmptyDirs="true">
+            <fileset dir="${bluej.projectdir}/" >
+            	<include name="lib/*/greenfoot/" />
+            </fileset>
+        </delete>
+        
+        <delete dir="${package}/scenarios"/>
+        
+    	<!-- Weather helper classes and jars -->
+    	<antcall target="clean-common-weather"/>
+    </target>
+
+
+	<target name="clean-common-weather" description="clean up Weather .jar and .class files to be built again" >
+		<delete file="common/Weather/lib/Weather.jar"/>
+		<delete includeemptydirs="true">
+    	  <fileset dir="common/Weather/classes" includes="**/*" defaultexcludes="no"/>
+	    </delete>
+	</target>
+	
+
+	<!--include name="lib/*/greenfootAPI/**" /-->
+
+
+    <target name="run-greenfoot"  depends="ready-to-run">
+        <!-- run the java code built into the jar files -->
+        <java classname="bluej.Boot" fork="yes" jvm="${build_java_home}/${java_command_dir_name}/java">
+            <classpath>
+                <pathelement location="${bluej.projectdir}/boot/classes" />
+                <!-- <path refid="bluej.class.path"/> -->
+                <path refid="bluej.src.path"/>
+                <pathelement location="${build_java_home}/lib/tools.jar"/>
+                <pathelement location="/System/Library/Java"/>
+                <!-- <pathelement location="${build}"/> -->
+            </classpath>
+
+            <arg value="-bluej.debug=true">
+            </arg>
+            <arg value="-greenfoot=true">
+            </arg>
+            <arg value="-useclassesdir=true">
+            </arg>
+            <arg value="-greenfootclassesdir=${build}"/>
+            <arg value="-greenfoot.scenarios=${greenfoot.scenarios}"/>
+            <arg value="-greenfoot.tutorial=${greenfoot.tutorial}"/>
+            <arg value="-greenfoot.tutorial.scenario=${greenfoot.tutorial.scenario}"/>
+            <arg value="-bluej.compiler.showunchecked=false"/>
+        </java>
+    </target>
+    
+    <target name="run-greenfoot-with-local-gallery"  depends="ready-to-run">
+        <!-- run the java code built into the jar files -->
+        <java classname="bluej.Boot" fork="yes" jvm="${build_java_home}/${java_command_dir_name}/java">
+            <classpath>
+                <pathelement location="${bluej.projectdir}/boot/classes" />
+                <!-- <path refid="bluej.class.path"/> -->
+                <path refid="bluej.src.path"/>
+                <pathelement location="${build_java_home}/lib/tools.jar"/>
+                <pathelement location="/System/Library/Java"/>
+                <!-- <pathelement location="${build}"/> -->
+            </classpath>
+
+            <arg value="-bluej.debug=true">
+            </arg>
+            <arg value="-greenfoot=true">
+            </arg>
+            <arg value="-useclassesdir=true">
+            </arg>
+            <arg value="-greenfootclassesdir=${build}"/>
+            <arg value="-greenfoot.scenarios=${greenfoot.scenarios}"/>
+            <arg value="-greenfoot.tutorial=${greenfoot.tutorial}"/>
+            <arg value="-greenfoot.tutorial.scenario=${greenfoot.tutorial.scenario}"/>
+            <arg value="-bluej.compiler.showunchecked=false"/>
+            <arg value="-greenfoot.gameserver.address=http://localhost:3000"/>
+            <arg value="-greenfoot.gameserver.createAccount.address=http://localhost:3000/users/new"/>
+        </java>
+    </target>
+
+    <target name="run-scenario-viewer"  depends="ready-to-run,compile-scenarios">
+        <!-- run the java code built into the jar files -->
+        <java classname="greenfoot.export.GreenfootScenarioViewer" fork="yes" jvm="${build_java_home}/${java_command_dir_name}/java">
+            <arg value="${greenfoot.standalone.scenario}"/>
+            <arg value="${greenfoot.standalone.main}"/>
+            <arg value="${greenfoot.standalone.labels}"/>
+
+            <classpath>
+                <!--path refid="bluej.class.path"/>
+                <pathelement location="${build_java_home}/lib/tools.jar"/>
+                <pathelement location="/System/Library/Java"/-->
+                <pathelement location="${greenfoot.standalone.scenario}"/>
+                <pathelement location="${build}"/>
+                <path refid="bluej.class.path"/>
+            </classpath>
+
+        </java>
+    </target>
+
+    <target name="profile-scenario-viewer"  depends="ready-to-run,compile-scenarios">
+        <fail unless="netbeans.home">This target can only run inside the NetBeans IDE.</fail>
+
+        <nbprofiledirect>
+            <classpath>
+                <pathelement location="${build}"/>
+                <pathelement location="${greenfoot.standalone.scenario}"/>
+                <path refid="bluej.class.path"/>
+            </classpath>
+        </nbprofiledirect>
+
+        <!-- run the java code built into the jar files -->
+        <java classname="greenfoot.export.GreenfootScenarioViewer" fork="yes" jvm="${build_java_home}/${java_command_dir_name}/java">
+            <arg value="${greenfoot.standalone.scenario}"/>
+            <arg value="${greenfoot.standalone.main}"/>
+            <arg value="${greenfoot.standalone.labels}"/>
+            <classpath>
+                <pathelement location="${build}"/>
+                <pathelement location="${greenfoot.standalone.scenario}"/>
+                <path refid="bluej.class.path"/>
+            </classpath>
+            <jvmarg value="${profiler.info.jvmargs.agent}"/>
+        </java>
+    </target>
+
+    <target name="compile-standalone" depends="init" description="Compile the source and run rmic" >
+        <delete dir="${standalone.build}"/>
+        <mkdir dir="${standalone.build}"/>
+
+        <!-- Compile the java code from ${src} into ${build} -->
+        <javac  
+            executable="${build_java_home}/${java_command_dir_name}/javac"
+            fork="yes"
+            destdir="${standalone.build}" 
+            
+            classpathref="bluej.class.path" 
+            debug="true"
+            sourcepath=""
+        	source="1.6"
+            target="1.6"
+        	includeantruntime="false"
+        >
+            <src path="${src}"/>
+
+            <include name="greenfoot/core/WorldHandler.java"/>
+            <include name="greenfoot/util/GreenfootUtil.java"/>
+
+            <include name="greenfoot/**.java"/>
+            <exclude name="greenfoot/ObjectTracker.java"/>
+
+            <include name="greenfoot/actions/PauseSimulationAction.java"/>
+            <include name="greenfoot/actions/RunSimulationAction.java"/>
+            <include name="greenfoot/actions/RunOnceSimulationAction.java"/>
+            <include name="greenfoot/actions/ResetWorldAction.java"/>
+
+            <include name="greenfoot/collision/**/*.java"/>
+
+            <include name="greenfoot/core/LocationTracker.java"/>
+            <include name="greenfoot/core/ProjectProperties.java"/>
+            <include name="greenfoot/core/Simulation.java"/>
+            <include name="greenfoot/core/ObjectDragProxy.java"/>
+            <include name="greenfoot/core/ActInterruptedException.java"/>
+        	<include name="greenfoot/core/ImageCache.java"/>
+        	<include name="greenfoot/core/TextLabel.java"/>
+
+            <include name="greenfoot/event/SimulationEvent.java"/>
+            <include name="greenfoot/event/SimulationListener.java"/>
+            <include name="greenfoot/event/WorldListener.java"/>
+            <include name="greenfoot/event/WorldEvent.java"/>
+            <include name="greenfoot/event/TriggeredMouseListener.java"/>
+            <include name="greenfoot/event/TriggeredMouseMotionListener.java"/>
+            <include name="greenfoot/event/TriggeredKeyListener.java"/>
+            <include name="greenfoot/event/TriggeredMouseAdapter.java"/>
+            <include name="greenfoot/event/TriggeredMouseMotionAdapter.java"/>
+            <include name="greenfoot/event/TriggeredKeyAdapter.java"/>
+            <include name="greenfoot/event/TriggeredListener.java"/>
+        	<include name="greenfoot/event/SimulationUIListener.java"/>
+
+            <include name="greenfoot/export/GreenfootScenarioViewer.java"/>
+            <include name="greenfoot/export/GreenfootScenarioMain.java"/>
+
+            <include name="greenfoot/gui/ControlPanel.java"/>
+            <include name="greenfoot/gui/DragListener.java"/>
+            <include name="greenfoot/gui/DropTarget.java"/>
+            <include name="greenfoot/gui/WorldCanvas.java"/>
+         
+            <include name="greenfoot/gui/input/KeyboardManager.java"/>
+            
+            <include name="greenfoot/gui/input/InputManager.java"/>
+
+            <include name="greenfoot/gui/input/states/*.java"/>
+            
+            <include name="greenfoot/gui/input/mouse/*.java"/>
+
+            <include name="greenfoot/platforms/*.java"/>
+            <include name="greenfoot/platforms/standalone/*.java"/>
+            
+            <include name="greenfoot/sound/**/*.java"/>
+            
+            <include name="greenfoot/util/**/*.java"/>
+
+            <exclude name="greenfoot/util/ExternalAppLauncher.java"/>
+        </javac>
+
+        <!-- Greenfoot icon for classes: greenfoot-16.png -->
+        <copy file="resources/images/greenfoot-icon-16.png" tofile="${standalone.build}/greenfoot.png"/>
+
+
+        <!-- Readme label icon -->
+        <!-- <copy file="resources/images/readme.png" todir="${standalone.build}"/> -->
+        <!-- Image used when dragging object over an area where it can not be dropped  -->
+        <copy file="resources/images/noParking.png" todir="${standalone.build}"/>
+        <!-- Image selection dialog icon -->
+        <!-- <copy file="resources/images/openRight.png" todir="${standalone.build}"/> -->
+        <!-- Control panel icons-->
+        <copy file="resources/images/run.png" todir="${standalone.build}"/>
+        <copy file="resources/images/step.png" todir="${standalone.build}"/>
+        <copy file="resources/images/pause.png" todir="${standalone.build}"/>
+        <copy file="resources/images/reset.png" todir="${standalone.build}"/>
+
+        <!-- Copy bluej.Config classes to allow use of i18n labels  -->
+        <copy todir="${standalone.build}">
+            <fileset dir="${bluej.projectdir}/classes/">
+                <include name="bluej/Config.class"/>
+            	<include name="bluej/utility/CenterLayout.class"/>
+                <include name="bluej/Config$*.class"/>
+            	<include name="bluej/BlueJPropStringSource.class"/>
+            	<include name="bluej/BlueJTheme.class"/>
+            	<include name="bluej/PropParser.class"/>
+            	<include name="bluej/PropParser$*.class"/>
+            </fileset>
+        </copy>
+    </target>
+
+
+    <target name="build-standalone-jar"  depends="compile-standalone" description="Create a jar with all the Greenfoot classes and resources needed for an exported scenario." >
+        <jar jarfile="${package}/Greenfoot-core-${greenfoot.apiversion.public}.jar" basedir="${standalone.build}">
+            <manifest>
+                <attribute name="Main-Class" value="greenfoot.export.GreenfootScenarioViewer" />
+            </manifest>
+        </jar>
+    </target>
+    
+    <target name="zip-source"  description="create a zip of all the sources and other resources needed to build BlueJ." >
+        <!-- And build sources for BlueJ -->
+        <ant dir="${bluej.projectdir}/package" target="zip-source"/>
+        <zip destfile="${greenfoot.source.zip}" compress="yes">
+            <zipfileset dir="." defaultexcludes="yes" prefix="greenfoot">
+                <include name="src/**/*.java" />       
+                <include name="doc/HOWTO.*" />    
+                <include name="doc/THIRDPARTYLICENSE.txt" />
+                <include name="doc/LICENSE.txt" />  
+                <include name="doc/GREENFOOT_LICENSES.txt" />
+            	<include name="doc/Greenfoot-README.txt" />
+            	<include name="doc/Greenfoot-architecture-and-design.txt" />
+                <patternset refid="distribution.scenarios"/>
+                <exclude name="scenarios/**/*.class" />    
+                <exclude name="scenarios/**/greenfoot/" />
+                
+            	<include name="common/*.java" />
+                <include name="common/*.png" />
+                <include name="common/*.gif" />
+                <include name="imagelib/**/*" />           
+                <exclude name="images/**/*" />     
+                <include name="labels/**/*"/>
+                <include name="lib/**/*"/>
+                <include name="package/winlaunch/*" />     
+                <include name="package/commons-*.jar"/>   
+                <include name="package/jl*.jar"/>
+                <include name="projects/**/*" />   
+                <include name="resources/**/*" />    
+                <include name="test/**/*.java" />
+                    
+                <include name="build.properties" />   
+                <include name="build.xml" />  
+                <exclude name="**/.DS_Store"/>
+            </zipfileset>
+            <zipfileset src="${bluej.projectdir}/package/BlueJ-source-${bluej.version.nodots}.zip" prefix="bluej" />                       
+        </zip>
+    </target>
+    
+    <target name="add-license-to-sources" description="adds the license to each source file" >	      
+	    <replaceregexp flags="s" encoding="ISO8859-1">
+	        <regexp pattern="(^\/\*\n This file is part of the Greenfoot program.*? file that accompanied this code\.\n.\*\/\n)|^"/> 
+	        <substitution expression="${license}"/> 
+	        <fileset dir="." includes="**/*.java" >
+	        	<exclude name="src/greenfoot/util/GraphicsUtilities.java"/>
+	        	<exclude name="src/greenfoot/util/ShadowRenderer.java"/>
+	        	<exclude name="src/org/syntax/jedit/**"/>
+	        	<exclude name="scenarios/**"/>
+	        </fileset>
+	    </replaceregexp>
+    </target>   
+
+    <target name="clean-scenarios" description="clean up scenarios (remove doc and greenfoot dir)" >
+        <delete includeemptydirs="true">
+            <fileset dir="scenarios">
+                <include name="**/*.class"/>
+                <include name="**/doc/" />
+                <include name="**/greenfoot/" />
+                <include name="**/*.ctxt" />
+                <include name="**/images/greenfoot.png" />
+            </fileset>
+        </delete>
+        <!-- Remove size and location from project.greenfoot -->
+        <replaceregexp byline="true">
+            <regexp pattern="mainWindow.*"/>
+            <substitution expression=""/>
+            <fileset dir="scenarios" includes="**/project.greenfoot"/>
+        </replaceregexp>
+        <!-- Remove size and location from project.greenfoot-->
+        <replaceregexp byline="true">
+            <regexp pattern="package.editor.*"/>
+            <substitution expression=""/>
+            <fileset dir="scenarios" includes="**/project.greenfoot"/>
+        </replaceregexp>
+        <replaceregexp byline="true" >
+            <regexp pattern="target.*editor.*"/>
+            <substitution expression=""/>
+            <fileset dir="scenarios" includes="**/project.greenfoot"/>
+        </replaceregexp>
+
+        <!-- Remove empty lines from project.greenfoot -->
+        <replaceregexp byline="false" flags="g">
+            <regexp pattern="(\r?\n)(\r?\n)+"/>
+            <substitution expression="\1"/>
+            <fileset dir="scenarios" includes="**/project.greenfoot"/>
+        </replaceregexp>
+    </target>
+
+    <target name="update-version-number" description="updates the version number in all files where it appears" >
+        <replaceregexp byline="true">
+            <regexp pattern="@version .*"/>
+            <substitution expression="@version ${greenfoot.apiversion.public}"/>
+            <fileset dir="${src}/greenfoot" includes="Greenfoot.java,GreenfootImage.java,GreenfootSound.java,Actor.java,World.java,MouseInfo.java,UserInfo.java"/>
+        </replaceregexp>
+        <replaceregexp byline="true">
+            <regexp pattern="GREENFOOT_VERSION = .*"/>
+            <substitution expression="GREENFOOT_VERSION = &quot;${greenfoot.version}&quot;;"/>
+            <fileset dir="${bluej.projectdir}/boot/src/bluej" includes="Boot.java"/>
+        </replaceregexp>
+        <replaceregexp byline="true">
+            <regexp pattern="GREENFOOT_API_VERSION = .*"/>
+            <substitution expression="GREENFOOT_API_VERSION = &quot;${greenfoot.apiversion}&quot;;"/>
+            <fileset dir="${bluej.projectdir}/boot/src/bluej" includes="Boot.java"/>
+        </replaceregexp>
+        <replaceregexp byline="true">
+            <regexp pattern="version=.*"/>
+            <substitution expression="version=${greenfoot.apiversion}"/>
+            <fileset dir="projects/startupProject" includes="project.greenfoot"/>
+        </replaceregexp>
+    </target>
+</project>

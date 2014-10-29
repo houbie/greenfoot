@@ -1,0 +1,43 @@
+editor-crashed
+It seems that Greenfoot crashed while writing this class
+to disk last time. The source code may be missing or 
+incomplete. There should be a backup of this class 
+in the project folder. If this class seems damaged,
+   1 - quit Greenfoot
+   2 - backup your project folder (just in case)
+   3 - look into the project folder for a backup of
+       this java file. Rename it to the original
+       file name (with a '.java' suffix)
+
+error-create-vm
+Greenfoot was unable to create a virtual machine (VM) to execute scenarios.
+Often this is caused by overly restrictive firewall settings.
+Please see [ http://www.greenfoot.org/doc/firewall ] for more
+information.
+
+project-is-readonly
+The scenario being opened is read-only:
+:
+    $
+:
+To use this scenario, you will first need to choose a new
+location to save it to.
+
+cannot-save-project
+The scenario could not be saved to the specified
+location. Check that you have write access, or
+choose another location.
+
+cannot-create-project
+The scenario could not be created. Check that
+the containing folder is writable.
+
+project-already-exists
+The specified scenario folder already exists. To create a
+new scenario, choose a location and specify a unique name
+(you must specify the name in the file dialog).
+
+archive-not-greenfoot-project
+The archive file you selected to open does not look like it
+contains a Greenfoot project (try extracting the archive
+contents using another tool).

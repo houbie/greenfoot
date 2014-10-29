@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns='http://schemas.microsoft.com/wix/2006/wi'>
+
+<!--  To change the version for a new release:
+        Change Version in the Product item here
+        Change Version in SOFTWAREVERSION property, below -->
+
+<Product Name='Greenfoot' Id='8c838b70-3a71-41e8-91a6-4adcf2e483d0' UpgradeCode='3ec7b829-9e53-4132-b2bf-fb7d4c08aebc'
+    Language='1033' Codepage='1252' Version='2.4.0' Manufacturer='Greenfoot Team'>
+    
+    <Package Id='*' Keywords='Installer' Description="Greenfoot Installer"
+      Manufacturer='Greenfoot'
+      InstallerVersion='100' Languages='1033' Compressed='yes' SummaryCodepage='1252' />
+    
+    <!-- Embeds all the files to install inside the MSI -->
+    <Media Id='1' Cabinet='Greenfoot.cab' EmbedCab='yes' />
+    
+    <Property Id="ALLUSERS" Secure="yes" />
+    
+    <Property Id="SOFTWARE" Value="Greenfoot"/>
+    <Property Id="SOFTWAREVERSION" Value="2.4.0"/>
+    <Property Id="SOFTWAREPROJECTEXT" Value="greenfoot"/>
+    <Property Id="SOFTWAREARCHIVEEXT" Value="gfar"/>
+    <!-- Define all the necessary GUIDs here, to make sure they are different from BlueJ -->
+    <?define Guid.MenuShortcut='26d00889-0db7-4d0f-b350-1f3b421075a6'?>
+    <?define Guid.DesktopShortcut='91ab2947-57a1-4cbc-91b1-5415d13e7df0'?>
+    <?define Guid.AssociationShortcut='a49aa8ee-2ebf-40fe-9574-538c9313836a'?>
+    <?define Guid.RegistryKey='a57e38b9-93a7-48d1-b625-0cedfdd44c11'?>
+    <?define Guid.RegistryKeyVM='3771cf1d-5082-4753-a11c-104f8534765c'?>
+    
+    <!-- common.wxi is an include file with the UI and other settings
+         common to both BlueJ and Greenfoot -->
+    <?include common.wxi ?>
+    
+    <!-- TARGETDIR is special and must be used.  SourceDir is also special, I think,
+         and that's where the ant rules unzip all the files that we want distributed. -->
+    <Directory Id='TARGETDIR' Name='SourceDir'>
+       <!-- The default install location is effectively: C:\Program Files\Greenfoot -->
+	   <Directory Id='ProgramFilesFolder'>    
+	     <Directory Id='INSTALLDIR' Name='!(loc.SOFTWARE)'/>
+	   </Directory>   
+    
+       <!-- shortcut-associations.wxi has all the machinery for installing the shortcuts
+            (on the desktop and start menu) and file associations -->
+       <?include shortcut-associations.wxi ?>
+    </Directory>    
+    
+    <Component Id='CompLauncher' Directory="INSTALLDIR">
+      <!-- The name Launcher is referred to in shortcut-associations, which is used for both BlueJ and Greenfoot -->
+      <!-- There is a WiX warning here about Launcher not having a language, but if you try to
+           set a language you get an error, so just ignore the warning -->
+      <File Id='Launcher' Name='Greenfoot.exe' DiskId='1' Source='..\winlaunch\gflaunch.exe' KeyPath='yes' />
+    </Component>
+    
+    <?include registry.wxi ?>
+    
+    <Feature Title='Greenfoot' Id='FeatureCore' Level='1' ConfigurableDirectory="INSTALLDIR">
+      <ComponentGroupRef Id='GreenfootFiles' />
+      <ComponentRef Id='CompLauncher' />
+      <!-- The shortcuts and associations are optional, and turned on/off via the installer GUI -->
+      <ComponentRef Id="DesktopShortcut"/>
+      <ComponentRef Id="ProgramMenuShortcut"/>
+      <ComponentRef Id="Associations"/> 
+      <ComponentGroupRef Id='RegistryKeys' />
+    </Feature>
+    
+    <Icon Id="Icon.ico" SourceFile="..\winlaunch\greenfoot-icon-256-shadow.ico" />
+    <WixVariable Id="WixUIBannerBmp" Value="greenfoot-banner.bmp"/>
+    <WixVariable Id="WixUIDialogBmp" Value="greenfoot-dialog.bmp"/>
+    
+</Product>
+</Wix>
