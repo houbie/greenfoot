@@ -65,7 +65,8 @@ import bluej.utility.FileUtility;
  */
 public class JarCreator
 {
-    private static final String SOURCE_SUFFIX = ".java";    
+    private static final String JAVA_SOURCE_SUFFIX = ".java";
+    private static final String GROOVY_SOURCE_SUFFIX = ".groovy";
 
     /** Should source files be included in the jar? */
     private boolean includeSource;
@@ -638,7 +639,7 @@ public class JarCreator
                 return true;            
         }
         
-        if (fileName.endsWith(SOURCE_SUFFIX))
+        if (fileName.endsWith(JAVA_SOURCE_SUFFIX) || fileName.endsWith(GROOVY_SOURCE_SUFFIX))
             return !includeSource;
 
 

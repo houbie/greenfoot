@@ -317,7 +317,7 @@ public class ClassView extends ClassButton
             GPackage pkg = proj.getDefaultPackage();
             //write the java file as this is required to exist
             File dir = proj.getDir();
-            File newJavaFile = new File(dir, className + ".java");
+            File newJavaFile = new File(dir, className + ".groovy");
             String superClassName = getClassName();            
             GreenfootUtilDelegateIDE.getInstance().createSkeleton(className, superClassName, newJavaFile,
                     role.getTemplateFileName(), proj.getCharsetName());

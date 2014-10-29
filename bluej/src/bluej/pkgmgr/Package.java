@@ -586,6 +586,7 @@ public final class Package extends Graph
                 continue;
             }
             String javaFileName = JavaNames.stripSuffix(srcFiles[i].getName(), ".java");
+            javaFileName = JavaNames.stripSuffix(javaFileName, ".groovy");
 
             // check if the name would be a valid java name
             if (!JavaNames.isIdentifier(javaFileName))
@@ -1087,7 +1088,7 @@ public final class Package extends Graph
         String fileName = aFile.getName();
 
         String className;
-        if (fileName.endsWith(".java")) // it's a Java source file
+        if (fileName.endsWith(".java")||fileName.endsWith(".groovy")) // it's a Java source file
             className = fileName.substring(0, fileName.length() - 5);
         else
             return ILLEGAL_FORMAT;

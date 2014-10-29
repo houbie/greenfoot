@@ -239,12 +239,17 @@ public class ProjectJavadocResolver implements JavadocResolver
      * In particular, this normally includes the JDK source. When source for the required
      * class is found, it is parsed to extract comments.
      */
-    private Properties getCommentsFromSource(String target)
+    private Properties getCommentsFromSource(String target) {
+        Properties props = getCommentsFromSource(target, ".java");
+        return (props != null) ? props : getCommentsFromSource(target, ".groovy");
+    }
+
+    private Properties getCommentsFromSource(String target, String fileExtension)
     {
         List<DocPathEntry> sourcePath = project.getSourcePath();
         String pkg = JavaNames.getPrefix(target);
-        String entName = target.replace('.', '/') + ".java";
-        String entNameFs = target.replace('.', File.separatorChar) + ".java";
+        String entName = target.replace('.', '/') + fileExtension;
+        String entNameFs = target.replace('.', File.separatorChar) + fileExtension;
         EntityResolver resolver = new PackageResolver(project.getEntityResolver(), pkg);
         
         for (DocPathEntry pathEntry : sourcePath) {
@@ -313,7 +318,7 @@ public class ProjectJavadocResolver implements JavadocResolver
         
         // Try and load the source from the class path. This allows source to be bundled in
         // with the classes.
-        String targetName = target.replace('.', '/') + ".java";
+        String targetName = target.replace('.', '/') + fileExtension;
         URL srcUrl = project.getClassLoader().findResource(targetName);
         if (srcUrl != null) {
             try {

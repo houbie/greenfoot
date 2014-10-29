@@ -216,6 +216,7 @@ class PackageChooser extends JFileChooser
                 for(lastClass=0; lastClass<srcFiles.length && lastClass<maxDisplay; lastClass++) {
                     String javaFileName =
                        JavaNames.stripSuffix(srcFiles[lastClass].getName(), ".java");
+                    javaFileName= JavaNames.stripSuffix(javaFileName, ".groovy");
 
                     // check if the name would be a valid java name
                     if (!JavaNames.isIdentifier(javaFileName))

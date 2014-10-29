@@ -66,7 +66,7 @@ public class ExceptionSourceLocation
     
     public void showInEditor()
     {
-        String fileName = className.replace('.', '/') + ".java";
+        String fileName = className.replace('.', '/') + ".groovy";
         
         pkg.exceptionMessage(new File(pkg.getPath(), fileName).getAbsolutePath(), lineNumber);
         

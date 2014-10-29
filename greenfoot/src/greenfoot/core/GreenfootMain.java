@@ -733,7 +733,7 @@ public class GreenfootMain extends Thread implements CompileListener, RProjectLi
         for (int i = 0; i < classFiles.length; i++) {
             String fileName = classFiles[i];
             int index = fileName.lastIndexOf('.');
-            String javaFileName = fileName.substring(0, index) + ".java";
+            String javaFileName = fileName.substring(0, index) + ".groovy";
             File file = new File(dir, fileName);
             File javaFile = new File(dir, javaFileName);
             if (javaFile.exists()) {

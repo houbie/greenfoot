@@ -80,7 +80,7 @@ public class NewClassAction extends AbstractAction
         
         try {
             File dir = pkg.getProject().getDir();
-            File newJavaFile = new File(dir, className + ".java");
+            File newJavaFile = new File(dir, className + ".groovy");
             GreenfootUtilDelegateIDE.getInstance().createSkeleton(className, null, newJavaFile,
                     NormalClassRole.getInstance().getTemplateFileName(), pkg.getProject().getCharsetName());
 

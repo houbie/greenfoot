@@ -400,7 +400,7 @@ public class ImportClassWindow extends JFrame
         @Override
         public boolean accept(File pathname)
         {
-            return pathname.getAbsolutePath().endsWith(".class") || pathname.getAbsolutePath().endsWith(".java");
+            return pathname.getAbsolutePath().endsWith(".class") || pathname.getAbsolutePath().endsWith(".java") || pathname.getAbsolutePath().endsWith(".groovy");
         }
     }
     

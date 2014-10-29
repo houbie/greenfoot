@@ -163,6 +163,7 @@ public class UpdateAction extends AbstractAction
                     
                     String fileName = f.getName();
                     if (! fileName.endsWith(".java") &&
+                            ! fileName.endsWith(".groovy") &&
                             ! fileName.endsWith(".class") &&
                             ! BlueJPackageFile.isPackageFileName(fileName)) {
                         return;
@@ -223,6 +224,7 @@ public class UpdateAction extends AbstractAction
                 {
                    String fileName = f.getName();
                    if (! fileName.endsWith(".java") &&
+                           ! fileName.endsWith(".groovy") &&
                            ! fileName.endsWith(".class") &&
                            ! BlueJPackageFile.isPackageFileName(fileName)) {
                        return;
@@ -254,7 +256,7 @@ public class UpdateAction extends AbstractAction
                        }
                        
                        ClassTarget ct = (ClassTarget) t;
-                       if (ct.hasSourceCode() && ! fileName.endsWith(".java")) {
+                       if (ct.hasSourceCode() && ! (fileName.endsWith(".java") || fileName.endsWith(".groovy"))) {
                            ct.setInvalidState();
                        }
                        else {
@@ -275,6 +277,7 @@ public class UpdateAction extends AbstractAction
                 {
                     String fileName = f.getName();
                     if (! fileName.endsWith(".java") &&
+                            ! fileName.endsWith(".groovy") &&
                             ! fileName.endsWith(".class") &&
                             ! BlueJPackageFile.isPackageFileName(fileName)) {
                         return;
@@ -391,7 +394,7 @@ public class UpdateAction extends AbstractAction
                             if (! BlueJPackageFile.isPackageFileName(baseName)) {
                                 Target target = null;
 
-                                if (baseName.endsWith(".java") || baseName.endsWith(".class")) {
+                                if (baseName.endsWith(".java") || baseName.endsWith(".groovy") || baseName.endsWith(".class")) {
                                     String pkg = project.getPackageForFile(file);
                                     if (pkg != null) {
                                         String targetId = filenameToTargetIdentifier(baseName);

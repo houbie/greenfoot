@@ -91,7 +91,7 @@ public class TerminalDocument extends PersistentMarkDocument
         try {
             String content = getText(0, getLength());
             
-            Pattern p = java.util.regex.Pattern.compile("at (\\S+)\\((\\S+)\\.java:(\\d+)\\)");
+            Pattern p = java.util.regex.Pattern.compile("at (\\S+)\\((\\S+)\\.(?:java)|(?:groovy):(\\d+)\\)");
             // Matches things like:
             // at greenfoot.localdebugger.LocalDebugger$QueuedExecution.run(LocalDebugger.java:267)
             //    ^--------------------group 1----------------------------^ ^--group 2--^      ^3^

@@ -41,7 +41,8 @@ final class ExportManager
     private static final String specifyJar = Config.getString("pkgmgr.export.specifyJar");
     private static final String createJarText = Config.getString("pkgmgr.export.createJarText");
     
-    private static final String sourceSuffix = ".java";
+    private static final String javaSourceSuffix = ".java";
+    private static final String groovySourceSuffix = ".groovy";
     private static final String contextSuffix = ".ctxt";
     private static final String packageFilePrefix = "bluej.pk";
     private static final String packageFileBackup = "bluej.pkh";
@@ -247,7 +248,7 @@ final class ExportManager
         if(fileName.equals(packageFileBackup))
             return true;
         
-        if(fileName.endsWith(sourceSuffix))
+        if(fileName.endsWith(javaSourceSuffix) || fileName.endsWith(groovySourceSuffix))
             return skipSource;
 
         if(fileName.startsWith(packageFilePrefix) || fileName.endsWith(contextSuffix))

@@ -43,6 +43,6 @@ public class JavaSourceFilter implements FileFilter
      */
     public boolean accept(File pathname)
     {
-        return pathname.getName().endsWith(".java");
+        return pathname.getName().endsWith(".java") || pathname.getName().endsWith(".groovy");
     }
 }

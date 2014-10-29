@@ -797,7 +797,7 @@ public class ClassTarget extends DependentTarget
      */
     public File getSourceFile()
     {
-        return new File(getPackage().getPath(), getBaseName() + ".java");
+        return new File(getPackage().getPath(), getBaseName() + ".groovy");
     }
 
     /**
@@ -1443,9 +1443,10 @@ public class ClassTarget extends DependentTarget
             return false;
         }
 
-        File newSourceFile = new File(getPackage().getPath(), newName + ".java");
         File oldSourceFile = getSourceFile();
-        
+        String extension = oldSourceFile.getName().endsWith(".java") ? ".java" : ".groovy";
+        File newSourceFile = new File(getPackage().getPath(), newName + extension);
+
         try {
             FileUtility.copyFile(oldSourceFile, newSourceFile);
             

@@ -160,7 +160,7 @@ public class Import
                 }
             }
             else {
-                if (files[i].getName().endsWith(".java"))
+                if (files[i].getName().endsWith(".java") || files[i].getName().endsWith(".groovy"))
                     imInteresting = true;
             }
         }
@@ -194,7 +194,7 @@ public class Import
             }
 
             for (int i=0; i<files.length; i++) {
-                if (files[i].isFile() && files[i].getName().endsWith(".java")) {
+                if (files[i].isFile() && (files[i].getName().endsWith(".java") || files[i].getName().endsWith(".groovy"))) {
                     interesting.add(files[i]);
                 }
             }

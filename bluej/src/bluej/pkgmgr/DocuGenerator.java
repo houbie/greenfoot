@@ -375,7 +375,7 @@ public class DocuGenerator
             // as javadoc doesn't like packages with no java-files, we have to
             // pass only names of packages that really contain java files.
             Package pack = project.getPackage(packageName);
-            if (FileUtility.containsFile(pack.getPath(),".java")) {
+            if (FileUtility.containsFile(pack.getPath(),".java") || FileUtility.containsFile(pack.getPath(),".groovy")) {
                 if(packageName.length() > 0) {
                     call.add(packageName);
                 }
@@ -385,8 +385,13 @@ public class DocuGenerator
         // second: get class names of classes in unnamed package, if any
         List<String> classNames = project.getPackage("").getAllClassnamesWithSource();
         String dirName = project.getProjectDir().getAbsolutePath();
-        for (Iterator<String> names = classNames.iterator();names.hasNext(); ) {
-            call.add(dirName + "/" + names.next() + ".java");
+        for (Iterator<String> names = classNames.iterator(); names.hasNext(); ) {
+            String src = dirName + "/" + names.next();
+            if (new File(src + ".groovy").exists()) {
+                call.add(src + ".groovy");
+            } else {
+                call.add(src + ".java");
+            }
         }
         String[] javadocCall = (String[])call.toArray(new String[0]);
 
@@ -461,6 +466,8 @@ public class DocuGenerator
             filename = filename.substring(projectDirPath.length());
         if (filename.endsWith(".java"))
             filename = filename.substring(0, filename.indexOf(".java"));
+        if (filename.endsWith(".groovy"))
+            filename = filename.substring(0, filename.indexOf(".groovy"));
         return docDirPath + filename + ".html";
     }
 

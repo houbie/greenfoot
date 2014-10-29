@@ -47,7 +47,8 @@ public class FileUtility
      */
     public enum WriteCapabilities {READ_ONLY, NORMAL_WRITE, VIRTUALIZED_WRITE, UNKNOWN};
 
-    private static final String sourceSuffix = ".java";
+    private static final String javaSourceSuffix = ".java";
+    private static final String groovySourceSuffix = ".groovy";
 
     private static JFileChooser pkgChooser = null;
     private static JFileChooser pkgChooserNonBlueJ = null;
@@ -332,7 +333,8 @@ public class FileUtility
         public boolean accept(File pathname)
         {
             if (pathname.isDirectory() ||
-                pathname.getName().endsWith(sourceSuffix))
+                pathname.getName().endsWith(javaSourceSuffix) ||
+                    pathname.getName().endsWith(groovySourceSuffix))
                    return true;
             else
                 return false;
