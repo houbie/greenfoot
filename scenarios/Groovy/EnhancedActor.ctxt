@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=
+comment0.target=EnhancedActor()
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\:\ call\ doAct()\ and\ handle\ event\ handlers.\n
+comment2.params=
+comment2.target=void\ doAct()
+comment2.text=\n\ The\ actual\ act\ implementation\n
+numComments=3

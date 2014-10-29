@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/scenarios/LTA/LTA.iml" filepath="$PROJECT_DIR$/scenarios/LTA/LTA.iml" group="scenarios" />
+      <module fileurl="file://$PROJECT_DIR$/scenarios/Groovy/Groovy.iml" filepath="$PROJECT_DIR$/scenarios/Groovy/Groovy.iml" group="scenarios" />
       <module fileurl="file://$PROJECT_DIR$/bluej/bluej.iml" filepath="$PROJECT_DIR$/bluej/bluej.iml" />
       <module fileurl="file://$PROJECT_DIR$/greenfoot/greenfoot.iml" filepath="$PROJECT_DIR$/greenfoot/greenfoot.iml" />
     </modules>
