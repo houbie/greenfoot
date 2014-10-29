@@ -122,9 +122,13 @@ public class BPackage
         Package bluejPkg = packageId.getBluejPackage();
         PkgMgrFrame bluejFrame = packageId.getPackageFrame();
 
-        File classJavaFile = new File (bluejPkg.getPath(),className+".java");
-        if ( ! classJavaFile.canWrite() ) 
-            throw new MissingJavaFileException (classJavaFile.toString());
+        File classJavaFile = new File(bluejPkg.getPath(), className + ".java");
+        if (!classJavaFile.canWrite()) {
+            classJavaFile = new File(bluejPkg.getPath(), className + ".groovy");
+            if (!classJavaFile.canWrite()) {
+                throw new MissingJavaFileException(classJavaFile.toString());
+            }
+        }
 
         bluejFrame.createNewClass(className,null,true);
         return getBClass ( className );

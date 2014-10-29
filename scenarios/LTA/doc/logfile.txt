@@ -23,7 +23,7 @@ UTF-8
 /Users/ivo/java/greenfoot/bluej/lib/bjdoclet.jar
 -doclet
 bluej.doclet.doclets.formats.html.HtmlDoclet
-/Users/ivo/java/greenfoot/scenarios/LTA/Car.groovy
+/Users/ivo/java/greenfoot/scenarios/LTA/test.groovy
 <---- end of javadoc command ---->
-javadoc: error - Illegal package name: "/Users/ivo/java/greenfoot/scenarios/LTA/Car.groovy"
+javadoc: error - Illegal package name: "/Users/ivo/java/greenfoot/scenarios/LTA/test.groovy"
 1 error

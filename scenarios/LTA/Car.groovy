@@ -22,7 +22,7 @@ class Car extends Actor {
             turn(-5)
         }
         if (Greenfoot.isKeyDown("right")) {
-            turn(15)
+            turn(5)
         }
         move(4)
     }
