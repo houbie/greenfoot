@@ -2,18 +2,427 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a2d3d72-ecc1-4f80-bea5-b5e865fd894c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/classes/bluej/extensions/BPackage.class" afterPath="$PROJECT_DIR$/bluej/classes/bluej/extensions/BPackage.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/afrikaans/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/afrikaans/exception.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/afrikaans/javac.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/afrikaans/labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/afrikaans/moe.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/afrikaans/templates/LEESMY.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/afrikaans/templates/html.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/afrikaans/templates/method.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/afrikaans/templates/newclass/LEESMY.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/afrikaans/templates/newclass/abstract.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/afrikaans/templates/newclass/appletj.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/afrikaans/templates/newclass/enum.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/afrikaans/templates/newclass/interface.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/afrikaans/templates/newclass/stdclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/afrikaans/templates/newclass/unittest.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/afrikaans/templates/readme.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/catalan/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/catalan/exception.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/catalan/javac.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/catalan/labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/catalan/moe.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/catalan/templates/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/catalan/templates/html.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/catalan/templates/method.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/catalan/templates/newclass/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/catalan/templates/newclass/abstract.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/catalan/templates/newclass/appletj.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/catalan/templates/newclass/enum.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/catalan/templates/newclass/interface.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/catalan/templates/newclass/stdclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/catalan/templates/newclass/unittest.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/catalan/templates/readme.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/chinese/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/chinese/exception.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/chinese/greenfoot/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/chinese/greenfoot/greenfoot-labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/chinese/javac.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/chinese/labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/chinese/moe.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/chinese/templates/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/chinese/templates/html.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/chinese/templates/method.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/chinese/templates/newclass/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/chinese/templates/newclass/abstract.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/chinese/templates/newclass/appletj.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/chinese/templates/newclass/enum.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/chinese/templates/newclass/interface.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/chinese/templates/newclass/stdclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/chinese/templates/newclass/unittest.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/chinese/templates/readme.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/czech/bluejparser.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/czech/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/czech/exception.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/czech/greenfoot/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/czech/greenfoot/greenfoot-labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/czech/javac.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/czech/labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/czech/moe.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/czech/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/czech/templates/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/czech/templates/html.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/czech/templates/method.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/czech/templates/newclass/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/czech/templates/newclass/abstract.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/czech/templates/newclass/appletj.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/czech/templates/newclass/emptyclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/czech/templates/newclass/enum.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/czech/templates/newclass/interface.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/czech/templates/newclass/mainclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/czech/templates/newclass/midlet.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/czech/templates/newclass/stdclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/czech/templates/newclass/unittest.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/czech/templates/readme.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/danish/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/danish/exception.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/danish/javac.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/danish/labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/danish/moe.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/danish/templates/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/danish/templates/html.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/danish/templates/method.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/danish/templates/newclass/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/danish/templates/newclass/abstract.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/danish/templates/newclass/appletj.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/danish/templates/newclass/enum.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/danish/templates/newclass/interface.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/danish/templates/newclass/stdclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/danish/templates/newclass/unittest.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/danish/templates/readme.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/dutch/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/dutch/exception.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/dutch/greenfoot/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/dutch/greenfoot/greenfoot-labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/dutch/javac.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/dutch/labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/dutch/moe.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/dutch/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/dutch/templates/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/dutch/templates/html.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/dutch/templates/method.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/dutch/templates/newclass/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/dutch/templates/newclass/abstract.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/dutch/templates/newclass/appletj.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/dutch/templates/newclass/enum.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/dutch/templates/newclass/interface.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/dutch/templates/newclass/stdclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/dutch/templates/newclass/unittest.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/dutch/templates/readme.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/french/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/french/exception.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/french/greenfoot/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/french/greenfoot/greenfoot-labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/french/greenfoot/templates/actorclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/french/greenfoot/templates/html.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/french/greenfoot/templates/stdclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/french/greenfoot/templates/worldclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/french/javac.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/french/labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/french/lisezmoi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/french/moe.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/french/templates/LisezMoi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/french/templates/html.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/french/templates/method.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/french/templates/newclass/LisezMoi" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/french/templates/newclass/abstract.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/french/templates/newclass/appletj.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/french/templates/newclass/enum.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/french/templates/newclass/interface.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/french/templates/newclass/midlet.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/french/templates/newclass/stdclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/french/templates/newclass/unittest.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/french/templates/readme.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/german/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/german/exception.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/german/greenfoot/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/german/greenfoot/greenfoot-labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/german/javac.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/german/labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/german/moe.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/german/templates/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/german/templates/html.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/german/templates/method.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/german/templates/newclass/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/german/templates/newclass/abstract.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/german/templates/newclass/appletj.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/german/templates/newclass/enum.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/german/templates/newclass/interface.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/german/templates/newclass/midlet.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/german/templates/newclass/stdclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/german/templates/newclass/unittest.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/german/templates/readme.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/greek/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/greek/exception.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/greek/greenfoot/greenfoot-labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/greek/javac.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/greek/labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/greek/moe.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/greek/templates/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/greek/templates/html.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/greek/templates/method.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/greek/templates/newclass/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/greek/templates/newclass/abstract.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/greek/templates/newclass/appletj.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/greek/templates/newclass/enum.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/greek/templates/newclass/interface.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/greek/templates/newclass/stdclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/greek/templates/newclass/unittest.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/greek/templates/readme.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/italian/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/italian/exception.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/italian/greenfoot/greenfoot-labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/italian/javac.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/italian/labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/italian/moe.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/italian/templates/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/italian/templates/html.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/italian/templates/method.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/italian/templates/newclass/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/italian/templates/newclass/abstract.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/italian/templates/newclass/appletj.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/italian/templates/newclass/enum.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/italian/templates/newclass/interface.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/italian/templates/newclass/stdclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/italian/templates/newclass/unittest.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/italian/templates/readme.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/japanese/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/japanese/exception.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/japanese/javac.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/japanese/labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/japanese/moe.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/japanese/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/japanese/templates/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/japanese/templates/html.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/japanese/templates/method.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/japanese/templates/newclass/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/japanese/templates/newclass/abstract.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/japanese/templates/newclass/appletj.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/japanese/templates/newclass/enum.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/japanese/templates/newclass/interface.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/japanese/templates/newclass/stdclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/japanese/templates/newclass/unittest.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/japanese/templates/readme.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/korean/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/korean/exception.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/korean/greenfoot/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/korean/greenfoot/greenfoot-labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/korean/javac.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/korean/labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/korean/moe.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/korean/templates/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/korean/templates/html.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/korean/templates/method.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/korean/templates/newclass/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/korean/templates/newclass/abstract.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/korean/templates/newclass/appletj.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/korean/templates/newclass/enum.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/korean/templates/newclass/interface.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/korean/templates/newclass/stdclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/korean/templates/newclass/unittest.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/korean/templates/readme.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/portuguese/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/portuguese/exception.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/portuguese/javac.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/portuguese/labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/portuguese/moe.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/portuguese/templates/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/portuguese/templates/html.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/portuguese/templates/method.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/portuguese/templates/newclass/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/portuguese/templates/newclass/abstract.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/portuguese/templates/newclass/appletj.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/portuguese/templates/newclass/enum.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/portuguese/templates/newclass/interface.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/portuguese/templates/newclass/stdclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/portuguese/templates/newclass/unittest.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/portuguese/templates/readme.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/russian/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/russian/exception.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/russian/greenfoot/greenfoot-labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/russian/greenfoot/templates/actorclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/russian/greenfoot/templates/html.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/russian/greenfoot/templates/stdclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/russian/greenfoot/templates/worldclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/russian/javac.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/russian/labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/russian/moe.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/russian/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/russian/templates/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/russian/templates/html.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/russian/templates/method.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/russian/templates/newclass/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/russian/templates/newclass/abstract.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/russian/templates/newclass/appletj.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/russian/templates/newclass/enum.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/russian/templates/newclass/interface.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/russian/templates/newclass/midlet.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/russian/templates/newclass/stdclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/russian/templates/newclass/unittest.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/russian/templates/readme.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/slovak/bluejparser.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/slovak/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/slovak/exception.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/slovak/javac.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/slovak/labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/slovak/moe.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/slovak/readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/slovak/templates/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/slovak/templates/html.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/slovak/templates/method.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/slovak/templates/newclass/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/slovak/templates/newclass/abstract.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/slovak/templates/newclass/appletj.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/slovak/templates/newclass/emptyclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/slovak/templates/newclass/enum.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/slovak/templates/newclass/interface.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/slovak/templates/newclass/mainclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/slovak/templates/newclass/midlet.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/slovak/templates/newclass/stdclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/slovak/templates/newclass/unittest.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/slovak/templates/readme.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/slovak/templates/readmeexp.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/spanish/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/spanish/exception.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/spanish/greenfoot/greenfoot-labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/spanish/greenfoot/templates/actorclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/spanish/greenfoot/templates/html.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/spanish/greenfoot/templates/stdclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/spanish/greenfoot/templates/worldclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/spanish/javac.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/spanish/labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/spanish/moe.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/spanish/templates/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/spanish/templates/html.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/spanish/templates/method.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/spanish/templates/newclass/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/spanish/templates/newclass/abstract.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/spanish/templates/newclass/appletj.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/spanish/templates/newclass/enum.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/spanish/templates/newclass/interface.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/spanish/templates/newclass/stdclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/spanish/templates/newclass/unittest.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/spanish/templates/readme.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/swedish/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/swedish/exception.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/swedish/javac.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/swedish/labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/swedish/moe.help" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/swedish/templates/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/swedish/templates/html.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/swedish/templates/method.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/swedish/templates/newclass/README" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/swedish/templates/newclass/abstract.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/swedish/templates/newclass/appletj.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/swedish/templates/newclass/enum.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/swedish/templates/newclass/interface.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/swedish/templates/newclass/stdclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/swedish/templates/newclass/unittest.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bluej/lib/swedish/templates/readme.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/chinese/greenfoot/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/chinese/greenfoot/greenfoot-labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/czech/greenfoot/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/czech/greenfoot/greenfoot-labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/dutch/greenfoot/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/dutch/greenfoot/greenfoot-labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/french/greenfoot/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/french/greenfoot/greenfoot-labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/french/greenfoot/templates/actorclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/french/greenfoot/templates/html.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/french/greenfoot/templates/stdclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/french/greenfoot/templates/worldclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/german/greenfoot/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/german/greenfoot/greenfoot-labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/greek/greenfoot/greenfoot-labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/italian/greenfoot/greenfoot-labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/korean/greenfoot/dialogues" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/korean/greenfoot/greenfoot-labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/russian/greenfoot/greenfoot-labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/russian/greenfoot/templates/actorclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/russian/greenfoot/templates/html.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/russian/greenfoot/templates/stdclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/russian/greenfoot/templates/worldclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/spanish/greenfoot/greenfoot-labels" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/spanish/greenfoot/templates/actorclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/spanish/greenfoot/templates/html.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/spanish/greenfoot/templates/stdclass.tmpl" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/greenfoot/labels/spanish/greenfoot/templates/worldclass.tmpl" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/package/Greenfoot-core-2.6.jar" afterPath="$PROJECT_DIR$/greenfoot/package/Greenfoot-core-2.6.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/bluej.jar" afterPath="$PROJECT_DIR$/bluej/lib/bluej.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/bluejcore.jar" afterPath="$PROJECT_DIR$/bluej/lib/bluejcore.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/bluejeditor.jar" afterPath="$PROJECT_DIR$/bluej/lib/bluejeditor.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/bluejext.jar" afterPath="$PROJECT_DIR$/bluej/lib/bluejext.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/src/bluej/extensions/BPackage.java" afterPath="$PROJECT_DIR$/bluej/src/bluej/extensions/BPackage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Boot.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Boot.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scenarios/LTA/Car.groovy" afterPath="$PROJECT_DIR$/scenarios/LTA/Car.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scenarios/LTA/doc/logfile.txt" afterPath="$PROJECT_DIR$/scenarios/LTA/doc/logfile.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/doc/API/greenfoot/Actor.html" afterPath="$PROJECT_DIR$/bluej/doc/API/greenfoot/Actor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/doc/API/greenfoot/Actor.html" afterPath="$PROJECT_DIR$/greenfoot/doc/API/greenfoot/Actor.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/greenfoot/common/Animal.html" afterPath="$PROJECT_DIR$/bluej/lib/greenfoot/common/Animal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/common/Animal.html" afterPath="$PROJECT_DIR$/greenfoot/common/Animal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/greenfoot/common/Counter.html" afterPath="$PROJECT_DIR$/bluej/lib/greenfoot/common/Counter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/common/Counter.html" afterPath="$PROJECT_DIR$/greenfoot/common/Counter.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/greenfoot/common/GifImage.html" afterPath="$PROJECT_DIR$/bluej/lib/greenfoot/common/GifImage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/common/GifImage.html" afterPath="$PROJECT_DIR$/greenfoot/common/GifImage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/doc/API/greenfoot/Greenfoot.html" afterPath="$PROJECT_DIR$/bluej/doc/API/greenfoot/Greenfoot.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/doc/API/greenfoot/Greenfoot.html" afterPath="$PROJECT_DIR$/greenfoot/doc/API/greenfoot/Greenfoot.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/doc/API/greenfoot/GreenfootImage.html" afterPath="$PROJECT_DIR$/bluej/doc/API/greenfoot/GreenfootImage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/doc/API/greenfoot/GreenfootImage.html" afterPath="$PROJECT_DIR$/greenfoot/doc/API/greenfoot/GreenfootImage.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/doc/API/greenfoot/GreenfootSound.html" afterPath="$PROJECT_DIR$/bluej/doc/API/greenfoot/GreenfootSound.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/doc/API/greenfoot/GreenfootSound.html" afterPath="$PROJECT_DIR$/greenfoot/doc/API/greenfoot/GreenfootSound.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/greenfoot/common/Label.html" afterPath="$PROJECT_DIR$/bluej/lib/greenfoot/common/Label.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/common/Label.html" afterPath="$PROJECT_DIR$/greenfoot/common/Label.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/greenfoot/common/Map.html" afterPath="$PROJECT_DIR$/bluej/lib/greenfoot/common/Map.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/common/Map.html" afterPath="$PROJECT_DIR$/greenfoot/common/Map.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/doc/API/greenfoot/MouseInfo.html" afterPath="$PROJECT_DIR$/bluej/doc/API/greenfoot/MouseInfo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/doc/API/greenfoot/MouseInfo.html" afterPath="$PROJECT_DIR$/greenfoot/doc/API/greenfoot/MouseInfo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/greenfoot/common/ScoreBoard.html" afterPath="$PROJECT_DIR$/bluej/lib/greenfoot/common/ScoreBoard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/common/ScoreBoard.html" afterPath="$PROJECT_DIR$/greenfoot/common/ScoreBoard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/greenfoot/common/SimpleTimer.html" afterPath="$PROJECT_DIR$/bluej/lib/greenfoot/common/SimpleTimer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/common/SimpleTimer.html" afterPath="$PROJECT_DIR$/greenfoot/common/SimpleTimer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/greenfoot/common/SmoothMover.html" afterPath="$PROJECT_DIR$/bluej/lib/greenfoot/common/SmoothMover.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/common/SmoothMover.html" afterPath="$PROJECT_DIR$/greenfoot/common/SmoothMover.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/doc/API/greenfoot/UserInfo.html" afterPath="$PROJECT_DIR$/bluej/doc/API/greenfoot/UserInfo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/doc/API/greenfoot/UserInfo.html" afterPath="$PROJECT_DIR$/greenfoot/doc/API/greenfoot/UserInfo.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/doc/API/greenfoot/World.html" afterPath="$PROJECT_DIR$/bluej/doc/API/greenfoot/World.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/doc/API/greenfoot/World.html" afterPath="$PROJECT_DIR$/greenfoot/doc/API/greenfoot/World.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/english/templates/newclass/abstract.tmpl" afterPath="$PROJECT_DIR$/bluej/lib/english/templates/newclass/abstract.tmpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/english/greenfoot/templates/actorclass.tmpl" afterPath="$PROJECT_DIR$/bluej/lib/english/greenfoot/templates/actorclass.tmpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/doc/API/allclasses-frame.html" afterPath="$PROJECT_DIR$/bluej/doc/API/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/common/allclasses-frame.html" afterPath="$PROJECT_DIR$/greenfoot/common/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/doc/API/allclasses-frame.html" afterPath="$PROJECT_DIR$/greenfoot/doc/API/allclasses-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/doc/API/allclasses-noframe.html" afterPath="$PROJECT_DIR$/bluej/doc/API/allclasses-noframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/common/allclasses-noframe.html" afterPath="$PROJECT_DIR$/greenfoot/common/allclasses-noframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/doc/API/allclasses-noframe.html" afterPath="$PROJECT_DIR$/greenfoot/doc/API/allclasses-noframe.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/doc/API/constant-values.html" afterPath="$PROJECT_DIR$/bluej/doc/API/constant-values.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/common/constant-values.html" afterPath="$PROJECT_DIR$/greenfoot/common/constant-values.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/doc/API/constant-values.html" afterPath="$PROJECT_DIR$/greenfoot/doc/API/constant-values.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/doc/API/deprecated-list.html" afterPath="$PROJECT_DIR$/bluej/doc/API/deprecated-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/common/deprecated-list.html" afterPath="$PROJECT_DIR$/greenfoot/common/deprecated-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/doc/API/deprecated-list.html" afterPath="$PROJECT_DIR$/greenfoot/doc/API/deprecated-list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/english/templates/newclass/enum.tmpl" afterPath="$PROJECT_DIR$/bluej/lib/english/templates/newclass/enum.tmpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/doc/API/help-doc.html" afterPath="$PROJECT_DIR$/bluej/doc/API/help-doc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/doc/API/help-doc.html" afterPath="$PROJECT_DIR$/greenfoot/doc/API/help-doc.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/doc/API/index-all.html" afterPath="$PROJECT_DIR$/bluej/doc/API/index-all.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/doc/API/index-all.html" afterPath="$PROJECT_DIR$/greenfoot/doc/API/index-all.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/doc/API/index.html" afterPath="$PROJECT_DIR$/bluej/doc/API/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/common/index.html" afterPath="$PROJECT_DIR$/greenfoot/common/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/doc/API/index.html" afterPath="$PROJECT_DIR$/greenfoot/doc/API/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/english/templates/newclass/interface.tmpl" afterPath="$PROJECT_DIR$/bluej/lib/english/templates/newclass/interface.tmpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/english/templates/method.tmpl" afterPath="$PROJECT_DIR$/bluej/lib/english/templates/method.tmpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/doc/API/overview-tree.html" afterPath="$PROJECT_DIR$/bluej/doc/API/overview-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/doc/API/overview-tree.html" afterPath="$PROJECT_DIR$/greenfoot/doc/API/overview-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/doc/API/greenfoot/package-frame.html" afterPath="$PROJECT_DIR$/bluej/doc/API/greenfoot/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/common/package-frame.html" afterPath="$PROJECT_DIR$/greenfoot/common/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/doc/API/greenfoot/package-frame.html" afterPath="$PROJECT_DIR$/greenfoot/doc/API/greenfoot/package-frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/doc/API/greenfoot/package-summary.html" afterPath="$PROJECT_DIR$/bluej/doc/API/greenfoot/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/common/package-summary.html" afterPath="$PROJECT_DIR$/greenfoot/common/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/doc/API/greenfoot/package-summary.html" afterPath="$PROJECT_DIR$/greenfoot/doc/API/greenfoot/package-summary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/doc/API/greenfoot/package-tree.html" afterPath="$PROJECT_DIR$/bluej/doc/API/greenfoot/package-tree.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/doc/API/greenfoot/package-tree.html" afterPath="$PROJECT_DIR$/greenfoot/doc/API/greenfoot/package-tree.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scenarios/LTA/project.greenfoot" afterPath="$PROJECT_DIR$/scenarios/LTA/project.greenfoot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/english/greenfoot/templates/stdclass.tmpl" afterPath="$PROJECT_DIR$/bluej/lib/english/greenfoot/templates/stdclass.tmpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/english/templates/newclass/stdclass.tmpl" afterPath="$PROJECT_DIR$/bluej/lib/english/templates/newclass/stdclass.tmpl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/english/greenfoot/templates/subworldclass.tmpl" afterPath="$PROJECT_DIR$/bluej/lib/english/greenfoot/templates/subworldclass.tmpl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/english/greenfoot/templates/worldclass.tmpl" afterPath="$PROJECT_DIR$/bluej/lib/english/greenfoot/templates/worldclass.tmpl" />
     </list>
     <ignored path="greenfoot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +432,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="ChangesViewManager" flattened_view="false" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -76,64 +485,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ClassView.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/greenfoot/src/greenfoot/gui/classbrowser/ClassView.java">
+      <file leaf-file-name="project.greenfoot" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scenarios/LTA/project.greenfoot">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3629" max-vertical-offset="5415">
-              <caret line="324" column="39" selection-start-line="324" selection-start-column="39" selection-end-line="324" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GPackage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/greenfoot/src/greenfoot/core/GPackage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1859" max-vertical-offset="3780">
-              <caret line="184" column="40" selection-start-line="184" selection-start-column="40" selection-end-line="184" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RPackage.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/greenfoot/src/rmiextension/wrappers/RPackage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1244" max-vertical-offset="2130">
-              <caret line="124" column="27" selection-start-line="124" selection-start-column="27" selection-end-line="124" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RPackageImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/greenfoot/src/rmiextension/wrappers/RPackageImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3637" max-vertical-offset="7200">
-              <caret line="343" column="51" selection-start-line="343" selection-start-column="27" selection-end-line="343" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BPackage.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bluej/src/bluej/extensions/BPackage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3779264" vertical-offset="1004" max-vertical-offset="5670">
-              <caret line="115" column="27" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="27" />
-              <folding>
-                <element signature="e#5308#5309#0" expanded="true" />
-                <element signature="e#5358#5359#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Debug.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bluej/src/bluej/utility/Debug.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2175">
-              <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -176,6 +532,11 @@
         <option value="$PROJECT_DIR$/scenarios/LTA/Ground.ctxt" />
         <option value="$PROJECT_DIR$/scenarios/LTA/Car.groovy" />
         <option value="$PROJECT_DIR$/bluej/src/bluej/extensions/BPackage.java" />
+        <option value="$PROJECT_DIR$/bluej/lib/english/templates/newclass/abstract.tmpl" />
+        <option value="$PROJECT_DIR$/bluej/lib/english/templates/newclass/enum.tmpl" />
+        <option value="$PROJECT_DIR$/bluej/lib/english/templates/newclass/interface.tmpl" />
+        <option value="$PROJECT_DIR$/bluej/lib/english/templates/newclass/stdclass.tmpl" />
+        <option value="$PROJECT_DIR$/bluej/lib/english/templates/method.tmpl" />
       </list>
     </option>
   </component>
@@ -225,6 +586,106 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="greenfoot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="greenfoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="greenfoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="greenfoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="greenfoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labels" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="english" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="greenfoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="greenfoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="greenfoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="labels" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="english" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="greenfoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="greenfoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bluej" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="greenfoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bluej" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="greenfoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bluej" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="greenfoot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -559,7 +1020,7 @@
       <changelist id="7a2d3d72-ecc1-4f80-bea5-b5e865fd894c" name="Default" comment="" />
       <created>1414579812574</created>
       <updated>1414579812574</updated>
-      <workItem from="1414579813886" duration="6728000" />
+      <workItem from="1414579813886" duration="7680000" />
     </task>
     <task id="LOCAL-00001" summary="create intellij modules">
       <created>1414587544473</created>
@@ -577,11 +1038,15 @@
       <created>1414589029672</created>
       <updated>1414589029672</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix class creation">
+      <created>1414591223670</created>
+      <updated>1414591223670</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6728000" />
+    <option name="totallyTimeSpent" value="7680000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="815" y="134" width="1540" height="1083" extended-state="0" />
@@ -592,7 +1057,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24966623" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24966623" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39979756" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -631,7 +1096,8 @@
     <MESSAGE value="create intellij modules" />
     <MESSAGE value="LTA scenario" />
     <MESSAGE value="add intellij config" />
-    <option name="LAST_COMMIT_MESSAGE" value="add intellij config" />
+    <MESSAGE value="fix class creation" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix class creation" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -796,16 +1262,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scenarios/LTA/Car.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#22#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/bluej/lib/bluej.jar!/bluej/Boot.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="1170">
@@ -898,7 +1354,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bluej/src/bluej/utility/Debug.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2175">
+        <state vertical-scroll-proportion="0.15625" vertical-offset="0" max-vertical-offset="2175">
           <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
           <folding />
         </state>
@@ -946,12 +1402,138 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bluej/src/bluej/extensions/BPackage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3779264" vertical-offset="1004" max-vertical-offset="5670">
+        <state vertical-scroll-proportion="0.23541667" vertical-offset="1004" max-vertical-offset="5670">
           <caret line="115" column="27" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="27" />
           <folding>
             <element signature="e#5308#5309#0" expanded="true" />
             <element signature="e#5358#5359#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scenarios/LTA/Car.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluej/lib/english/templates/newclass/appletj.tmpl">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1845">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluej/lib/english/templates/newclass/abstract.tmpl">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.111111" vertical-offset="0" max-vertical-offset="420">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluej/lib/english/templates/newclass/enum.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6153846" vertical-offset="0" max-vertical-offset="240">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluej/lib/english/templates/newclass/interface.tmpl">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.5609756" vertical-offset="0" max-vertical-offset="330">
+          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluej/lib/english/templates/newclass/stdclass.tmpl">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.121951" vertical-offset="0" max-vertical-offset="540">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluej/lib/english/templates/newclass/unittest.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluej/lib/english/templates/method.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1818182" vertical-offset="0" max-vertical-offset="255">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluej/lib/english/templates/readme.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="634">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenfoot/labels/english/greenfoot/templates/actorclass.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="634">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenfoot/labels/english/greenfoot/templates/subworldclass.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="611">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenfoot/labels/english/greenfoot/templates/worldclass.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30757096" vertical-offset="0" max-vertical-offset="634">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenfoot/labels/english/greenfoot/templates/stdclass.tmpl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04731861" vertical-offset="0" max-vertical-offset="634">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scenarios/LTA/project.greenfoot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
