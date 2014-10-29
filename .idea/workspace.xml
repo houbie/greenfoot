@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a2d3d72-ecc1-4f80-bea5-b5e865fd894c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/Boot.xml" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Greenfoot.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="greenfoot.iws" />
@@ -490,7 +490,7 @@
       <changelist id="7a2d3d72-ecc1-4f80-bea5-b5e865fd894c" name="Default" comment="" />
       <created>1414579812574</created>
       <updated>1414579812574</updated>
-      <workItem from="1414579813886" duration="9072000" />
+      <workItem from="1414579813886" duration="9473000" />
     </task>
     <task id="LOCAL-00001" summary="create intellij modules">
       <created>1414587544473</created>
@@ -520,11 +520,15 @@
       <created>1414593106481</created>
       <updated>1414593106481</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="delete compiled classes">
+      <created>1414593992999</created>
+      <updated>1414593992999</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9072000" />
+    <option name="totallyTimeSpent" value="9473000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="815" y="134" width="1540" height="1083" extended-state="0" />
