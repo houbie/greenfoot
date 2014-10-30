@@ -52,6 +52,7 @@ I noticed that aspirant programmers are eager to start programming without readi
 frustrated by compilation errors.
 
 Both issues can be solved by editing the code with Intellij i.s.o. the greenfoot editor:
+
 * Errors are highlighted while typing
 * Errors can often be auto-corrected with 'ALT+Enter'
 * Good code completion with 'CTRL+Space' makes it easy to explore API's
