@@ -1,0 +1,60 @@
+= Greenfoot with Groovy
+
+
+This is an experiment that uses http://groovy.codehaus.org[Groovy] in stead of Java for teaching programming with http://www.greenfoot.org[Greenfoot]
+
+== Why Groovy
+
+Groovy is (more or less) a super-set of Java with a lot of extra features and a smarter compiler allows you to write
+less ceremony code.
+
+It is the last point that makes Groovy more suitable than Java for teaching:
+
+[source,java]
+----
+//An Actor that wants to change the 'message' property of its world
+
+//Java
+HelloWorld helloWorld = (HelloWorld)getWorld();
+helloWorld.setMessage("Hello " + helloWorld.getName() + "!");
+
+//Groovy
+world.message = "Hello ${world.name}!"
+----
+
+My 15 year old daughter had very little programming experience. When I tried to explain her the Java version, I
+lost her attention after 10 minutes. Explaining the Groovy version only took 5 minutes :)
+
+== Getting started
+
+For the time being, this project is a quick hack and doesn't come with an installer :(
+
+The easiest way to get started is:
+
+* Install Intellij IDEA (the free community edition is sufficient)
+* Clone this repository (or unpack the https://github.com/houbie/greenfoot/archive/master.zip[zip download])
+* Start Intellij
+** Open the greenfoot project that you cloned or unpacked
+** Configure the JDK _File > Project Structure -> Project_ (you will need JDK 1.6 or newer)
+** If there is no JDK present:
+*** download one and install the latest JDK
+*** add the JDK in Intellij _File > Project Structure -> SDKs_
+** Start greenfoot _Run -> Run 'Greenfoot'_
+
+After that you can open the sample greenfoot project in `scenarios/Groovy` from within greenfoot.
+
+NOTE: After editing code in Intellij, click the _Compile_ button in greenfoot (you don't have to save anything,
+Intellij does that automatically)
+
+== Why Intellij?
+
+I noticed that aspirant programmers easily get frustrated by compilation errors and that they want to start programming
+immediately without reading the docs first.
+
+Both issues can be solved by editing the code with Intellij i.s.o. the greenfoot editor:
+* Errors are highlighted while typing
+* Errors often be auto-corrected with 'ALT+Enter'
+* Good code completion with 'CTRL+Space' makes it easy to explore API's
+
+== Known issues
+Generating/browsing documentation from within greenfoot is broken.
