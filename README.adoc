@@ -35,10 +35,10 @@ The easiest way to get started is:
 * Clone this repository (or unpack the https://github.com/houbie/greenfoot/archive/master.zip[zip download])
 * Start Intellij
 ** Open the greenfoot project that you cloned or unpacked
-** Configure the JDK (you will need JDK 1.6 or newer): _File > Project Structure -> Project_
+** Configure the JDK (you will need JDK 1.6 or newer): _File -> Project Structure -> Project_
 ** If there is no JDK present:
-*** download one and install the latest JDK
-*** add the JDK in Intellij: _File > Project Structure -> SDKs_
+*** download and install the latest http://www.oracle.com/technetwork/java/javase/downloads/index.html[JDK]
+*** add the JDK in Intellij: _File -> Project Structure -> SDKs_
 ** Start greenfoot: _Run -> Run 'Greenfoot'_
 
 After that you can open the sample greenfoot project in `scenarios/Groovy` from within greenfoot.
@@ -48,12 +48,12 @@ Intellij does that automatically)
 
 == Why Intellij?
 
-I noticed that aspirant programmers easily get frustrated by compilation errors and that they want to start programming
-immediately without reading the docs first.
+I noticed that aspirant programmers are eager to start programming without reading the docs and that they easily get
+frustrated by compilation errors.
 
 Both issues can be solved by editing the code with Intellij i.s.o. the greenfoot editor:
 * Errors are highlighted while typing
-* Errors often be auto-corrected with 'ALT+Enter'
+* Errors can often be auto-corrected with 'ALT+Enter'
 * Good code completion with 'CTRL+Space' makes it easy to explore API's
 
 == Known issues
