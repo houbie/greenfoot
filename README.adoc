@@ -5,8 +5,8 @@ This is an experiment that uses http://groovy.codehaus.org[Groovy] in stead of J
 
 == Why Groovy
 
-Groovy is (more or less) a super-set of Java with a lot of extra features and a smarter compiler allows you to write
-less ceremony code.
+Groovy is (more or less) a super-set of Java with a lot of extra features and a smart compiler that allows you to write
+code with less ceremony.
 
 It is the last point that makes Groovy more suitable than Java for teaching:
 
@@ -31,15 +31,15 @@ For the time being, this project is a quick hack and doesn't come with an instal
 
 The easiest way to get started is:
 
-* Install Intellij IDEA (the free community edition is sufficient)
+* Install https://www.jetbrains.com/idea/download/[Intellij IDEA] (the free community edition is sufficient)
 * Clone this repository (or unpack the https://github.com/houbie/greenfoot/archive/master.zip[zip download])
 * Start Intellij
 ** Open the greenfoot project that you cloned or unpacked
-** Configure the JDK _File > Project Structure -> Project_ (you will need JDK 1.6 or newer)
+** Configure the JDK (you will need JDK 1.6 or newer): _File > Project Structure -> Project_
 ** If there is no JDK present:
 *** download one and install the latest JDK
-*** add the JDK in Intellij _File > Project Structure -> SDKs_
-** Start greenfoot _Run -> Run 'Greenfoot'_
+*** add the JDK in Intellij: _File > Project Structure -> SDKs_
+** Start greenfoot: _Run -> Run 'Greenfoot'_
 
 After that you can open the sample greenfoot project in `scenarios/Groovy` from within greenfoot.
 
