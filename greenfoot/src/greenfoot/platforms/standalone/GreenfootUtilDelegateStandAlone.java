@@ -80,7 +80,7 @@ public class GreenfootUtilDelegateStandAlone implements GreenfootUtilDelegate
         // returning a fail. Therefore, we need to explicitly test for the
         // existence of a ! in the returned URL.
         URL res = this.getClass().getClassLoader().getResource(path);
-        if (res != null && res.toString().contains("!")) {  
+        if (res != null) {
             return res;
         }
         else {
