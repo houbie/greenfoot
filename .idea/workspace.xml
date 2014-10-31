@@ -2,23 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a2d3d72-ecc1-4f80-bea5-b5e865fd894c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bluej/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/greenfoot/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/Groovy/standalone.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/greenfoot/standalone/bluej/BlueJTheme.class" afterPath="$PROJECT_DIR$/bluej/lib/greenfoot/standalone/bluej/BlueJTheme.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/greenfoot/standalone/bluej/Config$1.class" afterPath="$PROJECT_DIR$/bluej/lib/greenfoot/standalone/bluej/Config$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/greenfoot/standalone/bluej/Config$2.class" afterPath="$PROJECT_DIR$/bluej/lib/greenfoot/standalone/bluej/Config$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/greenfoot/standalone/bluej/Config$3.class" afterPath="$PROJECT_DIR$/bluej/lib/greenfoot/standalone/bluej/Config$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/greenfoot/standalone/bluej/Config.class" afterPath="$PROJECT_DIR$/bluej/lib/greenfoot/standalone/bluej/Config.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/package/Greenfoot-core-2.6.jar" afterPath="$PROJECT_DIR$/greenfoot/package/Greenfoot-core-2.6.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/greenfoot/standalone/greenfoot/platforms/standalone/GreenfootUtilDelegateStandAlone.class" afterPath="$PROJECT_DIR$/bluej/lib/greenfoot/standalone/greenfoot/platforms/standalone/GreenfootUtilDelegateStandAlone.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/greenfoot/standalone/bluej/PropParser.class" afterPath="$PROJECT_DIR$/bluej/lib/greenfoot/standalone/bluej/PropParser.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/lib/extensions/greenfoot.jar" afterPath="$PROJECT_DIR$/bluej/lib/extensions/greenfoot.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/src/greenfoot/platforms/standalone/GreenfootUtilDelegateStandAlone.java" afterPath="$PROJECT_DIR$/greenfoot/src/greenfoot/platforms/standalone/GreenfootUtilDelegateStandAlone.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scenarios/Groovy/Groovy.iml" afterPath="$PROJECT_DIR$/scenarios/Groovy/Groovy.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scenarios/Groovy/GroovyWorld.groovy" afterPath="$PROJECT_DIR$/scenarios/Groovy/GroovyWorld.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/build.properties" afterPath="$PROJECT_DIR$/greenfoot/build.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/lunarlander/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/lunarlander/Explosion.ctxt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/lunarlander/Explosion.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/lunarlander/Flag.ctxt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/lunarlander/Flag.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/lunarlander/Lander.ctxt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/lunarlander/Lander.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/lunarlander/Moon.ctxt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/lunarlander/Moon.groovy" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scenarios/lunarlander/Explosion.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scenarios/lunarlander/Flag.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scenarios/lunarlander/Lander.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/scenarios/lunarlander/Moon.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scenarios/Groovy/project.greenfoot" afterPath="$PROJECT_DIR$/scenarios/Groovy/project.greenfoot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scenarios/lunarlander/project.greenfoot" afterPath="$PROJECT_DIR$/scenarios/lunarlander/project.greenfoot" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="greenfoot.iws" />
@@ -81,7 +79,38 @@
     <favorites_list name="greenfoot" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scenarios/lunarlander/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="standalone.properties" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scenarios/Groovy/standalone.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.properties" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/greenfoot/build.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.4415585" vertical-offset="0" max-vertical-offset="690">
+              <caret line="37" column="64" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -134,13 +163,13 @@
         <option value="$PROJECT_DIR$/scenarios/Groovy/Scriptlet.groovy" />
         <option value="$PROJECT_DIR$/scenarios/Groovy/script.temp" />
         <option value="$PROJECT_DIR$/scenarios/Groovy/standalone.properties" />
-        <option value="$PROJECT_DIR$/greenfoot/build.properties" />
         <option value="$PROJECT_DIR$/scenarios/Groovy/Groovy.iml" />
         <option value="$PROJECT_DIR$/bluej/src/greenfoot/GreenfootGroovyConsoleMain.java" />
         <option value="$PROJECT_DIR$/bluej/build.xml" />
         <option value="$PROJECT_DIR$/bluej/.gitignore" />
         <option value="$PROJECT_DIR$/greenfoot/src/greenfoot/platforms/standalone/GreenfootUtilDelegateStandAlone.java" />
         <option value="$PROJECT_DIR$/greenfoot/.gitignore" />
+        <option value="$PROJECT_DIR$/greenfoot/build.properties" />
       </list>
     </option>
   </component>
@@ -592,7 +621,7 @@
       <workItem from="1414579813886" duration="9659000" />
       <workItem from="1414594582745" duration="20822000" />
       <workItem from="1414697244923" duration="1094000" />
-      <workItem from="1414699707577" duration="8836000" />
+      <workItem from="1414699707577" duration="9373000" />
     </task>
     <task id="LOCAL-00001" summary="create intellij modules">
       <created>1414587544473</created>
@@ -654,17 +683,21 @@
       <created>1414698042597</created>
       <updated>1414698042597</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="fix image loading in standalone runner">
+      <created>1414773572980</created>
+      <updated>1414773572980</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40411000" />
+    <option name="totallyTimeSpent" value="40948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="377" y="76" width="1523" height="1059" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.68360996" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5715768" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883817" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -716,7 +749,8 @@
     <MESSAGE value="run configurations" />
     <MESSAGE value="example groovy project" />
     <MESSAGE value="readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme" />
+    <MESSAGE value="fix image loading in standalone runner" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix image loading in standalone runner" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -870,13 +904,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bluej/src/bluej/debugger/DebuggerTerminal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15625" vertical-offset="0" max-vertical-offset="960">
-          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bluej/src/bluej/debugger/Debugger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.875" vertical-offset="1365" max-vertical-offset="4470">
@@ -1152,26 +1179,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenfoot/build.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77348995" vertical-offset="94" max-vertical-offset="690">
-          <caret line="37" column="64" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/greenfoot/src/greenfoot/export/GreenfootScenarioViewer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.7166667" vertical-offset="0" max-vertical-offset="4545">
           <caret line="160" column="13" selection-start-line="160" selection-start-column="13" selection-end-line="160" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scenarios/Groovy/standalone.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.048076924" vertical-offset="0" max-vertical-offset="936">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1270,6 +1281,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.054151624" vertical-offset="0" max-vertical-offset="277">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scenarios/lunarlander/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scenarios/Groovy/standalone.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenfoot/build.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4415585" vertical-offset="0" max-vertical-offset="690">
+          <caret line="37" column="64" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
           <folding />
         </state>
       </provider>

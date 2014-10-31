@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Lander()
+comment1.params=
+comment1.target=void\ act()
+comment2.params=world
+comment2.target=void\ addedToWorld(greenfoot.World)
+comment2.text=\n\ Lander\ has\ been\ added\ to\ the\ world.\n
+comment3.params=
+comment3.target=void\ processKeys()
+comment3.text=\n\ Handle\ keyboard\ input.\n
+comment4.params=
+comment4.target=void\ applyGravity()
+comment4.text=\n\ Let\ the\ gravity\ change\ the\ speed.\n
+comment5.params=
+comment5.target=boolean\ isLanding()
+comment5.text=\n\ Whether\ we\ have\ touched\ the\ landing\ platform\ yet.\n
+comment6.params=
+comment6.target=boolean\ isExploding()
+comment6.text=\ \n\ Is\ the\ lander\ exploding?\n
+comment7.params=
+comment7.target=void\ checkCollision()
+comment7.text=\n\ Check\ if\ we\ are\ colliding\ with\ anything\ and\ take\ appropiate\ action.\n
+numComments=8

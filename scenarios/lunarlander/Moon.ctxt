@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Moon()
+comment1.params=
+comment1.target=double\ getGravity()
+comment1.text=\ \n\ Gravity\ on\ the\ moon\ \ \n\n
+comment2.params=
+comment2.target=java.awt.Color\ getLandingColor()
+comment2.text=\n\ Color\ of\ the\ landing\ platform\ \n\ \n
+comment3.params=
+comment3.target=java.awt.Color\ getSpaceColor()
+comment3.text=\n\ Color\ of\ the\ space\ \n\ \n
+numComments=4

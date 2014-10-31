@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Explosion()
+comment1.params=
+comment1.target=void\ initialiseImages()
+comment1.text=\ \n\ Create\ the\ images\ for\ explosion.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ EXPLODE\!\n
+comment3.params=
+comment3.target=void\ explodeOthers()
+comment3.text=\n\ Explodes\ all\ intersecting\ objects.\n
+numComments=4
