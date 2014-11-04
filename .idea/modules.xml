@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/scenarios/Groovy/Groovy.iml" filepath="$PROJECT_DIR$/scenarios/Groovy/Groovy.iml" group="scenarios" />
+      <module fileurl="file://$PROJECT_DIR$/scenarios/ScratchPad/ScratchPad.iml" filepath="$PROJECT_DIR$/scenarios/ScratchPad/ScratchPad.iml" group="scenarios" />
       <module fileurl="file://$PROJECT_DIR$/bluej/bluej.iml" filepath="$PROJECT_DIR$/bluej/bluej.iml" />
       <module fileurl="file://$PROJECT_DIR$/greenfoot/greenfoot.iml" filepath="$PROJECT_DIR$/greenfoot/greenfoot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/scenarios/lunarlander/lunarlander.iml" filepath="$PROJECT_DIR$/scenarios/lunarlander/lunarlander.iml" group="scenarios" />
     </modules>
   </component>
 </project>

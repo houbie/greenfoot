@@ -2,21 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a2d3d72-ecc1-4f80-bea5-b5e865fd894c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/lunarlander/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/lunarlander/Explosion.ctxt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/lunarlander/Explosion.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/lunarlander/Flag.ctxt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/lunarlander/Flag.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/lunarlander/Lander.ctxt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/lunarlander/Lander.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/lunarlander/Moon.ctxt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/lunarlander/Moon.groovy" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scenarios/lunarlander/Explosion.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scenarios/lunarlander/Flag.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scenarios/lunarlander/Lander.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/scenarios/lunarlander/Moon.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scenarios/Groovy/project.greenfoot" afterPath="$PROJECT_DIR$/scenarios/Groovy/project.greenfoot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scenarios/lunarlander/project.greenfoot" afterPath="$PROJECT_DIR$/scenarios/lunarlander/project.greenfoot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/ScratchPad/images/groovy-duke.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/ScratchPad/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/ScratchPad/EmptyWorld.ctxt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/ScratchPad/EmptyWorld.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/ScratchPad/README.TXT" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/ScratchPad/ScratchPad.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/ScratchPad/examples.ctxt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/ScratchPad/examples.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/lunarlander/lunarlander.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/ScratchPad/project.greenfoot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/ScratchPad/standalone.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/lunarlander/standalone.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/bluej.iml" afterPath="$PROJECT_DIR$/bluej/bluej.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/greenfoot.iml" afterPath="$PROJECT_DIR$/greenfoot/greenfoot.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scenarios/Groovy/standalone.properties" afterPath="$PROJECT_DIR$/scenarios/Groovy/standalone.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="greenfoot.iws" />
@@ -80,31 +81,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scenarios/lunarlander/.gitignore">
+      <file leaf-file-name="examples.groovy" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scenarios/ScratchPad/examples.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state vertical-scroll-proportion="1.4025974" vertical-offset="0" max-vertical-offset="750">
+              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GreenfootScenarioMain.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greenfoot/src/greenfoot/export/GreenfootScenarioMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="596" max-vertical-offset="1785">
+              <caret line="85" column="50" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="standalone.properties" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scenarios/Groovy/standalone.properties">
+      <file leaf-file-name="GreenfootScenarioViewer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greenfoot/src/greenfoot/export/GreenfootScenarioViewer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.961538" vertical-offset="1556" max-vertical-offset="4545">
+              <caret line="178" column="19" selection-start-line="178" selection-start-column="19" selection-end-line="178" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.properties" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/greenfoot/build.properties">
+      <file leaf-file-name="Simulation.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/greenfoot/src/greenfoot/core/Simulation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4415585" vertical-offset="0" max-vertical-offset="690">
-              <caret line="37" column="64" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1545" max-vertical-offset="14925">
+              <caret line="697" column="29" selection-start-line="697" selection-start-column="29" selection-end-line="697" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -162,7 +175,6 @@
         <option value="$PROJECT_DIR$/scenarios/Groovy/Scriptor.groovy" />
         <option value="$PROJECT_DIR$/scenarios/Groovy/Scriptlet.groovy" />
         <option value="$PROJECT_DIR$/scenarios/Groovy/script.temp" />
-        <option value="$PROJECT_DIR$/scenarios/Groovy/standalone.properties" />
         <option value="$PROJECT_DIR$/scenarios/Groovy/Groovy.iml" />
         <option value="$PROJECT_DIR$/bluej/src/greenfoot/GreenfootGroovyConsoleMain.java" />
         <option value="$PROJECT_DIR$/bluej/build.xml" />
@@ -170,6 +182,12 @@
         <option value="$PROJECT_DIR$/greenfoot/src/greenfoot/platforms/standalone/GreenfootUtilDelegateStandAlone.java" />
         <option value="$PROJECT_DIR$/greenfoot/.gitignore" />
         <option value="$PROJECT_DIR$/greenfoot/build.properties" />
+        <option value="$PROJECT_DIR$/scenarios/ScratchPad/EmptyWorld.groovy" />
+        <option value="$PROJECT_DIR$/scenarios/ScratchPad/README.TXT" />
+        <option value="$PROJECT_DIR$/scenarios/Groovy/standalone.properties" />
+        <option value="$PROJECT_DIR$/scenarios/ScratchPad/standalone.properties" />
+        <option value="$PROJECT_DIR$/scenarios/lunarlander/standalone.properties" />
+        <option value="$PROJECT_DIR$/scenarios/ScratchPad/examples.groovy" />
       </list>
     </option>
   </component>
@@ -177,9 +195,9 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="377" />
-    <option name="y" value="76" />
-    <option name="width" value="1523" />
+    <option name="x" value="436" />
+    <option name="y" value="31" />
+    <option name="width" value="1482" />
     <option name="height" value="1059" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -245,30 +263,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="greenfoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="greenfoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="greenfoot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scenarios" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleGroupNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Groovy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -280,13 +274,13 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/greenfoot/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/scenarios/ScratchPad" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -313,7 +307,7 @@
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
-    <property name="Groovy.Shell.LastModule" value="Groovy" />
+    <property name="Groovy.Shell.LastModule" value="ScratchPad" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -326,12 +320,22 @@
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/scenarios/Groovy" />
       <recent name="$PROJECT_DIR$/scenarios" />
+      <recent name="$PROJECT_DIR$/scenarios/lunarlander" />
+      <recent name="$PROJECT_DIR$/scenarios/Groovy" />
       <recent name="$PROJECT_DIR$/scenarios/LTA" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Greenfoot">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -621,7 +625,7 @@
       <workItem from="1414579813886" duration="9659000" />
       <workItem from="1414594582745" duration="20822000" />
       <workItem from="1414697244923" duration="1094000" />
-      <workItem from="1414699707577" duration="9373000" />
+      <workItem from="1414699707577" duration="15987000" />
     </task>
     <task id="LOCAL-00001" summary="create intellij modules">
       <created>1414587544473</created>
@@ -687,20 +691,24 @@
       <created>1414773572980</created>
       <updated>1414773572980</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="convert lunarlander to groovy">
+      <created>1414775251302</created>
+      <updated>1414775251302</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40948000" />
+    <option name="totallyTimeSpent" value="47562000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="377" y="76" width="1523" height="1059" extended-state="0" />
+    <frame x="436" y="31" width="1482" height="1059" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5715768" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32883817" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21161826" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24915597" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44502074" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -715,8 +723,8 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25118163" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.54875517" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40456432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -750,80 +758,24 @@
     <MESSAGE value="example groovy project" />
     <MESSAGE value="readme" />
     <MESSAGE value="fix image loading in standalone runner" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix image loading in standalone runner" />
+    <MESSAGE value="convert lunarlander to groovy" />
+    <option name="LAST_COMMIT_MESSAGE" value="convert lunarlander to groovy" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/greenfoot/src/rmiextension/wrappers/RPackageImpl.java</url>
-          <line>324</line>
+          <url>file://$PROJECT_DIR$/bluej/src/bluej/Config.java</url>
+          <line>786</line>
           <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/greenfoot/src/rmiextension/wrappers/RPackageImpl.java</url>
-          <line>338</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/greenfoot/src/rmiextension/wrappers/RPackageImpl.java</url>
-          <line>341</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/greenfoot/src/rmiextension/wrappers/RPackageImpl.java</url>
-          <line>344</line>
-          <properties />
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/greenfoot/src/rmiextension/wrappers/RPackageImpl.java</url>
-          <line>347</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/greenfoot/src/rmiextension/wrappers/RPackageImpl.java</url>
-          <line>352</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/greenfoot/src/rmiextension/wrappers/RPackageImpl.java</url>
-          <line>354</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/greenfoot/src/rmiextension/wrappers/RPackageImpl.java</url>
-          <line>358</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/greenfoot/src/greenfoot/util/GreenfootUtil.java</url>
-          <line>790</line>
-          <properties />
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/greenfoot/src/greenfoot/GreenfootImage.java</url>
-          <line>99</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/greenfoot/src/greenfoot/util/GreenfootUtil.java</url>
-          <line>488</line>
-          <properties />
-          <option name="timeStamp" value="21" />
+          <option name="timeStamp" value="30" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="26" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="32" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -904,117 +856,6 @@
     </buildFile>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bluej/src/bluej/debugger/Debugger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.875" vertical-offset="1365" max-vertical-offset="4470">
-          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bluej/boot/src/bluej/Boot.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34846884" vertical-offset="0" max-vertical-offset="7950">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bluej/src/bluej/debugmgr/Invoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.82365364" vertical-offset="960" max-vertical-offset="18690">
-          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bluej/src/bluej/utility/Debug.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.15625" vertical-offset="0" max-vertical-offset="2175">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greenfoot/src/greenfoot/gui/classbrowser/ClassView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3629" max-vertical-offset="5415">
-          <caret line="324" column="39" selection-start-line="324" selection-start-column="39" selection-end-line="324" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greenfoot/src/greenfoot/core/GPackage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1859" max-vertical-offset="3780">
-          <caret line="184" column="40" selection-start-line="184" selection-start-column="40" selection-end-line="184" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greenfoot/src/rmiextension/wrappers/RPackage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1244" max-vertical-offset="2130">
-          <caret line="124" column="27" selection-start-line="124" selection-start-column="27" selection-end-line="124" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greenfoot/src/rmiextension/wrappers/RPackageImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3637" max-vertical-offset="7200">
-          <caret line="343" column="51" selection-start-line="343" selection-start-column="27" selection-end-line="343" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bluej/src/bluej/extensions/BPackage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23541667" vertical-offset="1004" max-vertical-offset="5670">
-          <caret line="115" column="27" selection-start-line="115" selection-start-column="27" selection-end-line="115" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bluej/lib/english/templates/newclass/appletj.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1845">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bluej/lib/english/templates/newclass/abstract.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.111111" vertical-offset="0" max-vertical-offset="420">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bluej/lib/english/templates/newclass/enum.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6153846" vertical-offset="0" max-vertical-offset="240">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bluej/lib/english/templates/newclass/interface.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.5609756" vertical-offset="0" max-vertical-offset="330">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bluej/lib/english/templates/newclass/stdclass.tmpl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.121951" vertical-offset="0" max-vertical-offset="540">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-        </state>
-      </provider>
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bluej/lib/english/templates/newclass/unittest.tmpl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="720">
@@ -1093,17 +934,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bluej/lib/english/greenfoot/api/greenfoot/Actor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="10406" max-vertical-offset="15360">
-          <caret line="735" column="27" selection-start-line="735" selection-start-column="27" selection-end-line="735" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scenarios/Groovy/project.greenfoot">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.8518519" vertical-offset="11" max-vertical-offset="975">
           <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1119,7 +954,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="675">
           <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
+            <element signature="e#0#22#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1136,6 +971,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="621">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1179,14 +1015,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenfoot/src/greenfoot/export/GreenfootScenarioViewer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7166667" vertical-offset="0" max-vertical-offset="4545">
-          <caret line="160" column="13" selection-start-line="160" selection-start-column="13" selection-end-line="160" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/greenfoot/src/greenfoot/Greenfoot.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.42094016" vertical-offset="296" max-vertical-offset="3765">
@@ -1219,14 +1047,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenfoot/src/greenfoot/util/GreenfootUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17768148" vertical-offset="6136" max-vertical-offset="13065">
-          <caret line="488" column="31" selection-start-line="488" selection-start-column="31" selection-end-line="488" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/greenfoot/src/greenfoot/core/ProjectProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.74358976" vertical-offset="2619" max-vertical-offset="3555">
@@ -1240,12 +1060,12 @@
         <state vertical-scroll-proportion="0.52884614" vertical-offset="0" max-vertical-offset="936">
           <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
           <folding>
-            <element signature="e#1643#1644#0" expanded="true" />
-            <element signature="e#1693#1694#0" expanded="true" />
-            <element signature="e#1768#1769#0" expanded="true" />
-            <element signature="e#1816#1817#0" expanded="true" />
-            <element signature="e#1871#1872#0" expanded="true" />
-            <element signature="e#1919#1920#0" expanded="true" />
+            <element signature="e#1643#1644#0" expanded="false" />
+            <element signature="e#1693#1694#0" expanded="false" />
+            <element signature="e#1768#1769#0" expanded="false" />
+            <element signature="e#1816#1817#0" expanded="false" />
+            <element signature="e#1871#1872#0" expanded="false" />
+            <element signature="e#1919#1920#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1255,25 +1075,9 @@
         <state vertical-scroll-proportion="0.56121343" vertical-offset="14482" max-vertical-offset="15405">
           <caret line="1067" column="27" selection-start-line="1067" selection-start-column="27" selection-end-line="1067" selection-end-column="27" />
           <folding>
-            <element signature="e#34792#34793#0" expanded="true" />
-            <element signature="e#34849#34850#0" expanded="true" />
+            <element signature="e#34792#34793#0" expanded="false" />
+            <element signature="e#34849#34850#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greenfoot/src/greenfoot/export/GreenfootScenarioMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22435898" vertical-offset="255" max-vertical-offset="1785">
-          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/greenfoot/src/greenfoot/GreenfootImage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30876067" vertical-offset="3221" max-vertical-offset="12360">
-          <caret line="275" column="39" selection-start-line="275" selection-start-column="39" selection-end-line="275" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1285,27 +1089,188 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/greenfoot/build.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59294873" vertical-offset="0" max-vertical-offset="936">
+          <caret line="37" column="64" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scenarios/lunarlander/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+        <state vertical-scroll-proportion="0.016025642" vertical-offset="0" max-vertical-offset="936">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scenarios/lunarlander/Moon.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33169532" vertical-offset="15" max-vertical-offset="900">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenfoot/src/greenfoot/GreenfootImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.53512394" vertical-offset="3221" max-vertical-offset="12360">
+          <caret line="273" column="33" selection-start-line="273" selection-start-column="33" selection-end-line="273" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluej/lib/english/greenfoot/api/greenfoot/GreenfootImage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33264464" vertical-offset="709" max-vertical-offset="12360">
+          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenfoot/src/greenfoot/util/GreenfootUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3319838" vertical-offset="6136" max-vertical-offset="13065">
+          <caret line="488" column="0" selection-start-line="488" selection-start-column="0" selection-end-line="488" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluej/src/bluej/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.461326" vertical-offset="2441" max-vertical-offset="23685">
+          <caret line="257" column="8" selection-start-line="257" selection-start-column="8" selection-end-line="257" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenfoot/labels/english/greenfoot/greenfoot-labels">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.42979944" vertical-offset="210" max-vertical-offset="5175">
+          <caret line="24" column="55" selection-start-line="24" selection-start-column="55" selection-end-line="24" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenfoot/src/greenfoot/util/StandalonePropStringManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9447514" vertical-offset="33" max-vertical-offset="540">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <element signature="e#1345#1346#0" expanded="false" />
+            <element signature="e#1375#1376#0" expanded="false" />
+            <element signature="e#1604#1605#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenfoot/src/greenfoot/export/JarCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6233766" vertical-offset="1890" max-vertical-offset="9885">
+          <caret line="197" column="56" selection-start-line="197" selection-start-column="24" selection-end-line="197" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluej/lib/english/greenfoot/api/greenfoot/Actor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="1601" max-vertical-offset="15360">
+          <caret line="143" column="16" selection-start-line="143" selection-start-column="16" selection-end-line="143" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scenarios/ScratchPad/EmptyWorld.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10989011" vertical-offset="0" max-vertical-offset="546">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bluej/bjdoclet/src/bluej/doclet/doclets/formats/html/resources/standard.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3840">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scenarios/ScratchPad/standalone.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4945055" vertical-offset="0" max-vertical-offset="546">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scenarios/lunarlander/standalone.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4945055" vertical-offset="0" max-vertical-offset="546">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scenarios/Groovy/standalone.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4945055" vertical-offset="0" max-vertical-offset="546">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/greenfoot/build.properties">
+    <entry file="file://$PROJECT_DIR$/bluej/lib/english/greenfoot/greenfoot-labels">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4415585" vertical-offset="0" max-vertical-offset="690">
-          <caret line="37" column="64" selection-start-line="37" selection-start-column="64" selection-end-line="37" selection-end-column="64" />
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="887" max-vertical-offset="5175">
+          <caret line="70" column="7" selection-start-line="70" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scenarios/ScratchPad/README.TXT">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21978022" vertical-offset="0" max-vertical-offset="546">
+          <caret line="8" column="104" selection-start-line="8" selection-start-column="104" selection-end-line="8" selection-end-column="104" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenfoot/src/greenfoot/export/GreenfootScenarioMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="596" max-vertical-offset="1785">
+          <caret line="85" column="50" selection-start-line="85" selection-start-column="50" selection-end-line="85" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenfoot/src/greenfoot/export/GreenfootScenarioViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.961538" vertical-offset="1556" max-vertical-offset="4545">
+          <caret line="178" column="19" selection-start-line="178" selection-start-column="19" selection-end-line="178" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/greenfoot/src/greenfoot/core/Simulation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1545" max-vertical-offset="14925">
+          <caret line="697" column="29" selection-start-line="697" selection-start-column="29" selection-end-line="697" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scenarios/ScratchPad/examples.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.4025974" vertical-offset="0" max-vertical-offset="750">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1362,7 +1327,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>bluej</last-edited>
+          <last-edited>ScratchPad|scenarios</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
