@@ -1,11 +1,11 @@
-import greenfoot.*
-import greenfoot.core.*
+import greenfoot.Actor
+import greenfoot.core.Simulation
 
 //start the scenario
 greenfoot.export.GreenfootScenarioMain.main()
 //get the world
 world = greenfoot.core.WorldHandler.instance.world
-simulation= Simulation.instance
+simulation = Simulation.instance
 
 //press CTRL+Enter (Cmd+Enter on Mac) and then click the 'Run' button
 
@@ -32,7 +32,7 @@ actor.setImage("groovy-duke.jpg")
 // executing the code
 
 Actor duke = actor
-1.upto(10){ //an alternative for-loop in groovy
+1.upto(10) { //an alternative for-loop in groovy
     duke.turn(10)
     duke.move(20)
     sleep(500)
@@ -43,3 +43,15 @@ actor.turn(10)
 actor.move(20)
 sleep(500)
 simulation.runOnce()
+
+//the groovy console can also be used to experiment without using greenfoot
+def numbers = [3, 4, 1, 6, 2, 8, 5, 7] //in java: List numbers= Arrays.asList(new int[]{3, 4, 1, 6, 2, 8, 5, 7})
+println("The numbers: $numbers") //print the list of numbers in the groovy console
+numbers.sort()
+println("The numbers sorted: $numbers")
+def lessThen4 = numbers.findAll { it < 4 }
+println("Small numbers: $lessThen4")
+
+def margot = [firstName: "Margot", lastName: "Houbrechts"] //in java: Map margot= new HashMap(); margot.put("firstName", "Margot");...
+margot.age = 15
+println("$margot.firstName is $margot.age years old")

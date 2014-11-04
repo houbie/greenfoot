@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a2d3d72-ecc1-4f80-bea5-b5e865fd894c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/ScratchPad/images/groovy-duke.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/ScratchPad/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/ScratchPad/EmptyWorld.ctxt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/ScratchPad/EmptyWorld.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/ScratchPad/README.TXT" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/ScratchPad/ScratchPad.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/ScratchPad/examples.ctxt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/ScratchPad/examples.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/lunarlander/lunarlander.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/ScratchPad/project.greenfoot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/ScratchPad/standalone.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scenarios/lunarlander/standalone.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bluej/bluej.iml" afterPath="$PROJECT_DIR$/bluej/bluej.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/greenfoot/greenfoot.iml" afterPath="$PROJECT_DIR$/greenfoot/greenfoot.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scenarios/Groovy/standalone.properties" afterPath="$PROJECT_DIR$/scenarios/Groovy/standalone.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scenarios/ScratchPad/examples.groovy" afterPath="$PROJECT_DIR$/scenarios/ScratchPad/examples.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="greenfoot.iws" />
@@ -84,10 +69,10 @@
       <file leaf-file-name="examples.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scenarios/ScratchPad/examples.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.4025974" vertical-offset="0" max-vertical-offset="750">
-              <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+            <state vertical-scroll-proportion="1.6909091" vertical-offset="9" max-vertical-offset="945">
+              <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,8 +101,8 @@
       <file leaf-file-name="Simulation.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/greenfoot/src/greenfoot/core/Simulation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1545" max-vertical-offset="14925">
-              <caret line="697" column="29" selection-start-line="697" selection-start-column="29" selection-end-line="697" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="12630" max-vertical-offset="14925">
+              <caret line="926" column="46" selection-start-line="926" selection-start-column="46" selection-end-line="926" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -187,6 +172,7 @@
         <option value="$PROJECT_DIR$/scenarios/Groovy/standalone.properties" />
         <option value="$PROJECT_DIR$/scenarios/ScratchPad/standalone.properties" />
         <option value="$PROJECT_DIR$/scenarios/lunarlander/standalone.properties" />
+        <option value="$PROJECT_DIR$/greenfoot/src/greenfoot/core/Simulation.java" />
         <option value="$PROJECT_DIR$/scenarios/ScratchPad/examples.groovy" />
       </list>
     </option>
@@ -625,7 +611,7 @@
       <workItem from="1414579813886" duration="9659000" />
       <workItem from="1414594582745" duration="20822000" />
       <workItem from="1414697244923" duration="1094000" />
-      <workItem from="1414699707577" duration="15987000" />
+      <workItem from="1414699707577" duration="17071000" />
     </task>
     <task id="LOCAL-00001" summary="create intellij modules">
       <created>1414587544473</created>
@@ -695,11 +681,15 @@
       <created>1414775251302</created>
       <updated>1414775251302</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="added scratch pad project">
+      <created>1415084599998</created>
+      <updated>1415084599998</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47562000" />
+    <option name="totallyTimeSpent" value="48646000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="436" y="31" width="1482" height="1059" extended-state="0" />
@@ -759,7 +749,8 @@
     <MESSAGE value="readme" />
     <MESSAGE value="fix image loading in standalone runner" />
     <MESSAGE value="convert lunarlander to groovy" />
-    <option name="LAST_COMMIT_MESSAGE" value="convert lunarlander to groovy" />
+    <MESSAGE value="added scratch pad project" />
+    <option name="LAST_COMMIT_MESSAGE" value="added scratch pad project" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -1258,18 +1249,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/greenfoot/src/greenfoot/core/Simulation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1545" max-vertical-offset="14925">
-          <caret line="697" column="29" selection-start-line="697" selection-start-column="29" selection-end-line="697" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="12630" max-vertical-offset="14925">
+          <caret line="926" column="46" selection-start-line="926" selection-start-column="46" selection-end-line="926" selection-end-column="46" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scenarios/ScratchPad/examples.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4025974" vertical-offset="0" max-vertical-offset="750">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        <state vertical-scroll-proportion="1.6909091" vertical-offset="9" max-vertical-offset="945">
+          <caret line="44" column="20" selection-start-line="44" selection-start-column="20" selection-end-line="44" selection-end-column="20" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
