@@ -58,4 +58,5 @@ Both issues can be solved by editing the code with Intellij i.s.o. the greenfoot
 * Good code completion with 'CTRL+Space' makes it easy to explore API's
 
 == Known issues
-Generating/browsing documentation from within greenfoot is broken.
+* Generating/browsing documentation from within greenfoot is broken.
+* Exporting does not work
