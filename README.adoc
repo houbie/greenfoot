@@ -3,6 +3,9 @@
 
 This is an experiment that uses http://groovy.codehaus.org[Groovy] in stead of Java for teaching programming with http://www.greenfoot.org[Greenfoot]
 
+WARNING: This project is not maintained anymore! This repository only serves as a reference.
+In my personal opinion, the Python eco system is much better suited for teaching.
+
 == Why Groovy
 
 Groovy is (more or less) a super-set of Java with a lot of extra features and a smart compiler that allows you to write
